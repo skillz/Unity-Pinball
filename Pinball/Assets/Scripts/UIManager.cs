@@ -30,6 +30,7 @@ public class UIManager : MonoBehaviour {
     public Vector4 ballColor; 
 
     void Start () {
+		timeLeft = 10;
         previousTime = 0;
         gameOver = false;
         Time.timeScale = 1;
@@ -78,7 +79,15 @@ public class UIManager : MonoBehaviour {
 
     public void Play()
     {
-        SceneManager.LoadScene("Level1");
+	
+	#if UNITY_ANDROID
+
+		Skillz.Launch ();
+	#else
+
+	#endif
+
+        
     }
 
     public void Pause()
@@ -149,6 +158,17 @@ public class UIManager : MonoBehaviour {
         }
 
         Time.timeScale = 0;
+
+		Destroy (gameObject);
+
+		#if UNITY_ANDROID
+			
+			Skillz.ReportScore(uiScore);
+			
+		#else
+
+		#endif
+
 
     }
 }
