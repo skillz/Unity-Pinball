@@ -83,8 +83,9 @@ public class UIManager : MonoBehaviour {
 	#if UNITY_ANDROID
 
 		Skillz.Launch ();
-	#else
+	#elif UNITY_IOS
 
+		SkillzSDK.Api.LaunchSkillz(SkillzSDK.Orientation.Portrait);
 	#endif
 
         
@@ -165,8 +166,9 @@ public class UIManager : MonoBehaviour {
 			
 			Skillz.ReportScore(uiScore);
 			
-		#else
-
+		#elif UNITY_IOS			
+			
+			SkillzSDK.Api.FinishTournament(uiScore);
 		#endif
 
 
