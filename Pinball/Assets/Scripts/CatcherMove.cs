@@ -12,7 +12,7 @@ public class CatcherMove : MonoBehaviour {
 
     Vector3 position;
 
-    bool currentPlatformAndroid = false;
+	bool currentPlatformAndroidOrIOS = false;
 
     Rigidbody2D rb;
 
@@ -21,19 +21,19 @@ public class CatcherMove : MonoBehaviour {
 
         rb = GetComponent<Rigidbody2D>();
 
-#if UNITY_ANDROID
-        currentPlatformAndroid = true;
+#if UNITY_ANDROID || UNITY_IOS
+		currentPlatformAndroidOrIOS = true;
 #else
-        currentPlatformAndroid = false;
+		currentPlatformAndroidOrIOS = false;
 #endif
     }
 
 	void Start () {
       position = transform.position;
 
-        if (currentPlatformAndroid == true)
+		if (currentPlatformAndroidOrIOS == true)
         {
-            Debug.Log("Android");
+            Debug.Log("Android or iOS");
         }
         else
         {
@@ -43,7 +43,7 @@ public class CatcherMove : MonoBehaviour {
 	
 	void Update () {
 
-        if (currentPlatformAndroid == true)
+		if (currentPlatformAndroidOrIOS == true)
         {
             AccelerometerMove();
         }

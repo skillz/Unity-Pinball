@@ -12,7 +12,7 @@ public class Flip : MonoBehaviour {
     Rigidbody2D rbLeftFlipper;
     Rigidbody2D rbRightFlipper;
 
-    bool currentPlatformAndroid = false;
+    bool currentPlatformAndroidOrIOS = false;
 
     public AudioSource flipSound;
 
@@ -21,16 +21,16 @@ public class Flip : MonoBehaviour {
         rbLeftFlipper = leftFlipper.GetComponent<Rigidbody2D>();
         rbRightFlipper = rightFlipper.GetComponent<Rigidbody2D>();
 
-#if UNITY_ANDROID
-        currentPlatformAndroid = true;
+#if UNITY_ANDROID || UNITY_IOS
+		currentPlatformAndroidOrIOS = true;
 #else
-        currentPlatformAndroid = false;
+		currentPlatformAndroidOrIOS = false;
 #endif
     }
 
     void Update ()
     {
-        if (currentPlatformAndroid == true)
+		if (currentPlatformAndroidOrIOS == true)
         {
             TouchFlip();
         }
