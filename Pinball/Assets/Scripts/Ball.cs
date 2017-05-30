@@ -41,14 +41,19 @@ public class Ball : MonoBehaviour {
         sr = gameObject.GetComponent<SpriteRenderer>();
 
         // Add initial force to randomize the spawning
-        randomV = Random.Range(0f, 1f);
-        randomH = Random.Range(-10f, 10f);
+        #if UNITY_ANDROID
+        randomV = Skillz.Random.Range(0f, 1f);
+        randomH = Skillz.Random.Range(-10f, 10f);
+        #elif UNITY_IOS
+        randomV = SkillzSDK.Api.Random.Range(0f, 1f);
+        randomH = SkillzSDK.Api.Random.Range(-10f, 10f);
+        #endif
 
         rb.AddForce(new Vector2(randomH, randomV), ForceMode2D.Impulse);
 
     }
-	
-	
+
+
 	void Update () {
 
         if (rb.velocity.magnitude > maxSpeed)
@@ -56,7 +61,7 @@ public class Ball : MonoBehaviour {
             rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeed);  // Ball speed control
         }
 
-        if (ballScore > 0 && ballScore <= 70) 
+        if (ballScore > 0 && ballScore <= 70)
         {
             colorChangeIndex = ballScoref / 70f;
             sr.color = Color.Lerp(new Vector4 (0.176f, 0.474f, 0.569f, 1), new Vector4(0.207f, 0.702f, 0.475f, 1), colorChangeIndex); // 0-70 pts, blue to dark green
@@ -119,7 +124,7 @@ public class Ball : MonoBehaviour {
                 {
                     playCombo = true;
                     hitNumber = 0;
-                } 
+                }
                 else
                 {
                     hitTime[hitTimeIndex] = Time.time;

@@ -14,12 +14,17 @@ public class BallSpawner : MonoBehaviour {
     void Start () {
         timer = delayTimer;
     }
-	
+
 	// Update is called once per frame
 	void Update () {
         timer -= Time.deltaTime;
         if (timer <= 0) {
-            Instantiate(spawnSprite, new Vector2(Random.Range(minPos, maxPos), height), Quaternion.identity);
+
+            #if UNITY_ANDROID
+            Instantiate(spawnSprite, new Vector2(Skillz.Random.Range(minPos, maxPos), height), Quaternion.identity);
+            #elif UNITY_IOS
+            Instantiate(spawnSprite, new Vector2(SkillzSDK.Api.Random.Range(minPos, maxPos), height), Quaternion.identity);
+            #endif
             timer = delayTimer;
         }
     }
