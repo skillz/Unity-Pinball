@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using System.Collections.Generic;
 
 public class UIManager : MonoBehaviour {
 
@@ -27,9 +27,10 @@ public class UIManager : MonoBehaviour {
     public int timeLeft;
     bool gameOver;
 
-    public Vector4 ballColor; 
+    public Vector4 ballColor;
 
     void Start () {
+	timeLeft = 60;
         previousTime = 0;
         gameOver = false;
         Time.timeScale = 1;
@@ -39,7 +40,7 @@ public class UIManager : MonoBehaviour {
         InvokeRepeating("TimeCount", 1.0f, 1.0f);
         highScoreText.text = "Highscore: " + PlayerPrefs.GetInt("HighScore");
     }
-	
+
 	void Update () {
         scoreText.text = "Score: " + uiScore;
         timeLeftText.text = "Time: " + timeLeft;
@@ -69,6 +70,12 @@ public class UIManager : MonoBehaviour {
         catchTextActive = true;
         previousTime = Time.time;
         ballColor = collector.GetComponent<Collect>().ballColor;
+
+        #if UNITY_ANDROID
+        Skillz.UpdatePlayersCurrentScore(uiScore);
+        #elif UNITY_IOS
+        SkillzSDK.Api.UpdatePlayerScore(uiScore);
+        #endif
     }
 
     public void comboUpdate()
@@ -78,7 +85,11 @@ public class UIManager : MonoBehaviour {
 
     public void Play()
     {
-        SceneManager.LoadScene("Level1");
+    	#if UNITY_ANDROID
+    	Skillz.Launch();
+    	#elif UNITY_IOS
+    	SkillzSDK.Api.LaunchSkillz(SkillzSDK.Orientation.Portrait);
+    	#endif
     }
 
     public void Pause()
@@ -109,9 +120,9 @@ public class UIManager : MonoBehaviour {
 
     public void Replay ()
     {
-        SceneManager.LoadScene(currentScene.name);
+        Debug.Log ("Replay Button is disabled");
     }
-    
+
     public void Menu ()
     {
         SceneManager.LoadScene("StartMenu");
@@ -149,6 +160,16 @@ public class UIManager : MonoBehaviour {
         }
 
         Time.timeScale = 0;
+
+        Destroy (gameObject);
+
+        #if UNITY_ANDROID
+        Skillz.ReportScore(uiScore);
+
+        #elif UNITY_IOS
+
+        SkillzSDK.Api.FinishTournament(uiScore);
+        #endif
 
     }
 }
