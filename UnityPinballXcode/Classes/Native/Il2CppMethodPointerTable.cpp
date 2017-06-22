@@ -7,9 +7,12 @@
 #endif
 
 
-
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
+
+
+
+
 
 extern "C" void Locale_GetText_m1954433032 ();
 extern "C" void Locale_GetText_m2553164138 ();
@@ -517,6 +520,7 @@ extern "C" void AttrListImpl_get_Values_m4148492379 ();
 extern "C" void AttrListImpl_Clear_m3490165608 ();
 extern "C" void AttrListImpl_Add_m130708252 ();
 extern "C" void SmallXmlParserException__ctor_m204191026 ();
+extern "C" void __Il2CppComDelegate_Finalize_m3962015415 ();
 extern "C" void __Il2CppComObject_Finalize_m1489232385 ();
 extern "C" void AccessViolationException__ctor_m1270251537 ();
 extern "C" void AccessViolationException__ctor_m3769815332 ();
@@ -1027,6 +1031,7 @@ extern "C" void DictionaryEntry__ctor_m2901884110_AdjustorThunk ();
 extern "C" void DictionaryEntry_get_Key_m3623293571_AdjustorThunk ();
 extern "C" void DictionaryEntry_get_Value_m2812883243_AdjustorThunk ();
 extern "C" void KeyNotFoundException__ctor_m913933494 ();
+extern "C" void KeyNotFoundException__ctor_m264393096 ();
 extern "C" void KeyNotFoundException__ctor_m2121796963 ();
 extern "C" void Hashtable__ctor_m1884964176 ();
 extern "C" void Hashtable__ctor_m846339375 ();
@@ -1035,6 +1040,8 @@ extern "C" void Hashtable__ctor_m2702360557 ();
 extern "C" void Hashtable__ctor_m392789568 ();
 extern "C" void Hashtable__ctor_m4106078798 ();
 extern "C" void Hashtable__ctor_m2894679847 ();
+extern "C" void Hashtable__ctor_m3011277490 ();
+extern "C" void Hashtable__ctor_m645307841 ();
 extern "C" void Hashtable__ctor_m3742489710 ();
 extern "C" void Hashtable__ctor_m2337481811 ();
 extern "C" void Hashtable__ctor_m4280223555 ();
@@ -2052,6 +2059,8 @@ extern "C" void TextInfo_ToUpper_m299550697 ();
 extern "C" void TextInfo_ToLower_m2178569214 ();
 extern "C" void TextInfo_Clone_m1096841305 ();
 extern "C" void Guid__ctor_m2958090239_AdjustorThunk ();
+extern "C" void Guid__ctor_m2599802704_AdjustorThunk ();
+extern "C" void Guid__ctor_m2591228228_AdjustorThunk ();
 extern "C" void Guid__ctor_m543169477_AdjustorThunk ();
 extern "C" void Guid__cctor_m1295168203 ();
 extern "C" void Guid_CheckNull_m2903986431 ();
@@ -2072,6 +2081,18 @@ extern "C" void Guid_BaseToString_m3199695005_AdjustorThunk ();
 extern "C" void Guid_ToString_m3927110175_AdjustorThunk ();
 extern "C" void Guid_ToString_m51661589_AdjustorThunk ();
 extern "C" void Guid_ToString_m3858592945_AdjustorThunk ();
+extern "C" void Guid_op_Equality_m789465560 ();
+extern "C" void GuidParser__ctor_m899289925 ();
+extern "C" void GuidParser_Reset_m3389485794 ();
+extern "C" void GuidParser_AtEnd_m2677290225 ();
+extern "C" void GuidParser_ThrowFormatException_m3624496589 ();
+extern "C" void GuidParser_ParseHex_m3163482281 ();
+extern "C" void GuidParser_ParseOptChar_m2971086730 ();
+extern "C" void GuidParser_ParseChar_m3420026477 ();
+extern "C" void GuidParser_ParseGuid1_m3287593959 ();
+extern "C" void GuidParser_ParseHexPrefix_m1055495199 ();
+extern "C" void GuidParser_ParseGuid2_m3287593992 ();
+extern "C" void GuidParser_Parse_m817290877 ();
 extern "C" void IndexOutOfRangeException__ctor_m3497760912 ();
 extern "C" void IndexOutOfRangeException__ctor_m1847153122 ();
 extern "C" void IndexOutOfRangeException__ctor_m33068297 ();
@@ -2561,7 +2582,9 @@ extern "C" void Math_Abs_m4060679202 ();
 extern "C" void Math_Ceiling_m614624719 ();
 extern "C" void Math_Floor_m4118366418 ();
 extern "C" void Math_Log_m3325929366 ();
+extern "C" void Math_Max_m3360711905 ();
 extern "C" void Math_Max_m2671311541 ();
+extern "C" void Math_Min_m105057611 ();
 extern "C" void Math_Min_m4290821911 ();
 extern "C" void Math_Round_m565516458 ();
 extern "C" void Math_Round_m2632426160 ();
@@ -4219,6 +4242,7 @@ extern "C" void SByte_ToString_m2615560365_AdjustorThunk ();
 extern "C" void SByte_ToString_m4105923225_AdjustorThunk ();
 extern "C" void SByte_ToString_m1422933503_AdjustorThunk ();
 extern "C" void SByte_ToString_m353340795_AdjustorThunk ();
+extern "C" void AllowPartiallyTrustedCallersAttribute__ctor_m2781090035 ();
 extern "C" void CodeAccessPermission__ctor_m2285259037 ();
 extern "C" void CodeAccessPermission_Equals_m1762790716 ();
 extern "C" void CodeAccessPermission_GetHashCode_m3295132136 ();
@@ -4685,6 +4709,7 @@ extern "C" void SecurityContext__ctor_m1936058452 ();
 extern "C" void SecurityContext_Capture_m2535194991 ();
 extern "C" void SecurityContext_get_FlowSuppressed_m420202521 ();
 extern "C" void SecurityContext_get_CompressedStack_m594879439 ();
+extern "C" void SecurityCriticalAttribute__ctor_m2134454210 ();
 extern "C" void SecurityElement__ctor_m1988489885 ();
 extern "C" void SecurityElement__ctor_m3543712927 ();
 extern "C" void SecurityElement__cctor_m256761998 ();
@@ -4756,6 +4781,7 @@ extern "C" void Single_IsInfinity_m3331110346 ();
 extern "C" void Single_IsNaN_m2349591895 ();
 extern "C" void Single_IsNegativeInfinity_m2615809279 ();
 extern "C" void Single_IsPositiveInfinity_m869158735 ();
+extern "C" void Single_Parse_m1861732734 ();
 extern "C" void Single_Parse_m898843034 ();
 extern "C" void Single_ToString_m1813392066_AdjustorThunk ();
 extern "C" void Single_ToString_m1229799376_AdjustorThunk ();
@@ -7409,6 +7435,7 @@ extern "C" void SymmetricTransform_ThrowBadPaddingException_m2553969731 ();
 extern "C" void SymmetricTransform_FinalEncrypt_m952048093 ();
 extern "C" void SymmetricTransform_FinalDecrypt_m1391053911 ();
 extern "C" void SymmetricTransform_TransformFinalBlock_m631349995 ();
+extern "C" void Check_Source_m3385315029 ();
 extern "C" void Check_SourceAndPredicate_m2063478409 ();
 extern "C" void MonoTODOAttribute__ctor_m1425119999 ();
 extern "C" void ExtensionAttribute__ctor_m1028297080 ();
@@ -7684,11 +7711,14 @@ extern "C" void AnimationEvent_GetHash_m2850593057 ();
 extern "C" void Animator_SetBool_m2305662531 ();
 extern "C" void Animator_SetTrigger_m3418492570 ();
 extern "C" void Animator_ResetTrigger_m865269317 ();
-extern "C" void Animator_get_runtimeAnimatorController_m652575931 ();
+extern "C" void Animator_get_hasBoundPlayables_m3670407842 ();
 extern "C" void Animator_StringToHash_m3313850714 ();
 extern "C" void Animator_SetBoolString_m1893192746 ();
 extern "C" void Animator_SetTriggerString_m2002790359 ();
 extern "C" void Animator_ResetTriggerString_m1445965342 ();
+extern "C" void AnimatorControllerParameter_get_name_m1366583724 ();
+extern "C" void AnimatorControllerParameter_Equals_m2765773032 ();
+extern "C" void AnimatorControllerParameter_GetHashCode_m2591556684 ();
 extern "C" void AnimatorStateInfo_IsName_m4069203550_AdjustorThunk ();
 extern "C" void AnimatorStateInfo_get_fullPathHash_m3941998936_AdjustorThunk ();
 extern "C" void AnimatorStateInfo_get_nameHash_m1703033713_AdjustorThunk ();
@@ -7709,7 +7739,7 @@ extern "C" void AnimatorTransitionInfo_get_normalizedTime_m2741999844_AdjustorTh
 extern "C" void AnimatorTransitionInfo_get_anyState_m3474272231_AdjustorThunk ();
 extern "C" void AnimatorTransitionInfo_get_entry_m1140118520_AdjustorThunk ();
 extern "C" void AnimatorTransitionInfo_get_exit_m3018502934_AdjustorThunk ();
-extern "C" void Application_Quit_m3885595876 ();
+extern "C" void Application_CallLowMemory_m626389230 ();
 extern "C" void Application_get_isPlaying_m4091950718 ();
 extern "C" void Application_get_isEditor_m2474583393 ();
 extern "C" void Application_get_platform_m3989224144 ();
@@ -7719,6 +7749,10 @@ extern "C" void LogCallback__ctor_m898185969 ();
 extern "C" void LogCallback_Invoke_m3921378796 ();
 extern "C" void LogCallback_BeginInvoke_m2485641857 ();
 extern "C" void LogCallback_EndInvoke_m1910375855 ();
+extern "C" void LowMemoryCallback__ctor_m4181659636 ();
+extern "C" void LowMemoryCallback_Invoke_m3371329310 ();
+extern "C" void LowMemoryCallback_BeginInvoke_m4289414595 ();
+extern "C" void LowMemoryCallback_EndInvoke_m299183046 ();
 extern "C" void AssemblyIsEditorAssembly__ctor_m2639706522 ();
 extern "C" void AssetBundleCreateRequest__ctor_m2967025878 ();
 extern "C" void AssetBundleCreateRequest_get_assetBundle_m2931245245 ();
@@ -7813,6 +7847,7 @@ extern "C" void Camera_get_pixelRect_m2084185953 ();
 extern "C" void Camera_INTERNAL_get_pixelRect_m1785951490 ();
 extern "C" void Camera_get_targetTexture_m705925974 ();
 extern "C" void Camera_get_clearFlags_m1743144302 ();
+extern "C" void Camera_get_targetDisplay_m835278314 ();
 extern "C" void Camera_ScreenToViewportPoint_m2666228286 ();
 extern "C" void Camera_INTERNAL_CALL_ScreenToViewportPoint_m529506484 ();
 extern "C" void Camera_ScreenPointToRay_m614889538 ();
@@ -7824,7 +7859,7 @@ extern "C" void Camera_FireOnPreCull_m1679634170 ();
 extern "C" void Camera_FireOnPreRender_m24116662 ();
 extern "C" void Camera_FireOnPostRender_m94860165 ();
 extern "C" void Camera_RaycastTry_m3412198936 ();
-extern "C" void Camera_INTERNAL_CALL_RaycastTry_m2295752796 ();
+extern "C" void Camera_INTERNAL_CALL_RaycastTry_m1030092423 ();
 extern "C" void Camera_RaycastTry2D_m755036866 ();
 extern "C" void Camera_INTERNAL_CALL_RaycastTry2D_m1020711785 ();
 extern "C" void CameraCallback__ctor_m2929748071 ();
@@ -7892,27 +7927,23 @@ extern "C" void CanvasRenderer_get_cull_m3577089379 ();
 extern "C" void CanvasRenderer_set_cull_m1437892490 ();
 extern "C" void CanvasRenderer_get_absoluteDepth_m4243141 ();
 extern "C" void CanvasRenderer_get_hasMoved_m2428030996 ();
-extern "C" void Collider_get_attachedRigidbody_m3279305420 ();
-extern "C" void Collision__ctor_m635081107 ();
-extern "C" void Collision_get_relativeVelocity_m2302609283 ();
-extern "C" void Collision_get_rigidbody_m3671561778 ();
-extern "C" void Collision_get_collider_m3340328360 ();
-extern "C" void Collision_get_transform_m4132935520 ();
-extern "C" void Collision_get_gameObject_m1370363400 ();
-extern "C" void Collision_get_contacts_m266635379 ();
-extern "C" void Collision_GetEnumerator_m4009889947 ();
-extern "C" void Collision_get_impulse_m1836134987 ();
-extern "C" void Collision_get_impactForceSum_m521972354 ();
-extern "C" void Collision_get_frictionForceSum_m3438602686 ();
-extern "C" void Collision_get_other_m4238363497 ();
+extern "C" void DeallocateOnJobCompletionAttribute__ctor_m2925527080 ();
+extern "C" void NativeContainerAttribute__ctor_m4019964704 ();
+extern "C" void NativeContainerSupportsAtomicWriteAttribute__ctor_m2159648322 ();
+extern "C" void NativeContainerSupportsMinMaxWriteRestrictionAttribute__ctor_m1580327459 ();
+extern "C" void ReadOnlyAttribute__ctor_m1597711262 ();
+extern "C" void ReadWriteAttribute__ctor_m2566248501 ();
+extern "C" void WriteOnlyAttribute__ctor_m3761552155 ();
 extern "C" void Collision2D__ctor_m2559810705 ();
-extern "C" void Collision2D_get_enabled_m1627968529 ();
-extern "C" void Collision2D_get_rigidbody_m4058558226 ();
 extern "C" void Collision2D_get_collider_m3330356936 ();
+extern "C" void Collision2D_get_otherCollider_m4079883492 ();
+extern "C" void Collision2D_get_rigidbody_m4058558226 ();
+extern "C" void Collision2D_get_otherRigidbody_m1518790444 ();
 extern "C" void Collision2D_get_transform_m314016758 ();
 extern "C" void Collision2D_get_gameObject_m4234358314 ();
 extern "C" void Collision2D_get_contacts_m2230578195 ();
 extern "C" void Collision2D_get_relativeVelocity_m2410092780 ();
+extern "C" void Collision2D_get_enabled_m1627968529 ();
 extern "C" void Color__ctor_m1909920690_AdjustorThunk ();
 extern "C" void Color__ctor_m3811852957_AdjustorThunk ();
 extern "C" void Color_ToString_m4028093047_AdjustorThunk ();
@@ -7962,18 +7993,13 @@ extern "C" void Component_BroadcastMessage_m2230184532 ();
 extern "C" void Component_BroadcastMessage_m1308086896 ();
 extern "C" void Component_BroadcastMessage_m1706240890 ();
 extern "C" void Component_BroadcastMessage_m444672650 ();
-extern "C" void ControllerColliderHit__ctor_m2990717326 ();
-extern "C" void ControllerColliderHit_get_controller_m531319176 ();
-extern "C" void ControllerColliderHit_get_collider_m3897495767 ();
-extern "C" void ControllerColliderHit_get_rigidbody_m4025380167 ();
-extern "C" void ControllerColliderHit_get_gameObject_m3793104279 ();
-extern "C" void ControllerColliderHit_get_transform_m3183428555 ();
-extern "C" void ControllerColliderHit_get_point_m3573703281 ();
-extern "C" void ControllerColliderHit_get_normal_m1098215280 ();
-extern "C" void ControllerColliderHit_get_moveDirection_m3053186297 ();
-extern "C" void ControllerColliderHit_get_moveLength_m94453726 ();
-extern "C" void ControllerColliderHit_get_push_m2528314697 ();
-extern "C" void ControllerColliderHit_set_push_m3582188484 ();
+extern "C" void ContactFilter2D_CheckConsistency_m1391185667_AdjustorThunk ();
+extern "C" void ContactFilter2D_SetLayerMask_m846404302_AdjustorThunk ();
+extern "C" void ContactFilter2D_SetDepth_m3891076190_AdjustorThunk ();
+extern "C" void ContactFilter2D_CreateLegacyFilter_m1912787689 ();
+extern "C" void ContextMenu__ctor_m666643627 ();
+extern "C" void ContextMenu__ctor_m1669818156 ();
+extern "C" void ContextMenu__ctor_m3931483141 ();
 extern "C" void Coroutine__ctor_m1253937571 ();
 extern "C" void Coroutine_ReleaseCoroutine_m833118514 ();
 extern "C" void Coroutine_Finalize_m3953619693 ();
@@ -8108,128 +8134,218 @@ extern "C" void UnityEventBase_Invoke_m2706435282 ();
 extern "C" void UnityEventBase_ToString_m433343709 ();
 extern "C" void UnityEventBase_GetValidMethodInfo_m1834951552 ();
 extern "C" void ExecuteInEditMode__ctor_m495837196 ();
-extern "C" void AnimationPlayable_get_node_m1103082298_AdjustorThunk ();
-extern "C" void AnimationPlayable_AddInput_m709028173_AdjustorThunk ();
-extern "C" void AnimationPlayable_SetInput_m3281748385_AdjustorThunk ();
-extern "C" void AnimationPlayable_SetInputs_m370531328_AdjustorThunk ();
-extern "C" void AnimationPlayable_RemoveInput_m2728059274_AdjustorThunk ();
-extern "C" void AnimationPlayable_RemoveAllInputs_m2002968067_AdjustorThunk ();
-extern "C" void AnimationPlayable_Equals_m3235880962_AdjustorThunk ();
-extern "C" void AnimationPlayable_GetHashCode_m347069006_AdjustorThunk ();
-extern "C" void AnimationPlayable_op_Implicit_m408821639 ();
-extern "C" void AnimationPlayable_IsValid_m1938227437_AdjustorThunk ();
-extern "C" void AnimationPlayable_get_inputCount_m1225845575_AdjustorThunk ();
-extern "C" void AnimationPlayable_GetInput_m1403317770_AdjustorThunk ();
-extern "C" void AnimationPlayableUtilities_AddInputValidated_m3676524933 ();
-extern "C" void AnimationPlayableUtilities_SetInputValidated_m2748997465 ();
-extern "C" void AnimationPlayableUtilities_SetInputsValidated_m2696856860 ();
-extern "C" void AnimationPlayableUtilities_RemoveInputValidated_m438691908 ();
-extern "C" void AnimationPlayableUtilities_RemoveAllInputsValidated_m1936894983 ();
-extern "C" void AnimatorControllerPlayable_get_node_m127621219_AdjustorThunk ();
-extern "C" void AnimatorControllerPlayable_op_Implicit_m1305773959 ();
-extern "C" void AnimatorControllerPlayable_Equals_m2027287369_AdjustorThunk ();
-extern "C" void AnimatorControllerPlayable_GetHashCode_m3511829943_AdjustorThunk ();
-extern "C" void CustomAnimationPlayable__ctor_m2580931540 ();
-extern "C" void CustomAnimationPlayable_get_node_m2279367825 ();
-extern "C" void CustomAnimationPlayable_SetHandle_m1081373665 ();
-extern "C" void CustomAnimationPlayable_Destroy_m4140105698 ();
-extern "C" void CustomAnimationPlayable_op_Implicit_m2651548371 ();
-extern "C" void CustomAnimationPlayable_op_Implicit_m3677069457 ();
-extern "C" void CustomAnimationPlayable_PrepareFrame_m919887762 ();
-extern "C" void CustomAnimationPlayable_OnSetTime_m462197633 ();
-extern "C" void CustomAnimationPlayable_OnSetPlayState_m1903832042 ();
-extern "C" void CustomAnimationPlayable_get_inputCount_m1506970144 ();
-extern "C" void CustomAnimationPlayable_GetInput_m627183837 ();
-extern "C" void CustomAnimationPlayable_get_outputCount_m1726567977 ();
-extern "C" void CustomAnimationPlayable_GetOutput_m2109551724 ();
-extern "C" void CustomAnimationPlayable_GetInputWeight_m4080635817 ();
-extern "C" void CustomAnimationPlayable_SetInputWeight_m2832273536 ();
-extern "C" void CustomAnimationPlayable_get_state_m4168755227 ();
-extern "C" void CustomAnimationPlayable_set_state_m3118907084 ();
-extern "C" void CustomAnimationPlayable_get_time_m2832957799 ();
-extern "C" void CustomAnimationPlayable_set_time_m1063048916 ();
-extern "C" void CustomAnimationPlayable_get_duration_m347792240 ();
-extern "C" void CustomAnimationPlayable_set_duration_m1049843503 ();
-extern "C" void CustomAnimationPlayable_AddInput_m3120035390 ();
-extern "C" void CustomAnimationPlayable_SetInput_m2588862758 ();
-extern "C" void CustomAnimationPlayable_SetInputs_m1393448423 ();
-extern "C" void CustomAnimationPlayable_RemoveInput_m238782147 ();
-extern "C" void CustomAnimationPlayable_RemoveAllInputs_m636888422 ();
-extern "C" void GenericMixerPlayable_get_node_m1677789206_AdjustorThunk ();
-extern "C" void GenericMixerPlayable_Create_m2816314293 ();
-extern "C" void GenericMixerPlayable_InternalCreate_m559491731 ();
-extern "C" void GenericMixerPlayable_Destroy_m3608330239_AdjustorThunk ();
-extern "C" void GenericMixerPlayable_op_Implicit_m4171147111 ();
-extern "C" void Playable_Destroy_m3675363825_AdjustorThunk ();
-extern "C" void Playable_IsValid_m2102916683_AdjustorThunk ();
-extern "C" void Playable_IsValidInternal_m2681498367 ();
-extern "C" void Playable_INTERNAL_CALL_IsValidInternal_m3509544226 ();
-extern "C" void Playable_Connect_m1305428597 ();
-extern "C" void Playable_Disconnect_m2489180239 ();
-extern "C" void Playable_get_inputCount_m1751152777_AdjustorThunk ();
-extern "C" void Playable_get_outputCount_m4289390470_AdjustorThunk ();
-extern "C" void Playable_get_state_m2895939980_AdjustorThunk ();
-extern "C" void Playable_set_state_m628503053_AdjustorThunk ();
-extern "C" void Playable_get_time_m188535056_AdjustorThunk ();
-extern "C" void Playable_set_time_m1337741429_AdjustorThunk ();
-extern "C" void Playable_GetPlayStateInternal_m1333214605 ();
-extern "C" void Playable_INTERNAL_CALL_GetPlayStateInternal_m3560305748 ();
-extern "C" void Playable_SetPlayStateInternal_m2982991950 ();
-extern "C" void Playable_INTERNAL_CALL_SetPlayStateInternal_m1141121823 ();
-extern "C" void Playable_GetTimeInternal_m4193977093 ();
-extern "C" void Playable_INTERNAL_CALL_GetTimeInternal_m1561742350 ();
-extern "C" void Playable_SetTimeInternal_m1923258884 ();
-extern "C" void Playable_INTERNAL_CALL_SetTimeInternal_m2302691195 ();
-extern "C" void Playable_get_duration_m4155589845_AdjustorThunk ();
-extern "C" void Playable_set_duration_m3772907818_AdjustorThunk ();
-extern "C" void Playable_GetDurationInternal_m3180992642 ();
-extern "C" void Playable_INTERNAL_CALL_GetDurationInternal_m2061318387 ();
-extern "C" void Playable_SetDurationInternal_m3664705881 ();
-extern "C" void Playable_INTERNAL_CALL_SetDurationInternal_m1052618056 ();
-extern "C" void Playable_GetInputCountInternal_m3354921878 ();
-extern "C" void Playable_INTERNAL_CALL_GetInputCountInternal_m2921284003 ();
-extern "C" void Playable_GetOutputCountInternal_m354236047 ();
-extern "C" void Playable_INTERNAL_CALL_GetOutputCountInternal_m224211058 ();
-extern "C" void Playable_GetInputs_m2701651284_AdjustorThunk ();
-extern "C" void Playable_GetInput_m2343344472_AdjustorThunk ();
-extern "C" void Playable_GetInputInternal_m2831827086 ();
-extern "C" void Playable_INTERNAL_CALL_GetInputInternal_m1720243548 ();
-extern "C" void Playable_GetOutput_m1530310341_AdjustorThunk ();
-extern "C" void Playable_GetOutputInternal_m1788163321 ();
-extern "C" void Playable_INTERNAL_CALL_GetOutputInternal_m1864790245 ();
-extern "C" void Playable_SetInputWeightFromIndexInternal_m1264185407 ();
-extern "C" void Playable_INTERNAL_CALL_SetInputWeightFromIndexInternal_m2039337128 ();
-extern "C" void Playable_SetInputWeight_m3424075019_AdjustorThunk ();
-extern "C" void Playable_GetInputWeight_m745267058_AdjustorThunk ();
-extern "C" void Playable_GetInputWeightInternal_m381407588 ();
-extern "C" void Playable_INTERNAL_CALL_GetInputWeightInternal_m3329579253 ();
-extern "C" void Playable_Equals_m3780922516_AdjustorThunk ();
-extern "C" void Playable_GetHashCode_m291506040_AdjustorThunk ();
-extern "C" void Playable_CheckInputBounds_m1458023351_AdjustorThunk ();
-extern "C" void Playable_CheckInputBounds_m1095657528_AdjustorThunk ();
-extern "C" void Playables_CastToInternal_m2786985142 ();
-extern "C" void Playables_InternalDestroy_m3873600434 ();
-extern "C" void Playables_INTERNAL_CALL_InternalDestroy_m763661895 ();
-extern "C" void Playables_ConnectInternal_m2792280857 ();
-extern "C" void Playables_INTERNAL_CALL_ConnectInternal_m3834915264 ();
-extern "C" void Playables_DisconnectInternal_m21696045 ();
-extern "C" void Playables_INTERNAL_CALL_DisconnectInternal_m2526207778 ();
-extern "C" void Playables_CheckInputBounds_m2953342617 ();
-extern "C" void Playables_IsValid_m3689585029 ();
-extern "C" void Playables_GetInputCountValidated_m163517061 ();
-extern "C" void Playables_GetOutputCountValidated_m3428930850 ();
-extern "C" void Playables_GetPlayStateValidated_m2756684446 ();
-extern "C" void Playables_SetPlayStateValidated_m770460097 ();
-extern "C" void Playables_GetTimeValidated_m788360268 ();
-extern "C" void Playables_SetTimeValidated_m3858295249 ();
-extern "C" void Playables_GetDurationValidated_m4005203433 ();
-extern "C" void Playables_SetDurationValidated_m1466172352 ();
-extern "C" void Playables_GetInputValidated_m2433189843 ();
-extern "C" void Playables_GetOutputValidated_m1886200224 ();
-extern "C" void Playables_SetInputWeightValidated_m3780238668 ();
-extern "C" void Playables_GetInputWeightValidated_m2453142047 ();
-extern "C" void Playables_Equals_m3918086298 ();
+extern "C" void AnimationClipPlayable__ctor_m357631959 ();
+extern "C" void AnimationClipPlayable_get_clip_m1059861696 ();
+extern "C" void AnimationClipPlayable_get_speed_m2761966959 ();
+extern "C" void AnimationClipPlayable_set_speed_m3332297554 ();
+extern "C" void AnimationClipPlayable_get_applyFootIK_m1646695506 ();
+extern "C" void AnimationClipPlayable_set_applyFootIK_m1054409049 ();
+extern "C" void AnimationClipPlayable_get_removeStartOffset_m1437128149 ();
+extern "C" void AnimationClipPlayable_set_removeStartOffset_m3197404948 ();
+extern "C" void AnimationClipPlayable_GetAnimationClip_m2949207852 ();
+extern "C" void AnimationClipPlayable_INTERNAL_CALL_GetAnimationClip_m642186897 ();
+extern "C" void AnimationClipPlayable_GetSpeed_m668389965 ();
+extern "C" void AnimationClipPlayable_INTERNAL_CALL_GetSpeed_m1768281144 ();
+extern "C" void AnimationClipPlayable_SetSpeed_m2211439316 ();
+extern "C" void AnimationClipPlayable_INTERNAL_CALL_SetSpeed_m1069797127 ();
+extern "C" void AnimationClipPlayable_GetApplyFootIK_m2457584102 ();
+extern "C" void AnimationClipPlayable_INTERNAL_CALL_GetApplyFootIK_m1882166837 ();
+extern "C" void AnimationClipPlayable_SetApplyFootIK_m2837801475 ();
+extern "C" void AnimationClipPlayable_INTERNAL_CALL_SetApplyFootIK_m1663005598 ();
+extern "C" void AnimationClipPlayable_GetRemoveStartOffset_m4069489631 ();
+extern "C" void AnimationClipPlayable_INTERNAL_CALL_GetRemoveStartOffset_m4216870878 ();
+extern "C" void AnimationClipPlayable_SetRemoveStartOffset_m495055486 ();
+extern "C" void AnimationClipPlayable_INTERNAL_CALL_SetRemoveStartOffset_m309844041 ();
+extern "C" void AnimationLayerMixerPlayable__ctor_m852745005 ();
+extern "C" void AnimationMixerPlayable__ctor_m1145433612 ();
+extern "C" void AnimationOffsetPlayable__ctor_m1954359026 ();
+extern "C" void AnimationOffsetPlayable_get_position_m1047192220 ();
+extern "C" void AnimationOffsetPlayable_set_position_m3583285645 ();
+extern "C" void AnimationOffsetPlayable_get_rotation_m57306245 ();
+extern "C" void AnimationOffsetPlayable_set_rotation_m4164339642 ();
+extern "C" void AnimationOffsetPlayable_GetPosition_m58420556 ();
+extern "C" void AnimationOffsetPlayable_INTERNAL_CALL_GetPosition_m602003518 ();
+extern "C" void AnimationOffsetPlayable_SetPosition_m1029856623 ();
+extern "C" void AnimationOffsetPlayable_INTERNAL_CALL_SetPosition_m2894866946 ();
+extern "C" void AnimationOffsetPlayable_GetRotation_m3502988387 ();
+extern "C" void AnimationOffsetPlayable_INTERNAL_CALL_GetRotation_m2705874827 ();
+extern "C" void AnimationOffsetPlayable_SetRotation_m4049546592 ();
+extern "C" void AnimationOffsetPlayable_INTERNAL_CALL_SetRotation_m2224758383 ();
+extern "C" void AnimationPlayable__ctor_m1288299781 ();
+extern "C" void AnimatorControllerPlayable__ctor_m98486062 ();
+extern "C" void AnimatorControllerPlayable_op_Implicit_m2653766077 ();
+extern "C" void AnimatorControllerPlayable_GetAnimatorControllerInternal_m3295942522 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetAnimatorControllerInternal_m239716681 ();
+extern "C" void AnimatorControllerPlayable_GetFloat_m3973018798 ();
+extern "C" void AnimatorControllerPlayable_GetFloat_m1390479365 ();
+extern "C" void AnimatorControllerPlayable_SetFloat_m1976526821 ();
+extern "C" void AnimatorControllerPlayable_SetFloat_m3591286820 ();
+extern "C" void AnimatorControllerPlayable_GetBool_m3591753284 ();
+extern "C" void AnimatorControllerPlayable_GetBool_m1148461985 ();
+extern "C" void AnimatorControllerPlayable_SetBool_m557806493 ();
+extern "C" void AnimatorControllerPlayable_SetBool_m1779744142 ();
+extern "C" void AnimatorControllerPlayable_GetInteger_m4173276460 ();
+extern "C" void AnimatorControllerPlayable_GetInteger_m3742708739 ();
+extern "C" void AnimatorControllerPlayable_SetInteger_m1311149575 ();
+extern "C" void AnimatorControllerPlayable_SetInteger_m1170756226 ();
+extern "C" void AnimatorControllerPlayable_SetTrigger_m3144166126 ();
+extern "C" void AnimatorControllerPlayable_SetTrigger_m4082809679 ();
+extern "C" void AnimatorControllerPlayable_ResetTrigger_m1410782179 ();
+extern "C" void AnimatorControllerPlayable_ResetTrigger_m2216540396 ();
+extern "C" void AnimatorControllerPlayable_IsParameterControlledByCurve_m1187113395 ();
+extern "C" void AnimatorControllerPlayable_IsParameterControlledByCurve_m3222505226 ();
+extern "C" void AnimatorControllerPlayable_get_layerCount_m3541790599 ();
+extern "C" void AnimatorControllerPlayable_GetLayerCountInternal_m467020652 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetLayerCountInternal_m2530620255 ();
+extern "C" void AnimatorControllerPlayable_GetLayerNameInternal_m3717310182 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetLayerNameInternal_m2049776925 ();
+extern "C" void AnimatorControllerPlayable_GetLayerName_m2571001466 ();
+extern "C" void AnimatorControllerPlayable_GetLayerIndexInternal_m696260605 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetLayerIndexInternal_m1847150746 ();
+extern "C" void AnimatorControllerPlayable_GetLayerIndex_m3450603267 ();
+extern "C" void AnimatorControllerPlayable_GetLayerWeightInternal_m2558846198 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetLayerWeightInternal_m3829748773 ();
+extern "C" void AnimatorControllerPlayable_GetLayerWeight_m839112938 ();
+extern "C" void AnimatorControllerPlayable_SetLayerWeightInternal_m1987718751 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_SetLayerWeightInternal_m1418536944 ();
+extern "C" void AnimatorControllerPlayable_SetLayerWeight_m795493633 ();
+extern "C" void AnimatorControllerPlayable_GetCurrentAnimatorStateInfoInternal_m1841547606 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetCurrentAnimatorStateInfoInternal_m3799001565 ();
+extern "C" void AnimatorControllerPlayable_GetCurrentAnimatorStateInfo_m689786022 ();
+extern "C" void AnimatorControllerPlayable_GetNextAnimatorStateInfoInternal_m928343784 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetNextAnimatorStateInfoInternal_m1550960895 ();
+extern "C" void AnimatorControllerPlayable_GetNextAnimatorStateInfo_m1349013420 ();
+extern "C" void AnimatorControllerPlayable_GetAnimatorTransitionInfoInternal_m2884059009 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetAnimatorTransitionInfoInternal_m2259454958 ();
+extern "C" void AnimatorControllerPlayable_GetAnimatorTransitionInfo_m1294266687 ();
+extern "C" void AnimatorControllerPlayable_GetCurrentAnimatorClipInfoInternal_m2037167218 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetCurrentAnimatorClipInfoInternal_m3542665271 ();
+extern "C" void AnimatorControllerPlayable_GetCurrentAnimatorClipInfo_m663340294 ();
+extern "C" void AnimatorControllerPlayable_GetCurrentAnimatorClipInfo_m3523103275 ();
+extern "C" void AnimatorControllerPlayable_GetNextAnimatorClipInfo_m2439552509 ();
+extern "C" void AnimatorControllerPlayable_GetAnimatorClipInfoInternal_m2427817131 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetAnimatorClipInfoInternal_m3180917212 ();
+extern "C" void AnimatorControllerPlayable_GetAnimatorClipInfoCountInternal_m826336390 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetAnimatorClipInfoCountInternal_m76073097 ();
+extern "C" void AnimatorControllerPlayable_GetCurrentAnimatorClipInfoCount_m335090574 ();
+extern "C" void AnimatorControllerPlayable_GetNextAnimatorClipInfoCount_m2044259572 ();
+extern "C" void AnimatorControllerPlayable_GetNextAnimatorClipInfoInternal_m2063705906 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetNextAnimatorClipInfoInternal_m4165249349 ();
+extern "C" void AnimatorControllerPlayable_GetNextAnimatorClipInfo_m962214430 ();
+extern "C" void AnimatorControllerPlayable_ResolveHash_m2472572196 ();
+extern "C" void AnimatorControllerPlayable_ResolveHashInternal_m4066573656 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_ResolveHashInternal_m1707002337 ();
+extern "C" void AnimatorControllerPlayable_IsInTransitionInternal_m3004933857 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_IsInTransitionInternal_m2978200270 ();
+extern "C" void AnimatorControllerPlayable_IsInTransition_m4064534331 ();
+extern "C" void AnimatorControllerPlayable_GetParameterCountInternal_m3993919750 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetParameterCountInternal_m3593070209 ();
+extern "C" void AnimatorControllerPlayable_get_parameterCount_m993805465 ();
+extern "C" void AnimatorControllerPlayable_GetParametersArrayInternal_m851504719 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetParametersArrayInternal_m3948383534 ();
+extern "C" void AnimatorControllerPlayable_GetParameter_m1109094904 ();
+extern "C" void AnimatorControllerPlayable_StringToHash_m223263502 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInFixedTime_m2203048040 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInFixedTime_m3978247231 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInFixedTime_m3493632207 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInFixedTime_m246216837 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInFixedTime_m2153894334 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInFixedTime_m1082259778 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInFixedTimeInternal_m793606818 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInFixedTimeInternal_m3955067023 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInFixedTimeInternal_m3729673154 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_CrossFadeInFixedTimeInternal_m3528719771 ();
+extern "C" void AnimatorControllerPlayable_CrossFade_m2332797404 ();
+extern "C" void AnimatorControllerPlayable_CrossFade_m437921439 ();
+extern "C" void AnimatorControllerPlayable_CrossFade_m2119841183 ();
+extern "C" void AnimatorControllerPlayable_CrossFade_m1243737073 ();
+extern "C" void AnimatorControllerPlayable_CrossFade_m949607638 ();
+extern "C" void AnimatorControllerPlayable_CrossFade_m3146661810 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInternal_m220517942 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInternal_m622348039 ();
+extern "C" void AnimatorControllerPlayable_CrossFadeInternal_m3412201542 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_CrossFadeInternal_m698817831 ();
+extern "C" void AnimatorControllerPlayable_PlayInFixedTime_m172593751 ();
+extern "C" void AnimatorControllerPlayable_PlayInFixedTime_m3734997604 ();
+extern "C" void AnimatorControllerPlayable_PlayInFixedTime_m2562520484 ();
+extern "C" void AnimatorControllerPlayable_PlayInFixedTime_m2966168794 ();
+extern "C" void AnimatorControllerPlayable_PlayInFixedTime_m2493327565 ();
+extern "C" void AnimatorControllerPlayable_PlayInFixedTime_m2629510873 ();
+extern "C" void AnimatorControllerPlayable_PlayInFixedTimeInternal_m2767099167 ();
+extern "C" void AnimatorControllerPlayable_PlayInFixedTimeInternal_m2047085454 ();
+extern "C" void AnimatorControllerPlayable_PlayInFixedTimeInternal_m623452639 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_PlayInFixedTimeInternal_m847261734 ();
+extern "C" void AnimatorControllerPlayable_Play_m3114724599 ();
+extern "C" void AnimatorControllerPlayable_Play_m1337154648 ();
+extern "C" void AnimatorControllerPlayable_Play_m1100499576 ();
+extern "C" void AnimatorControllerPlayable_Play_m1350238866 ();
+extern "C" void AnimatorControllerPlayable_Play_m4092315465 ();
+extern "C" void AnimatorControllerPlayable_Play_m2286317581 ();
+extern "C" void AnimatorControllerPlayable_PlayInternal_m3385259863 ();
+extern "C" void AnimatorControllerPlayable_PlayInternal_m2770955394 ();
+extern "C" void AnimatorControllerPlayable_PlayInternal_m4018423479 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_PlayInternal_m3496633968 ();
+extern "C" void AnimatorControllerPlayable_HasState_m4036688937 ();
+extern "C" void AnimatorControllerPlayable_HasStateInternal_m1905524675 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_HasStateInternal_m2474394942 ();
+extern "C" void AnimatorControllerPlayable_SetFloatString_m3937146789 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_SetFloatString_m743616790 ();
+extern "C" void AnimatorControllerPlayable_SetFloatID_m2632606700 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_SetFloatID_m1667841187 ();
+extern "C" void AnimatorControllerPlayable_GetFloatString_m2999633302 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetFloatString_m4205749063 ();
+extern "C" void AnimatorControllerPlayable_GetFloatID_m3274868729 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetFloatID_m1816887522 ();
+extern "C" void AnimatorControllerPlayable_SetBoolString_m1314460333 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_SetBoolString_m1232105510 ();
+extern "C" void AnimatorControllerPlayable_SetBoolID_m1141253014 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_SetBoolID_m2987425503 ();
+extern "C" void AnimatorControllerPlayable_GetBoolString_m2552769404 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetBoolString_m538178071 ();
+extern "C" void AnimatorControllerPlayable_GetBoolID_m2566184981 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetBoolID_m3610941922 ();
+extern "C" void AnimatorControllerPlayable_SetIntegerString_m1750228335 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_SetIntegerString_m4224797784 ();
+extern "C" void AnimatorControllerPlayable_SetIntegerID_m1774408598 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_SetIntegerID_m3110109413 ();
+extern "C" void AnimatorControllerPlayable_GetIntegerString_m3063601436 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetIntegerString_m1883966697 ();
+extern "C" void AnimatorControllerPlayable_GetIntegerID_m756947419 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_GetIntegerID_m2295839520 ();
+extern "C" void AnimatorControllerPlayable_SetTriggerString_m2313149510 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_SetTriggerString_m489309069 ();
+extern "C" void AnimatorControllerPlayable_SetTriggerID_m290818743 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_SetTriggerID_m508896534 ();
+extern "C" void AnimatorControllerPlayable_ResetTriggerString_m1669955779 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_ResetTriggerString_m395754516 ();
+extern "C" void AnimatorControllerPlayable_ResetTriggerID_m326518904 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_ResetTriggerID_m3592790433 ();
+extern "C" void AnimatorControllerPlayable_IsParameterControlledByCurveString_m4036987523 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_IsParameterControlledByCurveString_m1715379406 ();
+extern "C" void AnimatorControllerPlayable_IsParameterControlledByCurveID_m4183631446 ();
+extern "C" void AnimatorControllerPlayable_INTERNAL_CALL_IsParameterControlledByCurveID_m3975433561 ();
+extern "C" void Playable__ctor_m334077411 ();
+extern "C" void Playable_op_Implicit_m1650048605 ();
+extern "C" void Playable_IsValid_m2102916683 ();
+extern "C" void PlayableHandle_IsValid_m40842953_AdjustorThunk ();
+extern "C" void PlayableHandle_IsValidInternal_m1910030079 ();
+extern "C" void PlayableHandle_INTERNAL_CALL_IsValidInternal_m2792360706 ();
+extern "C" void PlayableHandle_Equals_m1435096530_AdjustorThunk ();
+extern "C" void PlayableHandle_GetHashCode_m1257452282_AdjustorThunk ();
+extern "C" void PlayableHandle_CompareVersion_m2333515486 ();
 extern "C" void ScriptPlayable__ctor_m1712674040 ();
+extern "C" void ScriptPlayable_OnGraphStart_m3208513529 ();
+extern "C" void ScriptPlayable_OnGraphStop_m4241519609 ();
+extern "C" void ScriptPlayable_OnDestroy_m2705420547 ();
+extern "C" void ScriptPlayable_PrepareFrame_m1510577058 ();
+extern "C" void ScriptPlayable_ProcessFrame_m4240263490 ();
+extern "C" void ScriptPlayable_OnPlayStateChanged_m2776325746 ();
+extern "C" void RenderPipelineManager_get_currentPipeline_m679160301 ();
+extern "C" void RenderPipelineManager_set_currentPipeline_m3825706412 ();
+extern "C" void RenderPipelineManager_CleanupRenderPipeline_m2242901458 ();
+extern "C" void RenderPipelineManager_DoRenderLoop_Internal_m2267530247 ();
+extern "C" void RenderPipelineManager_PrepareRenderPipeline_m4209257657 ();
+extern "C" void ScriptableRenderContext_Initialize_m1349011973_AdjustorThunk ();
 extern "C" void Font_get_material_m2086804907 ();
 extern "C" void Font_HasCharacter_m538120140 ();
 extern "C" void Font_add_textureRebuilt_m1282639736 ();
@@ -8242,6 +8358,7 @@ extern "C" void FontTextureRebuildCallback_Invoke_m3940800729 ();
 extern "C" void FontTextureRebuildCallback_BeginInvoke_m381807774 ();
 extern "C" void FontTextureRebuildCallback_EndInvoke_m4275555211 ();
 extern "C" void GameObject__ctor_m962601984 ();
+extern "C" void GameObject__ctor_m1633632305 ();
 extern "C" void GameObject_GetComponent_m306258075 ();
 extern "C" void GameObject_GetComponentFastPath_m481070871 ();
 extern "C" void GameObject_GetComponentInChildren_m4263325740 ();
@@ -8272,9 +8389,8 @@ extern "C" void GUI_set_nextScrollStepTime_m2724006954 ();
 extern "C" void GUI_set_skin_m3391676555 ();
 extern "C" void GUI_get_skin_m2309570990 ();
 extern "C" void GUI_DoSetSkin_m3603287387 ();
-extern "C" void GUI_CallWindowDelegate_m634477008 ();
+extern "C" void GUI_CallWindowDelegate_m2039577415 ();
 extern "C" void GUI_set_changed_m470833806 ();
-extern "C" void ScrollViewState__ctor_m853546402 ();
 extern "C" void WindowFunction__ctor_m977095815 ();
 extern "C" void WindowFunction_Invoke_m3108181420 ();
 extern "C" void WindowFunction_BeginInvoke_m322627481 ();
@@ -8538,15 +8654,18 @@ extern "C" void GUITargetAttribute_GetGUITargetAttrValue_m3740620102 ();
 extern "C" void GUIUtility_get_pixelsPerPoint_m2667928361 ();
 extern "C" void GUIUtility_set_guiIsExiting_m2362636745 ();
 extern "C" void GUIUtility_get_hotControl_m466901769 ();
+extern "C" void GUIUtility_get_keyboardControl_m2418463643 ();
 extern "C" void GUIUtility_GetDefaultSkin_m2022075576 ();
+extern "C" void GUIUtility_ProcessEvent_m142250930 ();
 extern "C" void GUIUtility_BeginGUI_m2907220931 ();
 extern "C" void GUIUtility_EndGUI_m3538781391 ();
 extern "C" void GUIUtility_EndGUIFromException_m2091524531 ();
+extern "C" void GUIUtility_EndContainerGUIFromException_m8097082 ();
 extern "C" void GUIUtility_ShouldRethrowException_m1990329277 ();
 extern "C" void GUIUtility_CheckOnGUI_m4284398968 ();
 extern "C" void GUIUtility_Internal_GetPixelsPerPoint_m1770975086 ();
 extern "C" void GUIUtility_Internal_GetHotControl_m2510727642 ();
-extern "C" void GUIUtility_get_keyboardControl_m2418463643 ();
+extern "C" void GUIUtility_Internal_GetKeyboardControl_m973220286 ();
 extern "C" void GUIUtility_get_systemCopyBuffer_m396434174 ();
 extern "C" void GUIUtility_set_systemCopyBuffer_m2040945785 ();
 extern "C" void GUIUtility_Internal_GetDefaultSkin_m2135852437 ();
@@ -8677,16 +8796,17 @@ extern "C" void Logger_LogFormat_m193464629 ();
 extern "C" void Logger_LogException_m206035446 ();
 extern "C" void Material__ctor_m1440882780 ();
 extern "C" void Material_get_mainTexture_m432794412 ();
-extern "C" void Material_GetTexture_m1257877102 ();
-extern "C" void Material_GetTexture_m648312929 ();
-extern "C" void Material_SetFloat_m1926275467 ();
-extern "C" void Material_SetFloat_m953675160 ();
-extern "C" void Material_SetInt_m522302436 ();
+extern "C" void Material_SetIntImpl_m4157631275 ();
+extern "C" void Material_GetTextureImpl_m623159197 ();
 extern "C" void Material_HasProperty_m3511389613 ();
 extern "C" void Material_HasProperty_m3175512802 ();
 extern "C" void Material_Internal_CreateWithMaterial_m2907597451 ();
 extern "C" void Material_EnableKeyword_m3724752646 ();
 extern "C" void Material_DisableKeyword_m1204728089 ();
+extern "C" void Material_SetInt_m522302436 ();
+extern "C" void Material_SetInt_m977568583 ();
+extern "C" void Material_GetTexture_m1257877102 ();
+extern "C" void Material_GetTexture_m648312929 ();
 extern "C" void Mathf_Sin_m831310046 ();
 extern "C" void Mathf_Cos_m238853451 ();
 extern "C" void Mathf_Sqrt_m2213915910 ();
@@ -8748,6 +8868,8 @@ extern "C" void Mesh_get_normals_m1837187359 ();
 extern "C" void Mesh_get_tangents_m2910922714 ();
 extern "C" void Mesh_get_uv_m3811151337 ();
 extern "C" void Mesh_get_uv2_m3215494975 ();
+extern "C" void Mesh_get_uv3_m3215494880 ();
+extern "C" void Mesh_get_uv4_m3215494777 ();
 extern "C" void Mesh_get_colors32_m4153271224 ();
 extern "C" void Mesh_SetVertices_m3500868388 ();
 extern "C" void Mesh_SetNormals_m3341225499 ();
@@ -8781,6 +8903,23 @@ extern "C" void MonoBehaviour_StopAllCoroutines_m1675795839 ();
 extern "C" void MonoBehaviour_print_m3437620292 ();
 extern "C" void MonoBehaviour_get_useGUILayout_m524237270 ();
 extern "C" void MonoBehaviour_set_useGUILayout_m2666356651 ();
+extern "C" void NativeClassAttribute__ctor_m3215217838 ();
+extern "C" void NativeClassAttribute_set_QualifiedNativeName_m2790580781 ();
+extern "C" void MessageEventArgs__ctor_m2154443826 ();
+extern "C" void PlayerConnection__ctor_m956924263 ();
+extern "C" void PlayerConnection_get_instance_m3885313185 ();
+extern "C" void PlayerConnection_CreateInstance_m2276347858 ();
+extern "C" void PlayerConnection_MessageCallbackInternal_m267902474 ();
+extern "C" void PlayerConnection_ConnectedCallbackInternal_m2685675347 ();
+extern "C" void PlayerConnection_DisconnectedCallback_m4115432464 ();
+extern "C" void PlayerEditorConnectionEvents__ctor_m603950945 ();
+extern "C" void PlayerEditorConnectionEvents_InvokeMessageIdSubscribers_m3217020342 ();
+extern "C" void U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0__ctor_m4027042344 ();
+extern "C" void U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_U3CU3Em__0_m520813337 ();
+extern "C" void ConnectionChangeEvent__ctor_m616483304 ();
+extern "C" void MessageEvent__ctor_m3253032545 ();
+extern "C" void MessageTypeSubscribers__ctor_m743474932 ();
+extern "C" void MessageTypeSubscribers_get_MessageTypeId_m1191914268 ();
 extern "C" void NetworkMessageInfo_get_timestamp_m462964950_AdjustorThunk ();
 extern "C" void NetworkMessageInfo_get_sender_m2366451889_AdjustorThunk ();
 extern "C" void NetworkMessageInfo_get_networkView_m1180629659_AdjustorThunk ();
@@ -8867,46 +9006,24 @@ extern "C" void Object_FindObjectOfType_m2330404063 ();
 extern "C" void Object_op_Equality_m3764089466 ();
 extern "C" void Object_op_Inequality_m2402264703 ();
 extern "C" void Object__cctor_m2991092887 ();
-extern "C" void Physics_Raycast_m2874007225 ();
-extern "C" void Physics_Raycast_m89212106 ();
-extern "C" void Physics_Raycast_m2667915561 ();
-extern "C" void Physics_Raycast_m3475924638 ();
-extern "C" void Physics_Raycast_m1929115794 ();
-extern "C" void Physics_Raycast_m2994111303 ();
-extern "C" void Physics_Raycast_m4027183840 ();
-extern "C" void Physics_Raycast_m2036777053 ();
-extern "C" void Physics_Raycast_m2691929452 ();
-extern "C" void Physics_Raycast_m780162053 ();
-extern "C" void Physics_Raycast_m2686676054 ();
-extern "C" void Physics_Raycast_m1844392139 ();
-extern "C" void Physics_Raycast_m2009151399 ();
-extern "C" void Physics_Raycast_m2308457076 ();
-extern "C" void Physics_Raycast_m2736931691 ();
-extern "C" void Physics_Raycast_m233619224 ();
-extern "C" void Physics_RaycastAll_m233036521 ();
-extern "C" void Physics_RaycastAll_m3928448900 ();
-extern "C" void Physics_RaycastAll_m1246652201 ();
-extern "C" void Physics_RaycastAll_m410413656 ();
-extern "C" void Physics_RaycastAll_m3908263591 ();
-extern "C" void Physics_RaycastAll_m3256436970 ();
-extern "C" void Physics_RaycastAll_m3484190429 ();
-extern "C" void Physics_RaycastAll_m3650851272 ();
-extern "C" void Physics_INTERNAL_CALL_RaycastAll_m2126789092 ();
-extern "C" void Physics_Internal_Raycast_m1160243045 ();
-extern "C" void Physics_INTERNAL_CALL_Internal_Raycast_m93849932 ();
-extern "C" void Physics_Internal_RaycastTest_m3442924926 ();
-extern "C" void Physics_INTERNAL_CALL_Internal_RaycastTest_m3440840981 ();
-extern "C" void Physics2D_Internal_Raycast_m683685528 ();
-extern "C" void Physics2D_INTERNAL_CALL_Internal_Raycast_m3956067819 ();
+extern "C" void Physics2D_get_queriesHitTriggers_m361275035 ();
 extern "C" void Physics2D_Raycast_m1220041042 ();
 extern "C" void Physics2D_Raycast_m122312471 ();
 extern "C" void Physics2D_Raycast_m3913913442 ();
 extern "C" void Physics2D_Raycast_m2560154475 ();
 extern "C" void Physics2D_Raycast_m2303387255 ();
+extern "C" void Physics2D_Raycast_m2368200185 ();
+extern "C" void Physics2D_Raycast_m564567838 ();
+extern "C" void Physics2D_Internal_Raycast_m2213595168 ();
+extern "C" void Physics2D_INTERNAL_CALL_Internal_Raycast_m489831109 ();
+extern "C" void Physics2D_Internal_RaycastNonAlloc_m1874107548 ();
+extern "C" void Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m2253171281 ();
 extern "C" void Physics2D_GetRayIntersectionAll_m253330691 ();
 extern "C" void Physics2D_GetRayIntersectionAll_m2808325432 ();
 extern "C" void Physics2D_GetRayIntersectionAll_m120415839 ();
 extern "C" void Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m161475998 ();
+extern "C" void Physics2D_GetRigidbodyFromInstanceID_m3260338451 ();
+extern "C" void Physics2D_GetColliderFromInstanceID_m95920619 ();
 extern "C" void Physics2D__cctor_m3532647019 ();
 extern "C" void Plane__ctor_m3187718367_AdjustorThunk ();
 extern "C" void Plane_get_normal_m1872443823_AdjustorThunk ();
@@ -8924,6 +9041,7 @@ extern "C" void Quaternion_Inverse_m3931399088 ();
 extern "C" void Quaternion_INTERNAL_CALL_Inverse_m1043108654 ();
 extern "C" void Quaternion_get_identity_m1561886418 ();
 extern "C" void Quaternion_op_Multiply_m1483423721 ();
+extern "C" void Quaternion_op_Equality_m2308156925 ();
 extern "C" void Quaternion_op_Inequality_m3629786166 ();
 extern "C" void Quaternion_Dot_m952616600 ();
 extern "C" void Quaternion_GetHashCode_m2270520528_AdjustorThunk ();
@@ -8978,7 +9096,7 @@ extern "C" void Rect_GetHashCode_m559954498_AdjustorThunk ();
 extern "C" void Rect_Equals_m3806390726_AdjustorThunk ();
 extern "C" void Rect_ToString_m2728794442_AdjustorThunk ();
 extern "C" void RectOffset__ctor_m2227510254 ();
-extern "C" void RectOffset__ctor_m3541945769 ();
+extern "C" void RectOffset__ctor_m1265077918 ();
 extern "C" void RectOffset_Init_m4361650 ();
 extern "C" void RectOffset_Cleanup_m3198970074 ();
 extern "C" void RectOffset_get_left_m439065308 ();
@@ -9072,7 +9190,6 @@ extern "C" void Scene_GetHashCode_m3223653899_AdjustorThunk ();
 extern "C" void Scene_Equals_m3588907349_AdjustorThunk ();
 extern "C" void SceneManager_GetActiveScene_m2964039490 ();
 extern "C" void SceneManager_INTERNAL_CALL_GetActiveScene_m1595803318 ();
-extern "C" void SceneManager_LoadScene_m1619949821 ();
 extern "C" void SceneManager_LoadScene_m1386820036 ();
 extern "C" void SceneManager_LoadSceneAsyncNameIndexInternal_m3279056043 ();
 extern "C" void SceneManager_Internal_SceneLoaded_m4005732915 ();
@@ -9086,8 +9203,10 @@ extern "C" void ScriptableObject_Internal_CreateScriptableObject_m1778903390 ();
 extern "C" void ScriptableObject_CreateInstance_m3921674852 ();
 extern "C" void ScriptableObject_CreateInstance_m3271154163 ();
 extern "C" void ScriptableObject_CreateInstanceFromType_m4271875689 ();
+extern "C" void GeneratedByOldBindingsGeneratorAttribute__ctor_m3745565094 ();
 extern "C" void RequiredByNativeCodeAttribute__ctor_m2374853658 ();
 extern "C" void UsedByNativeCodeAttribute__ctor_m2459832290 ();
+extern "C" void ScrollViewState__ctor_m535685782 ();
 extern "C" void SelectionBaseAttribute__ctor_m1487697870 ();
 extern "C" void SendMouseEvents_SetMouseMoved_m532965689 ();
 extern "C" void SendMouseEvents_DoSendMouseEvents_m701697135 ();
@@ -9342,7 +9461,7 @@ extern "C" void Texture2D_Internal_Create_m3012183307 ();
 extern "C" void Texture2D_get_whiteTexture_m1979591766 ();
 extern "C" void Texture2D_GetPixelBilinear_m3063031185 ();
 extern "C" void Texture2D_INTERNAL_CALL_GetPixelBilinear_m570286059 ();
-extern "C" void ThreadAndSerializationSafe__ctor_m84326599 ();
+extern "C" void ThreadAndSerializationSafeAttribute__ctor_m3736564847 ();
 extern "C" void Time_get_time_m2216684562 ();
 extern "C" void Time_get_deltaTime_m2233168104 ();
 extern "C" void Time_get_unscaledTime_m862335845 ();
@@ -9420,7 +9539,7 @@ extern "C" void UIVertex__cctor_m803910084 ();
 extern "C" void UnhandledExceptionHandler_RegisterUECatcher_m72343880 ();
 extern "C" void UnhandledExceptionHandler_HandleUnhandledException_m1413629867 ();
 extern "C" void UnhandledExceptionHandler_PrintException_m1321283931 ();
-extern "C" void UnhandledExceptionHandler_NativeUnhandledExceptionHandler_m4002467556 ();
+extern "C" void UnhandledExceptionHandler_NativeUnhandledExceptionHandler_m2847695570 ();
 extern "C" void UnityException__ctor_m3650417185 ();
 extern "C" void UnityException__ctor_m1554762831 ();
 extern "C" void UnityException__ctor_m2835958127 ();
@@ -9664,6 +9783,7 @@ extern "C" void PhysicsRaycaster_get_depth_m3042587512 ();
 extern "C" void PhysicsRaycaster_get_finalEventMask_m3654277131 ();
 extern "C" void PhysicsRaycaster_get_eventMask_m746934396 ();
 extern "C" void PhysicsRaycaster_set_eventMask_m2504275837 ();
+extern "C" void PhysicsRaycaster_ComputeRayAndDistance_m3978072363 ();
 extern "C" void PhysicsRaycaster_Raycast_m3086016990 ();
 extern "C" void PhysicsRaycaster_U3CRaycastU3Em__0_m267334242 ();
 extern "C" void PointerEventData__ctor_m3674067728 ();
@@ -10337,6 +10457,7 @@ extern "C" void InputField_OnDisable_m1865339380 ();
 extern "C" void InputField_CaretBlink_m3960486606 ();
 extern "C" void InputField_SetCaretVisible_m2025871624 ();
 extern "C" void InputField_SetCaretActive_m1949303486 ();
+extern "C" void InputField_UpdateCaretMaterial_m57787938 ();
 extern "C" void InputField_OnFocus_m1292288040 ();
 extern "C" void InputField_SelectAll_m1843270844 ();
 extern "C" void InputField_MoveTextEnd_m3867304177 ();
@@ -10405,6 +10526,7 @@ extern "C" void InputField_DeactivateInputField_m2284049437 ();
 extern "C" void InputField_OnDeselect_m3963675647 ();
 extern "C" void InputField_OnSubmit_m2856515494 ();
 extern "C" void InputField_EnforceContentType_m1902926812 ();
+extern "C" void InputField_EnforceTextHOverflow_m1085529766 ();
 extern "C" void InputField_SetToCustomIfContentTypeIsNot_m2121105067 ();
 extern "C" void InputField_SetToCustom_m250029371 ();
 extern "C" void InputField_DoStateTransition_m499669380 ();
@@ -10772,7 +10894,7 @@ extern "C" void ScrollRect_UpdateScrollbarVisibility_m2738472183 ();
 extern "C" void ScrollRect_UpdateOneScrollbarVisibility_m3990871387 ();
 extern "C" void ScrollRect_UpdateScrollbarLayout_m1731749879 ();
 extern "C" void ScrollRect_UpdateBounds_m3266596336 ();
-extern "C" void ScrollRect_InternalUpdateBounds_m3222992353 ();
+extern "C" void ScrollRect_AdjustBounds_m1033723448 ();
 extern "C" void ScrollRect_GetBounds_m1950012700 ();
 extern "C" void ScrollRect_InternalGetBounds_m1871388050 ();
 extern "C" void ScrollRect_CalculateOffset_m1659273054 ();
@@ -11051,10 +11173,6 @@ extern "C" void Flip_FlipLeft_m2622117886 ();
 extern "C" void Flip_FlipRight_m845182787 ();
 extern "C" void Flip_HoldingLeft_m733361872 ();
 extern "C" void Flip_HoldingRight_m566727679 ();
-extern "C" void MyDelegateBase__ctor_m1630137489 ();
-extern "C" void MyDelegateBase_OnSkillzWillExit_m1257785593 ();
-extern "C" void MyDelegateStandard__ctor_m3334492963 ();
-extern "C" void MyDelegateStandard_OnTournamentWillBegin_m3139439550 ();
 extern "C" void PlayAnimation__ctor_m4022830313 ();
 extern "C" void PlayAnimation_Start_m3771105777 ();
 extern "C" void PlayAnimation_Update_m4082685270 ();
@@ -11069,8 +11187,14 @@ extern "C" void Skillz_UpdatePlayersCurrentScore_m1772102701 ();
 extern "C" void Skillz_ReportScore_m3689906990 ();
 extern "C" void Skillz_ReportScore_m1204479319 ();
 extern "C" void Skillz_ReportScore_m2713271819 ();
+extern "C" void Skillz_AddMetadataForMatchInProgress_m2187508903 ();
+extern "C" void Skillz_SDKVersionShort_m2406083073 ();
+extern "C" void Skillz_CurrentUserDisplayName_m3791818488 ();
 extern "C" void Skillz_GetSkillz_m964148670 ();
 extern "C" void Skillz_GetCurrentActivity_m2069068660 ();
+extern "C" void Player_GetId_m3176975974 ();
+extern "C" void Player_GetAvatarUrl_m102974589 ();
+extern "C" void Player_GetFlagUrl_m3537302896 ();
 extern "C" void Random_Value_m2425478785 ();
 extern "C" void Random_InsideUnitSphere_m509990997 ();
 extern "C" void Random_InsideUnitCircle_m2484558255 ();
@@ -11079,13 +11203,39 @@ extern "C" void Random_RotationUniform_m1838330316 ();
 extern "C" void Random_Rotation_m2266035066 ();
 extern "C" void Random_Range_m2569549217 ();
 extern "C" void Random_Range_m1410265549 ();
+extern "C" void SkillzCrossPlatform_LaunchSkillz_m2243738831 ();
+extern "C" void SkillzCrossPlatform_IsMatchInProgress_m3237330920 ();
+extern "C" void SkillzCrossPlatform_GetMatchRules_m2257634608 ();
+extern "C" void SkillzCrossPlatform_AbortMatch_m306013360 ();
+extern "C" void SkillzCrossPlatform_UpdatePlayersCurrentScore_m289783731 ();
+extern "C" void SkillzCrossPlatform_UpdatePlayersCurrentScore_m1416956526 ();
+extern "C" void SkillzCrossPlatform_UpdatePlayersCurrentScore_m3369915700 ();
+extern "C" void SkillzCrossPlatform_ReportFinalScore_m1821962349 ();
+extern "C" void SkillzCrossPlatform_ReportFinalScore_m3143017410 ();
+extern "C" void SkillzCrossPlatform_ReportFinalScore_m4054878224 ();
+extern "C" void SkillzCrossPlatform_SDKVersionShort_m2876482460 ();
+extern "C" void SkillzCrossPlatform_CurrentUserDisplayName_m3727978809 ();
+extern "C" void SkillzCrossPlatform_AddMetadataForMatchInProgress_m449126264 ();
+extern "C" void SkillzCrossPlatform_GetSkillz_m4168655129 ();
+extern "C" void Player_GetId_m2195863807 ();
+extern "C" void Player_GetAvatarUrl_m1587209008 ();
+extern "C" void Player_GetFlagUrl_m524265601 ();
+extern "C" void Random_Value_m1743189462 ();
+extern "C" void Random_InsideUnitSphere_m3111069728 ();
+extern "C" void Random_InsideUnitCircle_m3801325300 ();
+extern "C" void Random_OnUnitSphere_m2326441261 ();
+extern "C" void Random_RotationUniform_m1621719437 ();
+extern "C" void Random_Rotation_m439060657 ();
+extern "C" void Random_Range_m3067939820 ();
+extern "C" void Random_Range_m1145604742 ();
 extern "C" void SkillzDelegate__ctor_m1904041899 ();
-extern "C" void SkillzDelegate_OnSkillzWillExit_m3649665103 ();
-extern "C" void SkillzDelegate_OnSkillzLaunchCompleted_m2149865565 ();
 extern "C" void SkillzDelegate_OnMatchWillBegin_m325518674 ();
-extern "C" void SkillzDelegate_SkillzMatchStarted_m2996879454 ();
-extern "C" void SkillzDelegate_OnMatchAborted_m3703625084 ();
-extern "C" void SkillzDelegate_OnMatchCompleted_m982781554 ();
+extern "C" void SkillzDelegate_OnSkillzWillExit_m3649665103 ();
+extern "C" void SkillzDelegate_Awake_m1272547262 ();
+extern "C" void SkillzDelegate_AndroidInitialize_m1305944978 ();
+extern "C" void SkillzDelegate_GetSkillzPreferences_m3634364875 ();
+extern "C" void SkillzDelegate_GetCurrentActivity_m1217722943 ();
+extern "C" void SkillzDelegate__cctor_m119843928 ();
 extern "C" void Api__addMetadataForMatchInProgress_m1136254910 ();
 extern "C" void Api__getRandomNumber_m1864782437 ();
 extern "C" void Api__getRandomNumberWithMinAndMax_m4146113508 ();
@@ -11094,25 +11244,31 @@ extern "C" void Api__tournamentIsInProgress_m1271088344 ();
 extern "C" void Api__player_m2663637379 ();
 extern "C" void Api__SDKShortVersion_m2394673732 ();
 extern "C" void Api__showSDKVersionInfo_m1360139260 ();
-extern "C" void Api__launchSkillz_m1630210417 ();
+extern "C" void Api__getMatchRules_m2254964246 ();
+extern "C" void Api__launchSkillz_m2522608787 ();
 extern "C" void Api__displayTournamentResultsWithScore_m2125100031 ();
 extern "C" void Api__displayTournamentResultsWithFloatScore_m2541891903 ();
+extern "C" void Api__displayTournamentResultsWithStringScore_m1073491389 ();
 extern "C" void Api__completeTurnWithGameData_m3187737657 ();
 extern "C" void Api__finishReviewingCurrentGameState_m4263395524 ();
 extern "C" void Api__notifyPlayerAbortWithCompletion_m2720459009 ();
 extern "C" void Api__updatePlayersCurrentScore_m1493276750 ();
+extern "C" void Api__updatePlayersCurrentStringScore_m460053380 ();
+extern "C" void Api__updatePlayersCurrentIntScore_m199678815 ();
 extern "C" void Api__getRandomFloat_m3197205220 ();
-extern "C" void Api__setShouldSkillzLaunchFromURL_m3449260162 ();
 extern "C" void Api_get_IsTournamentInProgress_m1848621626 ();
 extern "C" void Api_get_CurrentUserDisplayName_m932352075 ();
 extern "C" void Api_get_Player_m2909965789 ();
 extern "C" void Api_get_SDKVersionShort_m3662445524 ();
 extern "C" void Api_Initialize_m81164390 ();
-extern "C" void Api_LaunchSkillz_m4197729075 ();
+extern "C" void Api_LaunchSkillz_m2568016400 ();
 extern "C" void Api_UpdatePlayerScore_m4032507549 ();
+extern "C" void Api_UpdatePlayerScore_m3469454324 ();
+extern "C" void Api_UpdatePlayerScore_m561754789 ();
 extern "C" void Api_AbortGame_m2048002460 ();
 extern "C" void Api_FinishTournament_m1814042925 ();
 extern "C" void Api_FinishTournament_m2592961397 ();
+extern "C" void Api_FinishTournament_m4134272972 ();
 extern "C" void Api_FinishTurn_m802121143 ();
 extern "C" void Api_FinishTurn_m940462105 ();
 extern "C" void Api_FinishReviewingTurn_m346987974 ();
@@ -11120,7 +11276,7 @@ extern "C" void Api_AddMetadataForMatchInProgress_m2683723245 ();
 extern "C" void Api_GetRandomNumber_m2016368688 ();
 extern "C" void Api_GetRandomNumber_m290286116 ();
 extern "C" void Api_PrintSDKVersionInfo_m4004455635 ();
-extern "C" void Api_SetShouldSkillzLaunchFromURL_m1439691441 ();
+extern "C" void Api_GetMatchRules_m2931285389 ();
 extern "C" void Api_DeserializeJSONToDictionary_m2283460858 ();
 extern "C" void Random_Value_m3183000079 ();
 extern "C" void Random_InsideUnitSphere_m3354190927 ();
@@ -11180,11 +11336,6 @@ extern "C" void SkillzDelegateBase_OnSkillzWillExit_m3537683311 ();
 extern "C" void SkillzDelegateBase_OnSkillzWillLaunch_m2202730896 ();
 extern "C" void SkillzDelegateBase_OnSkillzLaunchCompleted_m2686194369 ();
 extern "C" void SkillzDelegateBase_OnTournamentAborted_m2776378590 ();
-extern "C" void SkillzDelegateInit__ctor_m2088317190 ();
-extern "C" void SkillzDelegateInit_Awake_m3976245713 ();
-extern "C" void SkillzDelegateInit__cctor_m3830773047 ();
-extern "C" void SkillzDelegateStandard__ctor_m3451811481 ();
-extern "C" void SkillzDelegateStandard_OnTournamentCompleted_m3899283696 ();
 extern "C" void SkillzDelegateTurnBased__ctor_m2338426524 ();
 extern "C" void SkillzDelegateTurnBased_OnTurnEnd_m2874439621 ();
 extern "C" void SkillzDelegateTurnBased_OnTurnBasedReviewWillBegin_m3929599344 ();
@@ -11195,8 +11346,6 @@ extern "C" void SkillzMessageReceiver_skillzWillExit_m1996417448 ();
 extern "C" void SkillzMessageReceiver_skillzLaunchHasCompleted_m4043686882 ();
 extern "C" void SkillzMessageReceiver_skillzWillLaunch_m3708175761 ();
 extern "C" void SkillzMessageReceiver_skillzWithPlayerAbort_m3422383777 ();
-extern "C" void SkillzMessageReceiver_skillzTournamentWillBegin_m880525694 ();
-extern "C" void SkillzMessageReceiver_skillzWithTournamentCompletion_m3596276245 ();
 extern "C" void SkillzMessageReceiver_skillzTurnBasedTournamentWillBegin_m487850274 ();
 extern "C" void SkillzMessageReceiver_skillzEndTurnCompletion_m255955450 ();
 extern "C" void SkillzMessageReceiver_skillzReviewCurrentGameState_m804480104 ();
@@ -11222,7 +11371,7 @@ extern "C" void UIManager_Menu_m398189495 ();
 extern "C" void UIManager_Exit_m1201404818 ();
 extern "C" void UIManager_TimeCount_m2934897344 ();
 extern "C" void UIManager_gameOverActivate_m2275086673 ();
-extern const Il2CppMethodPointer g_MethodPointers[11211] = 
+extern const Il2CppMethodPointer g_MethodPointers[11357] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -11730,6 +11879,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	AttrListImpl_Clear_m3490165608,
 	AttrListImpl_Add_m130708252,
 	SmallXmlParserException__ctor_m204191026,
+	__Il2CppComDelegate_Finalize_m3962015415,
 	__Il2CppComObject_Finalize_m1489232385,
 	AccessViolationException__ctor_m1270251537,
 	AccessViolationException__ctor_m3769815332,
@@ -12240,6 +12390,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	DictionaryEntry_get_Key_m3623293571_AdjustorThunk,
 	DictionaryEntry_get_Value_m2812883243_AdjustorThunk,
 	KeyNotFoundException__ctor_m913933494,
+	KeyNotFoundException__ctor_m264393096,
 	KeyNotFoundException__ctor_m2121796963,
 	Hashtable__ctor_m1884964176,
 	Hashtable__ctor_m846339375,
@@ -12248,6 +12399,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Hashtable__ctor_m392789568,
 	Hashtable__ctor_m4106078798,
 	Hashtable__ctor_m2894679847,
+	Hashtable__ctor_m3011277490,
+	Hashtable__ctor_m645307841,
 	Hashtable__ctor_m3742489710,
 	Hashtable__ctor_m2337481811,
 	Hashtable__ctor_m4280223555,
@@ -13265,6 +13418,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	TextInfo_ToLower_m2178569214,
 	TextInfo_Clone_m1096841305,
 	Guid__ctor_m2958090239_AdjustorThunk,
+	Guid__ctor_m2599802704_AdjustorThunk,
+	Guid__ctor_m2591228228_AdjustorThunk,
 	Guid__ctor_m543169477_AdjustorThunk,
 	Guid__cctor_m1295168203,
 	Guid_CheckNull_m2903986431,
@@ -13285,6 +13440,18 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Guid_ToString_m3927110175_AdjustorThunk,
 	Guid_ToString_m51661589_AdjustorThunk,
 	Guid_ToString_m3858592945_AdjustorThunk,
+	Guid_op_Equality_m789465560,
+	GuidParser__ctor_m899289925,
+	GuidParser_Reset_m3389485794,
+	GuidParser_AtEnd_m2677290225,
+	GuidParser_ThrowFormatException_m3624496589,
+	GuidParser_ParseHex_m3163482281,
+	GuidParser_ParseOptChar_m2971086730,
+	GuidParser_ParseChar_m3420026477,
+	GuidParser_ParseGuid1_m3287593959,
+	GuidParser_ParseHexPrefix_m1055495199,
+	GuidParser_ParseGuid2_m3287593992,
+	GuidParser_Parse_m817290877,
 	IndexOutOfRangeException__ctor_m3497760912,
 	IndexOutOfRangeException__ctor_m1847153122,
 	IndexOutOfRangeException__ctor_m33068297,
@@ -13774,7 +13941,9 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Math_Ceiling_m614624719,
 	Math_Floor_m4118366418,
 	Math_Log_m3325929366,
+	Math_Max_m3360711905,
 	Math_Max_m2671311541,
+	Math_Min_m105057611,
 	Math_Min_m4290821911,
 	Math_Round_m565516458,
 	Math_Round_m2632426160,
@@ -15432,6 +15601,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	SByte_ToString_m4105923225_AdjustorThunk,
 	SByte_ToString_m1422933503_AdjustorThunk,
 	SByte_ToString_m353340795_AdjustorThunk,
+	AllowPartiallyTrustedCallersAttribute__ctor_m2781090035,
 	CodeAccessPermission__ctor_m2285259037,
 	CodeAccessPermission_Equals_m1762790716,
 	CodeAccessPermission_GetHashCode_m3295132136,
@@ -15898,6 +16068,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	SecurityContext_Capture_m2535194991,
 	SecurityContext_get_FlowSuppressed_m420202521,
 	SecurityContext_get_CompressedStack_m594879439,
+	SecurityCriticalAttribute__ctor_m2134454210,
 	SecurityElement__ctor_m1988489885,
 	SecurityElement__ctor_m3543712927,
 	SecurityElement__cctor_m256761998,
@@ -15969,6 +16140,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Single_IsNaN_m2349591895,
 	Single_IsNegativeInfinity_m2615809279,
 	Single_IsPositiveInfinity_m869158735,
+	Single_Parse_m1861732734,
 	Single_Parse_m898843034,
 	Single_ToString_m1813392066_AdjustorThunk,
 	Single_ToString_m1229799376_AdjustorThunk,
@@ -18622,6 +18794,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	SymmetricTransform_FinalEncrypt_m952048093,
 	SymmetricTransform_FinalDecrypt_m1391053911,
 	SymmetricTransform_TransformFinalBlock_m631349995,
+	Check_Source_m3385315029,
 	Check_SourceAndPredicate_m2063478409,
 	MonoTODOAttribute__ctor_m1425119999,
 	ExtensionAttribute__ctor_m1028297080,
@@ -18897,11 +19070,14 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Animator_SetBool_m2305662531,
 	Animator_SetTrigger_m3418492570,
 	Animator_ResetTrigger_m865269317,
-	Animator_get_runtimeAnimatorController_m652575931,
+	Animator_get_hasBoundPlayables_m3670407842,
 	Animator_StringToHash_m3313850714,
 	Animator_SetBoolString_m1893192746,
 	Animator_SetTriggerString_m2002790359,
 	Animator_ResetTriggerString_m1445965342,
+	AnimatorControllerParameter_get_name_m1366583724,
+	AnimatorControllerParameter_Equals_m2765773032,
+	AnimatorControllerParameter_GetHashCode_m2591556684,
 	AnimatorStateInfo_IsName_m4069203550_AdjustorThunk,
 	AnimatorStateInfo_get_fullPathHash_m3941998936_AdjustorThunk,
 	AnimatorStateInfo_get_nameHash_m1703033713_AdjustorThunk,
@@ -18922,7 +19098,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	AnimatorTransitionInfo_get_anyState_m3474272231_AdjustorThunk,
 	AnimatorTransitionInfo_get_entry_m1140118520_AdjustorThunk,
 	AnimatorTransitionInfo_get_exit_m3018502934_AdjustorThunk,
-	Application_Quit_m3885595876,
+	Application_CallLowMemory_m626389230,
 	Application_get_isPlaying_m4091950718,
 	Application_get_isEditor_m2474583393,
 	Application_get_platform_m3989224144,
@@ -18932,6 +19108,10 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	LogCallback_Invoke_m3921378796,
 	LogCallback_BeginInvoke_m2485641857,
 	LogCallback_EndInvoke_m1910375855,
+	LowMemoryCallback__ctor_m4181659636,
+	LowMemoryCallback_Invoke_m3371329310,
+	LowMemoryCallback_BeginInvoke_m4289414595,
+	LowMemoryCallback_EndInvoke_m299183046,
 	AssemblyIsEditorAssembly__ctor_m2639706522,
 	AssetBundleCreateRequest__ctor_m2967025878,
 	AssetBundleCreateRequest_get_assetBundle_m2931245245,
@@ -19026,6 +19206,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Camera_INTERNAL_get_pixelRect_m1785951490,
 	Camera_get_targetTexture_m705925974,
 	Camera_get_clearFlags_m1743144302,
+	Camera_get_targetDisplay_m835278314,
 	Camera_ScreenToViewportPoint_m2666228286,
 	Camera_INTERNAL_CALL_ScreenToViewportPoint_m529506484,
 	Camera_ScreenPointToRay_m614889538,
@@ -19037,7 +19218,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Camera_FireOnPreRender_m24116662,
 	Camera_FireOnPostRender_m94860165,
 	Camera_RaycastTry_m3412198936,
-	Camera_INTERNAL_CALL_RaycastTry_m2295752796,
+	Camera_INTERNAL_CALL_RaycastTry_m1030092423,
 	Camera_RaycastTry2D_m755036866,
 	Camera_INTERNAL_CALL_RaycastTry2D_m1020711785,
 	CameraCallback__ctor_m2929748071,
@@ -19105,27 +19286,23 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	CanvasRenderer_set_cull_m1437892490,
 	CanvasRenderer_get_absoluteDepth_m4243141,
 	CanvasRenderer_get_hasMoved_m2428030996,
-	Collider_get_attachedRigidbody_m3279305420,
-	Collision__ctor_m635081107,
-	Collision_get_relativeVelocity_m2302609283,
-	Collision_get_rigidbody_m3671561778,
-	Collision_get_collider_m3340328360,
-	Collision_get_transform_m4132935520,
-	Collision_get_gameObject_m1370363400,
-	Collision_get_contacts_m266635379,
-	Collision_GetEnumerator_m4009889947,
-	Collision_get_impulse_m1836134987,
-	Collision_get_impactForceSum_m521972354,
-	Collision_get_frictionForceSum_m3438602686,
-	Collision_get_other_m4238363497,
+	DeallocateOnJobCompletionAttribute__ctor_m2925527080,
+	NativeContainerAttribute__ctor_m4019964704,
+	NativeContainerSupportsAtomicWriteAttribute__ctor_m2159648322,
+	NativeContainerSupportsMinMaxWriteRestrictionAttribute__ctor_m1580327459,
+	ReadOnlyAttribute__ctor_m1597711262,
+	ReadWriteAttribute__ctor_m2566248501,
+	WriteOnlyAttribute__ctor_m3761552155,
 	Collision2D__ctor_m2559810705,
-	Collision2D_get_enabled_m1627968529,
-	Collision2D_get_rigidbody_m4058558226,
 	Collision2D_get_collider_m3330356936,
+	Collision2D_get_otherCollider_m4079883492,
+	Collision2D_get_rigidbody_m4058558226,
+	Collision2D_get_otherRigidbody_m1518790444,
 	Collision2D_get_transform_m314016758,
 	Collision2D_get_gameObject_m4234358314,
 	Collision2D_get_contacts_m2230578195,
 	Collision2D_get_relativeVelocity_m2410092780,
+	Collision2D_get_enabled_m1627968529,
 	Color__ctor_m1909920690_AdjustorThunk,
 	Color__ctor_m3811852957_AdjustorThunk,
 	Color_ToString_m4028093047_AdjustorThunk,
@@ -19175,18 +19352,13 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Component_BroadcastMessage_m1308086896,
 	Component_BroadcastMessage_m1706240890,
 	Component_BroadcastMessage_m444672650,
-	ControllerColliderHit__ctor_m2990717326,
-	ControllerColliderHit_get_controller_m531319176,
-	ControllerColliderHit_get_collider_m3897495767,
-	ControllerColliderHit_get_rigidbody_m4025380167,
-	ControllerColliderHit_get_gameObject_m3793104279,
-	ControllerColliderHit_get_transform_m3183428555,
-	ControllerColliderHit_get_point_m3573703281,
-	ControllerColliderHit_get_normal_m1098215280,
-	ControllerColliderHit_get_moveDirection_m3053186297,
-	ControllerColliderHit_get_moveLength_m94453726,
-	ControllerColliderHit_get_push_m2528314697,
-	ControllerColliderHit_set_push_m3582188484,
+	ContactFilter2D_CheckConsistency_m1391185667_AdjustorThunk,
+	ContactFilter2D_SetLayerMask_m846404302_AdjustorThunk,
+	ContactFilter2D_SetDepth_m3891076190_AdjustorThunk,
+	ContactFilter2D_CreateLegacyFilter_m1912787689,
+	ContextMenu__ctor_m666643627,
+	ContextMenu__ctor_m1669818156,
+	ContextMenu__ctor_m3931483141,
 	Coroutine__ctor_m1253937571,
 	Coroutine_ReleaseCoroutine_m833118514,
 	Coroutine_Finalize_m3953619693,
@@ -19321,128 +19493,218 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	UnityEventBase_ToString_m433343709,
 	UnityEventBase_GetValidMethodInfo_m1834951552,
 	ExecuteInEditMode__ctor_m495837196,
-	AnimationPlayable_get_node_m1103082298_AdjustorThunk,
-	AnimationPlayable_AddInput_m709028173_AdjustorThunk,
-	AnimationPlayable_SetInput_m3281748385_AdjustorThunk,
-	AnimationPlayable_SetInputs_m370531328_AdjustorThunk,
-	AnimationPlayable_RemoveInput_m2728059274_AdjustorThunk,
-	AnimationPlayable_RemoveAllInputs_m2002968067_AdjustorThunk,
-	AnimationPlayable_Equals_m3235880962_AdjustorThunk,
-	AnimationPlayable_GetHashCode_m347069006_AdjustorThunk,
-	AnimationPlayable_op_Implicit_m408821639,
-	AnimationPlayable_IsValid_m1938227437_AdjustorThunk,
-	AnimationPlayable_get_inputCount_m1225845575_AdjustorThunk,
-	AnimationPlayable_GetInput_m1403317770_AdjustorThunk,
-	AnimationPlayableUtilities_AddInputValidated_m3676524933,
-	AnimationPlayableUtilities_SetInputValidated_m2748997465,
-	AnimationPlayableUtilities_SetInputsValidated_m2696856860,
-	AnimationPlayableUtilities_RemoveInputValidated_m438691908,
-	AnimationPlayableUtilities_RemoveAllInputsValidated_m1936894983,
-	AnimatorControllerPlayable_get_node_m127621219_AdjustorThunk,
-	AnimatorControllerPlayable_op_Implicit_m1305773959,
-	AnimatorControllerPlayable_Equals_m2027287369_AdjustorThunk,
-	AnimatorControllerPlayable_GetHashCode_m3511829943_AdjustorThunk,
-	CustomAnimationPlayable__ctor_m2580931540,
-	CustomAnimationPlayable_get_node_m2279367825,
-	CustomAnimationPlayable_SetHandle_m1081373665,
-	CustomAnimationPlayable_Destroy_m4140105698,
-	CustomAnimationPlayable_op_Implicit_m2651548371,
-	CustomAnimationPlayable_op_Implicit_m3677069457,
-	CustomAnimationPlayable_PrepareFrame_m919887762,
-	CustomAnimationPlayable_OnSetTime_m462197633,
-	CustomAnimationPlayable_OnSetPlayState_m1903832042,
-	CustomAnimationPlayable_get_inputCount_m1506970144,
-	CustomAnimationPlayable_GetInput_m627183837,
-	CustomAnimationPlayable_get_outputCount_m1726567977,
-	CustomAnimationPlayable_GetOutput_m2109551724,
-	CustomAnimationPlayable_GetInputWeight_m4080635817,
-	CustomAnimationPlayable_SetInputWeight_m2832273536,
-	CustomAnimationPlayable_get_state_m4168755227,
-	CustomAnimationPlayable_set_state_m3118907084,
-	CustomAnimationPlayable_get_time_m2832957799,
-	CustomAnimationPlayable_set_time_m1063048916,
-	CustomAnimationPlayable_get_duration_m347792240,
-	CustomAnimationPlayable_set_duration_m1049843503,
-	CustomAnimationPlayable_AddInput_m3120035390,
-	CustomAnimationPlayable_SetInput_m2588862758,
-	CustomAnimationPlayable_SetInputs_m1393448423,
-	CustomAnimationPlayable_RemoveInput_m238782147,
-	CustomAnimationPlayable_RemoveAllInputs_m636888422,
-	GenericMixerPlayable_get_node_m1677789206_AdjustorThunk,
-	GenericMixerPlayable_Create_m2816314293,
-	GenericMixerPlayable_InternalCreate_m559491731,
-	GenericMixerPlayable_Destroy_m3608330239_AdjustorThunk,
-	GenericMixerPlayable_op_Implicit_m4171147111,
-	Playable_Destroy_m3675363825_AdjustorThunk,
-	Playable_IsValid_m2102916683_AdjustorThunk,
-	Playable_IsValidInternal_m2681498367,
-	Playable_INTERNAL_CALL_IsValidInternal_m3509544226,
-	Playable_Connect_m1305428597,
-	Playable_Disconnect_m2489180239,
-	Playable_get_inputCount_m1751152777_AdjustorThunk,
-	Playable_get_outputCount_m4289390470_AdjustorThunk,
-	Playable_get_state_m2895939980_AdjustorThunk,
-	Playable_set_state_m628503053_AdjustorThunk,
-	Playable_get_time_m188535056_AdjustorThunk,
-	Playable_set_time_m1337741429_AdjustorThunk,
-	Playable_GetPlayStateInternal_m1333214605,
-	Playable_INTERNAL_CALL_GetPlayStateInternal_m3560305748,
-	Playable_SetPlayStateInternal_m2982991950,
-	Playable_INTERNAL_CALL_SetPlayStateInternal_m1141121823,
-	Playable_GetTimeInternal_m4193977093,
-	Playable_INTERNAL_CALL_GetTimeInternal_m1561742350,
-	Playable_SetTimeInternal_m1923258884,
-	Playable_INTERNAL_CALL_SetTimeInternal_m2302691195,
-	Playable_get_duration_m4155589845_AdjustorThunk,
-	Playable_set_duration_m3772907818_AdjustorThunk,
-	Playable_GetDurationInternal_m3180992642,
-	Playable_INTERNAL_CALL_GetDurationInternal_m2061318387,
-	Playable_SetDurationInternal_m3664705881,
-	Playable_INTERNAL_CALL_SetDurationInternal_m1052618056,
-	Playable_GetInputCountInternal_m3354921878,
-	Playable_INTERNAL_CALL_GetInputCountInternal_m2921284003,
-	Playable_GetOutputCountInternal_m354236047,
-	Playable_INTERNAL_CALL_GetOutputCountInternal_m224211058,
-	Playable_GetInputs_m2701651284_AdjustorThunk,
-	Playable_GetInput_m2343344472_AdjustorThunk,
-	Playable_GetInputInternal_m2831827086,
-	Playable_INTERNAL_CALL_GetInputInternal_m1720243548,
-	Playable_GetOutput_m1530310341_AdjustorThunk,
-	Playable_GetOutputInternal_m1788163321,
-	Playable_INTERNAL_CALL_GetOutputInternal_m1864790245,
-	Playable_SetInputWeightFromIndexInternal_m1264185407,
-	Playable_INTERNAL_CALL_SetInputWeightFromIndexInternal_m2039337128,
-	Playable_SetInputWeight_m3424075019_AdjustorThunk,
-	Playable_GetInputWeight_m745267058_AdjustorThunk,
-	Playable_GetInputWeightInternal_m381407588,
-	Playable_INTERNAL_CALL_GetInputWeightInternal_m3329579253,
-	Playable_Equals_m3780922516_AdjustorThunk,
-	Playable_GetHashCode_m291506040_AdjustorThunk,
-	Playable_CheckInputBounds_m1458023351_AdjustorThunk,
-	Playable_CheckInputBounds_m1095657528_AdjustorThunk,
-	Playables_CastToInternal_m2786985142,
-	Playables_InternalDestroy_m3873600434,
-	Playables_INTERNAL_CALL_InternalDestroy_m763661895,
-	Playables_ConnectInternal_m2792280857,
-	Playables_INTERNAL_CALL_ConnectInternal_m3834915264,
-	Playables_DisconnectInternal_m21696045,
-	Playables_INTERNAL_CALL_DisconnectInternal_m2526207778,
-	Playables_CheckInputBounds_m2953342617,
-	Playables_IsValid_m3689585029,
-	Playables_GetInputCountValidated_m163517061,
-	Playables_GetOutputCountValidated_m3428930850,
-	Playables_GetPlayStateValidated_m2756684446,
-	Playables_SetPlayStateValidated_m770460097,
-	Playables_GetTimeValidated_m788360268,
-	Playables_SetTimeValidated_m3858295249,
-	Playables_GetDurationValidated_m4005203433,
-	Playables_SetDurationValidated_m1466172352,
-	Playables_GetInputValidated_m2433189843,
-	Playables_GetOutputValidated_m1886200224,
-	Playables_SetInputWeightValidated_m3780238668,
-	Playables_GetInputWeightValidated_m2453142047,
-	Playables_Equals_m3918086298,
+	AnimationClipPlayable__ctor_m357631959,
+	AnimationClipPlayable_get_clip_m1059861696,
+	AnimationClipPlayable_get_speed_m2761966959,
+	AnimationClipPlayable_set_speed_m3332297554,
+	AnimationClipPlayable_get_applyFootIK_m1646695506,
+	AnimationClipPlayable_set_applyFootIK_m1054409049,
+	AnimationClipPlayable_get_removeStartOffset_m1437128149,
+	AnimationClipPlayable_set_removeStartOffset_m3197404948,
+	AnimationClipPlayable_GetAnimationClip_m2949207852,
+	AnimationClipPlayable_INTERNAL_CALL_GetAnimationClip_m642186897,
+	AnimationClipPlayable_GetSpeed_m668389965,
+	AnimationClipPlayable_INTERNAL_CALL_GetSpeed_m1768281144,
+	AnimationClipPlayable_SetSpeed_m2211439316,
+	AnimationClipPlayable_INTERNAL_CALL_SetSpeed_m1069797127,
+	AnimationClipPlayable_GetApplyFootIK_m2457584102,
+	AnimationClipPlayable_INTERNAL_CALL_GetApplyFootIK_m1882166837,
+	AnimationClipPlayable_SetApplyFootIK_m2837801475,
+	AnimationClipPlayable_INTERNAL_CALL_SetApplyFootIK_m1663005598,
+	AnimationClipPlayable_GetRemoveStartOffset_m4069489631,
+	AnimationClipPlayable_INTERNAL_CALL_GetRemoveStartOffset_m4216870878,
+	AnimationClipPlayable_SetRemoveStartOffset_m495055486,
+	AnimationClipPlayable_INTERNAL_CALL_SetRemoveStartOffset_m309844041,
+	AnimationLayerMixerPlayable__ctor_m852745005,
+	AnimationMixerPlayable__ctor_m1145433612,
+	AnimationOffsetPlayable__ctor_m1954359026,
+	AnimationOffsetPlayable_get_position_m1047192220,
+	AnimationOffsetPlayable_set_position_m3583285645,
+	AnimationOffsetPlayable_get_rotation_m57306245,
+	AnimationOffsetPlayable_set_rotation_m4164339642,
+	AnimationOffsetPlayable_GetPosition_m58420556,
+	AnimationOffsetPlayable_INTERNAL_CALL_GetPosition_m602003518,
+	AnimationOffsetPlayable_SetPosition_m1029856623,
+	AnimationOffsetPlayable_INTERNAL_CALL_SetPosition_m2894866946,
+	AnimationOffsetPlayable_GetRotation_m3502988387,
+	AnimationOffsetPlayable_INTERNAL_CALL_GetRotation_m2705874827,
+	AnimationOffsetPlayable_SetRotation_m4049546592,
+	AnimationOffsetPlayable_INTERNAL_CALL_SetRotation_m2224758383,
+	AnimationPlayable__ctor_m1288299781,
+	AnimatorControllerPlayable__ctor_m98486062,
+	AnimatorControllerPlayable_op_Implicit_m2653766077,
+	AnimatorControllerPlayable_GetAnimatorControllerInternal_m3295942522,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetAnimatorControllerInternal_m239716681,
+	AnimatorControllerPlayable_GetFloat_m3973018798,
+	AnimatorControllerPlayable_GetFloat_m1390479365,
+	AnimatorControllerPlayable_SetFloat_m1976526821,
+	AnimatorControllerPlayable_SetFloat_m3591286820,
+	AnimatorControllerPlayable_GetBool_m3591753284,
+	AnimatorControllerPlayable_GetBool_m1148461985,
+	AnimatorControllerPlayable_SetBool_m557806493,
+	AnimatorControllerPlayable_SetBool_m1779744142,
+	AnimatorControllerPlayable_GetInteger_m4173276460,
+	AnimatorControllerPlayable_GetInteger_m3742708739,
+	AnimatorControllerPlayable_SetInteger_m1311149575,
+	AnimatorControllerPlayable_SetInteger_m1170756226,
+	AnimatorControllerPlayable_SetTrigger_m3144166126,
+	AnimatorControllerPlayable_SetTrigger_m4082809679,
+	AnimatorControllerPlayable_ResetTrigger_m1410782179,
+	AnimatorControllerPlayable_ResetTrigger_m2216540396,
+	AnimatorControllerPlayable_IsParameterControlledByCurve_m1187113395,
+	AnimatorControllerPlayable_IsParameterControlledByCurve_m3222505226,
+	AnimatorControllerPlayable_get_layerCount_m3541790599,
+	AnimatorControllerPlayable_GetLayerCountInternal_m467020652,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetLayerCountInternal_m2530620255,
+	AnimatorControllerPlayable_GetLayerNameInternal_m3717310182,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetLayerNameInternal_m2049776925,
+	AnimatorControllerPlayable_GetLayerName_m2571001466,
+	AnimatorControllerPlayable_GetLayerIndexInternal_m696260605,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetLayerIndexInternal_m1847150746,
+	AnimatorControllerPlayable_GetLayerIndex_m3450603267,
+	AnimatorControllerPlayable_GetLayerWeightInternal_m2558846198,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetLayerWeightInternal_m3829748773,
+	AnimatorControllerPlayable_GetLayerWeight_m839112938,
+	AnimatorControllerPlayable_SetLayerWeightInternal_m1987718751,
+	AnimatorControllerPlayable_INTERNAL_CALL_SetLayerWeightInternal_m1418536944,
+	AnimatorControllerPlayable_SetLayerWeight_m795493633,
+	AnimatorControllerPlayable_GetCurrentAnimatorStateInfoInternal_m1841547606,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetCurrentAnimatorStateInfoInternal_m3799001565,
+	AnimatorControllerPlayable_GetCurrentAnimatorStateInfo_m689786022,
+	AnimatorControllerPlayable_GetNextAnimatorStateInfoInternal_m928343784,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetNextAnimatorStateInfoInternal_m1550960895,
+	AnimatorControllerPlayable_GetNextAnimatorStateInfo_m1349013420,
+	AnimatorControllerPlayable_GetAnimatorTransitionInfoInternal_m2884059009,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetAnimatorTransitionInfoInternal_m2259454958,
+	AnimatorControllerPlayable_GetAnimatorTransitionInfo_m1294266687,
+	AnimatorControllerPlayable_GetCurrentAnimatorClipInfoInternal_m2037167218,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetCurrentAnimatorClipInfoInternal_m3542665271,
+	AnimatorControllerPlayable_GetCurrentAnimatorClipInfo_m663340294,
+	AnimatorControllerPlayable_GetCurrentAnimatorClipInfo_m3523103275,
+	AnimatorControllerPlayable_GetNextAnimatorClipInfo_m2439552509,
+	AnimatorControllerPlayable_GetAnimatorClipInfoInternal_m2427817131,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetAnimatorClipInfoInternal_m3180917212,
+	AnimatorControllerPlayable_GetAnimatorClipInfoCountInternal_m826336390,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetAnimatorClipInfoCountInternal_m76073097,
+	AnimatorControllerPlayable_GetCurrentAnimatorClipInfoCount_m335090574,
+	AnimatorControllerPlayable_GetNextAnimatorClipInfoCount_m2044259572,
+	AnimatorControllerPlayable_GetNextAnimatorClipInfoInternal_m2063705906,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetNextAnimatorClipInfoInternal_m4165249349,
+	AnimatorControllerPlayable_GetNextAnimatorClipInfo_m962214430,
+	AnimatorControllerPlayable_ResolveHash_m2472572196,
+	AnimatorControllerPlayable_ResolveHashInternal_m4066573656,
+	AnimatorControllerPlayable_INTERNAL_CALL_ResolveHashInternal_m1707002337,
+	AnimatorControllerPlayable_IsInTransitionInternal_m3004933857,
+	AnimatorControllerPlayable_INTERNAL_CALL_IsInTransitionInternal_m2978200270,
+	AnimatorControllerPlayable_IsInTransition_m4064534331,
+	AnimatorControllerPlayable_GetParameterCountInternal_m3993919750,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetParameterCountInternal_m3593070209,
+	AnimatorControllerPlayable_get_parameterCount_m993805465,
+	AnimatorControllerPlayable_GetParametersArrayInternal_m851504719,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetParametersArrayInternal_m3948383534,
+	AnimatorControllerPlayable_GetParameter_m1109094904,
+	AnimatorControllerPlayable_StringToHash_m223263502,
+	AnimatorControllerPlayable_CrossFadeInFixedTime_m2203048040,
+	AnimatorControllerPlayable_CrossFadeInFixedTime_m3978247231,
+	AnimatorControllerPlayable_CrossFadeInFixedTime_m3493632207,
+	AnimatorControllerPlayable_CrossFadeInFixedTime_m246216837,
+	AnimatorControllerPlayable_CrossFadeInFixedTime_m2153894334,
+	AnimatorControllerPlayable_CrossFadeInFixedTime_m1082259778,
+	AnimatorControllerPlayable_CrossFadeInFixedTimeInternal_m793606818,
+	AnimatorControllerPlayable_CrossFadeInFixedTimeInternal_m3955067023,
+	AnimatorControllerPlayable_CrossFadeInFixedTimeInternal_m3729673154,
+	AnimatorControllerPlayable_INTERNAL_CALL_CrossFadeInFixedTimeInternal_m3528719771,
+	AnimatorControllerPlayable_CrossFade_m2332797404,
+	AnimatorControllerPlayable_CrossFade_m437921439,
+	AnimatorControllerPlayable_CrossFade_m2119841183,
+	AnimatorControllerPlayable_CrossFade_m1243737073,
+	AnimatorControllerPlayable_CrossFade_m949607638,
+	AnimatorControllerPlayable_CrossFade_m3146661810,
+	AnimatorControllerPlayable_CrossFadeInternal_m220517942,
+	AnimatorControllerPlayable_CrossFadeInternal_m622348039,
+	AnimatorControllerPlayable_CrossFadeInternal_m3412201542,
+	AnimatorControllerPlayable_INTERNAL_CALL_CrossFadeInternal_m698817831,
+	AnimatorControllerPlayable_PlayInFixedTime_m172593751,
+	AnimatorControllerPlayable_PlayInFixedTime_m3734997604,
+	AnimatorControllerPlayable_PlayInFixedTime_m2562520484,
+	AnimatorControllerPlayable_PlayInFixedTime_m2966168794,
+	AnimatorControllerPlayable_PlayInFixedTime_m2493327565,
+	AnimatorControllerPlayable_PlayInFixedTime_m2629510873,
+	AnimatorControllerPlayable_PlayInFixedTimeInternal_m2767099167,
+	AnimatorControllerPlayable_PlayInFixedTimeInternal_m2047085454,
+	AnimatorControllerPlayable_PlayInFixedTimeInternal_m623452639,
+	AnimatorControllerPlayable_INTERNAL_CALL_PlayInFixedTimeInternal_m847261734,
+	AnimatorControllerPlayable_Play_m3114724599,
+	AnimatorControllerPlayable_Play_m1337154648,
+	AnimatorControllerPlayable_Play_m1100499576,
+	AnimatorControllerPlayable_Play_m1350238866,
+	AnimatorControllerPlayable_Play_m4092315465,
+	AnimatorControllerPlayable_Play_m2286317581,
+	AnimatorControllerPlayable_PlayInternal_m3385259863,
+	AnimatorControllerPlayable_PlayInternal_m2770955394,
+	AnimatorControllerPlayable_PlayInternal_m4018423479,
+	AnimatorControllerPlayable_INTERNAL_CALL_PlayInternal_m3496633968,
+	AnimatorControllerPlayable_HasState_m4036688937,
+	AnimatorControllerPlayable_HasStateInternal_m1905524675,
+	AnimatorControllerPlayable_INTERNAL_CALL_HasStateInternal_m2474394942,
+	AnimatorControllerPlayable_SetFloatString_m3937146789,
+	AnimatorControllerPlayable_INTERNAL_CALL_SetFloatString_m743616790,
+	AnimatorControllerPlayable_SetFloatID_m2632606700,
+	AnimatorControllerPlayable_INTERNAL_CALL_SetFloatID_m1667841187,
+	AnimatorControllerPlayable_GetFloatString_m2999633302,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetFloatString_m4205749063,
+	AnimatorControllerPlayable_GetFloatID_m3274868729,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetFloatID_m1816887522,
+	AnimatorControllerPlayable_SetBoolString_m1314460333,
+	AnimatorControllerPlayable_INTERNAL_CALL_SetBoolString_m1232105510,
+	AnimatorControllerPlayable_SetBoolID_m1141253014,
+	AnimatorControllerPlayable_INTERNAL_CALL_SetBoolID_m2987425503,
+	AnimatorControllerPlayable_GetBoolString_m2552769404,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetBoolString_m538178071,
+	AnimatorControllerPlayable_GetBoolID_m2566184981,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetBoolID_m3610941922,
+	AnimatorControllerPlayable_SetIntegerString_m1750228335,
+	AnimatorControllerPlayable_INTERNAL_CALL_SetIntegerString_m4224797784,
+	AnimatorControllerPlayable_SetIntegerID_m1774408598,
+	AnimatorControllerPlayable_INTERNAL_CALL_SetIntegerID_m3110109413,
+	AnimatorControllerPlayable_GetIntegerString_m3063601436,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetIntegerString_m1883966697,
+	AnimatorControllerPlayable_GetIntegerID_m756947419,
+	AnimatorControllerPlayable_INTERNAL_CALL_GetIntegerID_m2295839520,
+	AnimatorControllerPlayable_SetTriggerString_m2313149510,
+	AnimatorControllerPlayable_INTERNAL_CALL_SetTriggerString_m489309069,
+	AnimatorControllerPlayable_SetTriggerID_m290818743,
+	AnimatorControllerPlayable_INTERNAL_CALL_SetTriggerID_m508896534,
+	AnimatorControllerPlayable_ResetTriggerString_m1669955779,
+	AnimatorControllerPlayable_INTERNAL_CALL_ResetTriggerString_m395754516,
+	AnimatorControllerPlayable_ResetTriggerID_m326518904,
+	AnimatorControllerPlayable_INTERNAL_CALL_ResetTriggerID_m3592790433,
+	AnimatorControllerPlayable_IsParameterControlledByCurveString_m4036987523,
+	AnimatorControllerPlayable_INTERNAL_CALL_IsParameterControlledByCurveString_m1715379406,
+	AnimatorControllerPlayable_IsParameterControlledByCurveID_m4183631446,
+	AnimatorControllerPlayable_INTERNAL_CALL_IsParameterControlledByCurveID_m3975433561,
+	Playable__ctor_m334077411,
+	Playable_op_Implicit_m1650048605,
+	Playable_IsValid_m2102916683,
+	PlayableHandle_IsValid_m40842953_AdjustorThunk,
+	PlayableHandle_IsValidInternal_m1910030079,
+	PlayableHandle_INTERNAL_CALL_IsValidInternal_m2792360706,
+	PlayableHandle_Equals_m1435096530_AdjustorThunk,
+	PlayableHandle_GetHashCode_m1257452282_AdjustorThunk,
+	PlayableHandle_CompareVersion_m2333515486,
 	ScriptPlayable__ctor_m1712674040,
+	ScriptPlayable_OnGraphStart_m3208513529,
+	ScriptPlayable_OnGraphStop_m4241519609,
+	ScriptPlayable_OnDestroy_m2705420547,
+	ScriptPlayable_PrepareFrame_m1510577058,
+	ScriptPlayable_ProcessFrame_m4240263490,
+	ScriptPlayable_OnPlayStateChanged_m2776325746,
+	RenderPipelineManager_get_currentPipeline_m679160301,
+	RenderPipelineManager_set_currentPipeline_m3825706412,
+	RenderPipelineManager_CleanupRenderPipeline_m2242901458,
+	RenderPipelineManager_DoRenderLoop_Internal_m2267530247,
+	RenderPipelineManager_PrepareRenderPipeline_m4209257657,
+	ScriptableRenderContext_Initialize_m1349011973_AdjustorThunk,
 	Font_get_material_m2086804907,
 	Font_HasCharacter_m538120140,
 	Font_add_textureRebuilt_m1282639736,
@@ -19455,6 +19717,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	FontTextureRebuildCallback_BeginInvoke_m381807774,
 	FontTextureRebuildCallback_EndInvoke_m4275555211,
 	GameObject__ctor_m962601984,
+	GameObject__ctor_m1633632305,
 	GameObject_GetComponent_m306258075,
 	GameObject_GetComponentFastPath_m481070871,
 	GameObject_GetComponentInChildren_m4263325740,
@@ -19485,9 +19748,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	GUI_set_skin_m3391676555,
 	GUI_get_skin_m2309570990,
 	GUI_DoSetSkin_m3603287387,
-	GUI_CallWindowDelegate_m634477008,
+	GUI_CallWindowDelegate_m2039577415,
 	GUI_set_changed_m470833806,
-	ScrollViewState__ctor_m853546402,
 	WindowFunction__ctor_m977095815,
 	WindowFunction_Invoke_m3108181420,
 	WindowFunction_BeginInvoke_m322627481,
@@ -19751,15 +20013,18 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	GUIUtility_get_pixelsPerPoint_m2667928361,
 	GUIUtility_set_guiIsExiting_m2362636745,
 	GUIUtility_get_hotControl_m466901769,
+	GUIUtility_get_keyboardControl_m2418463643,
 	GUIUtility_GetDefaultSkin_m2022075576,
+	GUIUtility_ProcessEvent_m142250930,
 	GUIUtility_BeginGUI_m2907220931,
 	GUIUtility_EndGUI_m3538781391,
 	GUIUtility_EndGUIFromException_m2091524531,
+	GUIUtility_EndContainerGUIFromException_m8097082,
 	GUIUtility_ShouldRethrowException_m1990329277,
 	GUIUtility_CheckOnGUI_m4284398968,
 	GUIUtility_Internal_GetPixelsPerPoint_m1770975086,
 	GUIUtility_Internal_GetHotControl_m2510727642,
-	GUIUtility_get_keyboardControl_m2418463643,
+	GUIUtility_Internal_GetKeyboardControl_m973220286,
 	GUIUtility_get_systemCopyBuffer_m396434174,
 	GUIUtility_set_systemCopyBuffer_m2040945785,
 	GUIUtility_Internal_GetDefaultSkin_m2135852437,
@@ -19890,16 +20155,17 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Logger_LogException_m206035446,
 	Material__ctor_m1440882780,
 	Material_get_mainTexture_m432794412,
-	Material_GetTexture_m1257877102,
-	Material_GetTexture_m648312929,
-	Material_SetFloat_m1926275467,
-	Material_SetFloat_m953675160,
-	Material_SetInt_m522302436,
+	Material_SetIntImpl_m4157631275,
+	Material_GetTextureImpl_m623159197,
 	Material_HasProperty_m3511389613,
 	Material_HasProperty_m3175512802,
 	Material_Internal_CreateWithMaterial_m2907597451,
 	Material_EnableKeyword_m3724752646,
 	Material_DisableKeyword_m1204728089,
+	Material_SetInt_m522302436,
+	Material_SetInt_m977568583,
+	Material_GetTexture_m1257877102,
+	Material_GetTexture_m648312929,
 	Mathf_Sin_m831310046,
 	Mathf_Cos_m238853451,
 	Mathf_Sqrt_m2213915910,
@@ -19961,6 +20227,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Mesh_get_tangents_m2910922714,
 	Mesh_get_uv_m3811151337,
 	Mesh_get_uv2_m3215494975,
+	Mesh_get_uv3_m3215494880,
+	Mesh_get_uv4_m3215494777,
 	Mesh_get_colors32_m4153271224,
 	Mesh_SetVertices_m3500868388,
 	Mesh_SetNormals_m3341225499,
@@ -19994,6 +20262,23 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	MonoBehaviour_print_m3437620292,
 	MonoBehaviour_get_useGUILayout_m524237270,
 	MonoBehaviour_set_useGUILayout_m2666356651,
+	NativeClassAttribute__ctor_m3215217838,
+	NativeClassAttribute_set_QualifiedNativeName_m2790580781,
+	MessageEventArgs__ctor_m2154443826,
+	PlayerConnection__ctor_m956924263,
+	PlayerConnection_get_instance_m3885313185,
+	PlayerConnection_CreateInstance_m2276347858,
+	PlayerConnection_MessageCallbackInternal_m267902474,
+	PlayerConnection_ConnectedCallbackInternal_m2685675347,
+	PlayerConnection_DisconnectedCallback_m4115432464,
+	PlayerEditorConnectionEvents__ctor_m603950945,
+	PlayerEditorConnectionEvents_InvokeMessageIdSubscribers_m3217020342,
+	U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0__ctor_m4027042344,
+	U3CInvokeMessageIdSubscribersU3Ec__AnonStorey0_U3CU3Em__0_m520813337,
+	ConnectionChangeEvent__ctor_m616483304,
+	MessageEvent__ctor_m3253032545,
+	MessageTypeSubscribers__ctor_m743474932,
+	MessageTypeSubscribers_get_MessageTypeId_m1191914268,
 	NetworkMessageInfo_get_timestamp_m462964950_AdjustorThunk,
 	NetworkMessageInfo_get_sender_m2366451889_AdjustorThunk,
 	NetworkMessageInfo_get_networkView_m1180629659_AdjustorThunk,
@@ -20080,46 +20365,24 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Object_op_Equality_m3764089466,
 	Object_op_Inequality_m2402264703,
 	Object__cctor_m2991092887,
-	Physics_Raycast_m2874007225,
-	Physics_Raycast_m89212106,
-	Physics_Raycast_m2667915561,
-	Physics_Raycast_m3475924638,
-	Physics_Raycast_m1929115794,
-	Physics_Raycast_m2994111303,
-	Physics_Raycast_m4027183840,
-	Physics_Raycast_m2036777053,
-	Physics_Raycast_m2691929452,
-	Physics_Raycast_m780162053,
-	Physics_Raycast_m2686676054,
-	Physics_Raycast_m1844392139,
-	Physics_Raycast_m2009151399,
-	Physics_Raycast_m2308457076,
-	Physics_Raycast_m2736931691,
-	Physics_Raycast_m233619224,
-	Physics_RaycastAll_m233036521,
-	Physics_RaycastAll_m3928448900,
-	Physics_RaycastAll_m1246652201,
-	Physics_RaycastAll_m410413656,
-	Physics_RaycastAll_m3908263591,
-	Physics_RaycastAll_m3256436970,
-	Physics_RaycastAll_m3484190429,
-	Physics_RaycastAll_m3650851272,
-	Physics_INTERNAL_CALL_RaycastAll_m2126789092,
-	Physics_Internal_Raycast_m1160243045,
-	Physics_INTERNAL_CALL_Internal_Raycast_m93849932,
-	Physics_Internal_RaycastTest_m3442924926,
-	Physics_INTERNAL_CALL_Internal_RaycastTest_m3440840981,
-	Physics2D_Internal_Raycast_m683685528,
-	Physics2D_INTERNAL_CALL_Internal_Raycast_m3956067819,
+	Physics2D_get_queriesHitTriggers_m361275035,
 	Physics2D_Raycast_m1220041042,
 	Physics2D_Raycast_m122312471,
 	Physics2D_Raycast_m3913913442,
 	Physics2D_Raycast_m2560154475,
 	Physics2D_Raycast_m2303387255,
+	Physics2D_Raycast_m2368200185,
+	Physics2D_Raycast_m564567838,
+	Physics2D_Internal_Raycast_m2213595168,
+	Physics2D_INTERNAL_CALL_Internal_Raycast_m489831109,
+	Physics2D_Internal_RaycastNonAlloc_m1874107548,
+	Physics2D_INTERNAL_CALL_Internal_RaycastNonAlloc_m2253171281,
 	Physics2D_GetRayIntersectionAll_m253330691,
 	Physics2D_GetRayIntersectionAll_m2808325432,
 	Physics2D_GetRayIntersectionAll_m120415839,
 	Physics2D_INTERNAL_CALL_GetRayIntersectionAll_m161475998,
+	Physics2D_GetRigidbodyFromInstanceID_m3260338451,
+	Physics2D_GetColliderFromInstanceID_m95920619,
 	Physics2D__cctor_m3532647019,
 	Plane__ctor_m3187718367_AdjustorThunk,
 	Plane_get_normal_m1872443823_AdjustorThunk,
@@ -20137,6 +20400,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Quaternion_INTERNAL_CALL_Inverse_m1043108654,
 	Quaternion_get_identity_m1561886418,
 	Quaternion_op_Multiply_m1483423721,
+	Quaternion_op_Equality_m2308156925,
 	Quaternion_op_Inequality_m3629786166,
 	Quaternion_Dot_m952616600,
 	Quaternion_GetHashCode_m2270520528_AdjustorThunk,
@@ -20191,7 +20455,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Rect_Equals_m3806390726_AdjustorThunk,
 	Rect_ToString_m2728794442_AdjustorThunk,
 	RectOffset__ctor_m2227510254,
-	RectOffset__ctor_m3541945769,
+	RectOffset__ctor_m1265077918,
 	RectOffset_Init_m4361650,
 	RectOffset_Cleanup_m3198970074,
 	RectOffset_get_left_m439065308,
@@ -20285,7 +20549,6 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Scene_Equals_m3588907349_AdjustorThunk,
 	SceneManager_GetActiveScene_m2964039490,
 	SceneManager_INTERNAL_CALL_GetActiveScene_m1595803318,
-	SceneManager_LoadScene_m1619949821,
 	SceneManager_LoadScene_m1386820036,
 	SceneManager_LoadSceneAsyncNameIndexInternal_m3279056043,
 	SceneManager_Internal_SceneLoaded_m4005732915,
@@ -20299,8 +20562,10 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	ScriptableObject_CreateInstance_m3921674852,
 	ScriptableObject_CreateInstance_m3271154163,
 	ScriptableObject_CreateInstanceFromType_m4271875689,
+	GeneratedByOldBindingsGeneratorAttribute__ctor_m3745565094,
 	RequiredByNativeCodeAttribute__ctor_m2374853658,
 	UsedByNativeCodeAttribute__ctor_m2459832290,
+	ScrollViewState__ctor_m535685782,
 	SelectionBaseAttribute__ctor_m1487697870,
 	SendMouseEvents_SetMouseMoved_m532965689,
 	SendMouseEvents_DoSendMouseEvents_m701697135,
@@ -20555,7 +20820,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Texture2D_get_whiteTexture_m1979591766,
 	Texture2D_GetPixelBilinear_m3063031185,
 	Texture2D_INTERNAL_CALL_GetPixelBilinear_m570286059,
-	ThreadAndSerializationSafe__ctor_m84326599,
+	ThreadAndSerializationSafeAttribute__ctor_m3736564847,
 	Time_get_time_m2216684562,
 	Time_get_deltaTime_m2233168104,
 	Time_get_unscaledTime_m862335845,
@@ -20633,7 +20898,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	UnhandledExceptionHandler_RegisterUECatcher_m72343880,
 	UnhandledExceptionHandler_HandleUnhandledException_m1413629867,
 	UnhandledExceptionHandler_PrintException_m1321283931,
-	UnhandledExceptionHandler_NativeUnhandledExceptionHandler_m4002467556,
+	UnhandledExceptionHandler_NativeUnhandledExceptionHandler_m2847695570,
 	UnityException__ctor_m3650417185,
 	UnityException__ctor_m1554762831,
 	UnityException__ctor_m2835958127,
@@ -20877,6 +21142,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	PhysicsRaycaster_get_finalEventMask_m3654277131,
 	PhysicsRaycaster_get_eventMask_m746934396,
 	PhysicsRaycaster_set_eventMask_m2504275837,
+	PhysicsRaycaster_ComputeRayAndDistance_m3978072363,
 	PhysicsRaycaster_Raycast_m3086016990,
 	PhysicsRaycaster_U3CRaycastU3Em__0_m267334242,
 	PointerEventData__ctor_m3674067728,
@@ -21550,6 +21816,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	InputField_CaretBlink_m3960486606,
 	InputField_SetCaretVisible_m2025871624,
 	InputField_SetCaretActive_m1949303486,
+	InputField_UpdateCaretMaterial_m57787938,
 	InputField_OnFocus_m1292288040,
 	InputField_SelectAll_m1843270844,
 	InputField_MoveTextEnd_m3867304177,
@@ -21618,6 +21885,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	InputField_OnDeselect_m3963675647,
 	InputField_OnSubmit_m2856515494,
 	InputField_EnforceContentType_m1902926812,
+	InputField_EnforceTextHOverflow_m1085529766,
 	InputField_SetToCustomIfContentTypeIsNot_m2121105067,
 	InputField_SetToCustom_m250029371,
 	InputField_DoStateTransition_m499669380,
@@ -21985,7 +22253,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	ScrollRect_UpdateOneScrollbarVisibility_m3990871387,
 	ScrollRect_UpdateScrollbarLayout_m1731749879,
 	ScrollRect_UpdateBounds_m3266596336,
-	ScrollRect_InternalUpdateBounds_m3222992353,
+	ScrollRect_AdjustBounds_m1033723448,
 	ScrollRect_GetBounds_m1950012700,
 	ScrollRect_InternalGetBounds_m1871388050,
 	ScrollRect_CalculateOffset_m1659273054,
@@ -22264,10 +22532,6 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Flip_FlipRight_m845182787,
 	Flip_HoldingLeft_m733361872,
 	Flip_HoldingRight_m566727679,
-	MyDelegateBase__ctor_m1630137489,
-	MyDelegateBase_OnSkillzWillExit_m1257785593,
-	MyDelegateStandard__ctor_m3334492963,
-	MyDelegateStandard_OnTournamentWillBegin_m3139439550,
 	PlayAnimation__ctor_m4022830313,
 	PlayAnimation_Start_m3771105777,
 	PlayAnimation_Update_m4082685270,
@@ -22282,8 +22546,14 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Skillz_ReportScore_m3689906990,
 	Skillz_ReportScore_m1204479319,
 	Skillz_ReportScore_m2713271819,
+	Skillz_AddMetadataForMatchInProgress_m2187508903,
+	Skillz_SDKVersionShort_m2406083073,
+	Skillz_CurrentUserDisplayName_m3791818488,
 	Skillz_GetSkillz_m964148670,
 	Skillz_GetCurrentActivity_m2069068660,
+	Player_GetId_m3176975974,
+	Player_GetAvatarUrl_m102974589,
+	Player_GetFlagUrl_m3537302896,
 	Random_Value_m2425478785,
 	Random_InsideUnitSphere_m509990997,
 	Random_InsideUnitCircle_m2484558255,
@@ -22292,13 +22562,39 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Random_Rotation_m2266035066,
 	Random_Range_m2569549217,
 	Random_Range_m1410265549,
+	SkillzCrossPlatform_LaunchSkillz_m2243738831,
+	SkillzCrossPlatform_IsMatchInProgress_m3237330920,
+	SkillzCrossPlatform_GetMatchRules_m2257634608,
+	SkillzCrossPlatform_AbortMatch_m306013360,
+	SkillzCrossPlatform_UpdatePlayersCurrentScore_m289783731,
+	SkillzCrossPlatform_UpdatePlayersCurrentScore_m1416956526,
+	SkillzCrossPlatform_UpdatePlayersCurrentScore_m3369915700,
+	SkillzCrossPlatform_ReportFinalScore_m1821962349,
+	SkillzCrossPlatform_ReportFinalScore_m3143017410,
+	SkillzCrossPlatform_ReportFinalScore_m4054878224,
+	SkillzCrossPlatform_SDKVersionShort_m2876482460,
+	SkillzCrossPlatform_CurrentUserDisplayName_m3727978809,
+	SkillzCrossPlatform_AddMetadataForMatchInProgress_m449126264,
+	SkillzCrossPlatform_GetSkillz_m4168655129,
+	Player_GetId_m2195863807,
+	Player_GetAvatarUrl_m1587209008,
+	Player_GetFlagUrl_m524265601,
+	Random_Value_m1743189462,
+	Random_InsideUnitSphere_m3111069728,
+	Random_InsideUnitCircle_m3801325300,
+	Random_OnUnitSphere_m2326441261,
+	Random_RotationUniform_m1621719437,
+	Random_Rotation_m439060657,
+	Random_Range_m3067939820,
+	Random_Range_m1145604742,
 	SkillzDelegate__ctor_m1904041899,
-	SkillzDelegate_OnSkillzWillExit_m3649665103,
-	SkillzDelegate_OnSkillzLaunchCompleted_m2149865565,
 	SkillzDelegate_OnMatchWillBegin_m325518674,
-	SkillzDelegate_SkillzMatchStarted_m2996879454,
-	SkillzDelegate_OnMatchAborted_m3703625084,
-	SkillzDelegate_OnMatchCompleted_m982781554,
+	SkillzDelegate_OnSkillzWillExit_m3649665103,
+	SkillzDelegate_Awake_m1272547262,
+	SkillzDelegate_AndroidInitialize_m1305944978,
+	SkillzDelegate_GetSkillzPreferences_m3634364875,
+	SkillzDelegate_GetCurrentActivity_m1217722943,
+	SkillzDelegate__cctor_m119843928,
 	Api__addMetadataForMatchInProgress_m1136254910,
 	Api__getRandomNumber_m1864782437,
 	Api__getRandomNumberWithMinAndMax_m4146113508,
@@ -22307,25 +22603,31 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Api__player_m2663637379,
 	Api__SDKShortVersion_m2394673732,
 	Api__showSDKVersionInfo_m1360139260,
-	Api__launchSkillz_m1630210417,
+	Api__getMatchRules_m2254964246,
+	Api__launchSkillz_m2522608787,
 	Api__displayTournamentResultsWithScore_m2125100031,
 	Api__displayTournamentResultsWithFloatScore_m2541891903,
+	Api__displayTournamentResultsWithStringScore_m1073491389,
 	Api__completeTurnWithGameData_m3187737657,
 	Api__finishReviewingCurrentGameState_m4263395524,
 	Api__notifyPlayerAbortWithCompletion_m2720459009,
 	Api__updatePlayersCurrentScore_m1493276750,
+	Api__updatePlayersCurrentStringScore_m460053380,
+	Api__updatePlayersCurrentIntScore_m199678815,
 	Api__getRandomFloat_m3197205220,
-	Api__setShouldSkillzLaunchFromURL_m3449260162,
 	Api_get_IsTournamentInProgress_m1848621626,
 	Api_get_CurrentUserDisplayName_m932352075,
 	Api_get_Player_m2909965789,
 	Api_get_SDKVersionShort_m3662445524,
 	Api_Initialize_m81164390,
-	Api_LaunchSkillz_m4197729075,
+	Api_LaunchSkillz_m2568016400,
 	Api_UpdatePlayerScore_m4032507549,
+	Api_UpdatePlayerScore_m3469454324,
+	Api_UpdatePlayerScore_m561754789,
 	Api_AbortGame_m2048002460,
 	Api_FinishTournament_m1814042925,
 	Api_FinishTournament_m2592961397,
+	Api_FinishTournament_m4134272972,
 	Api_FinishTurn_m802121143,
 	Api_FinishTurn_m940462105,
 	Api_FinishReviewingTurn_m346987974,
@@ -22333,7 +22635,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	Api_GetRandomNumber_m2016368688,
 	Api_GetRandomNumber_m290286116,
 	Api_PrintSDKVersionInfo_m4004455635,
-	Api_SetShouldSkillzLaunchFromURL_m1439691441,
+	Api_GetMatchRules_m2931285389,
 	Api_DeserializeJSONToDictionary_m2283460858,
 	Random_Value_m3183000079,
 	Random_InsideUnitSphere_m3354190927,
@@ -22393,11 +22695,6 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	SkillzDelegateBase_OnSkillzWillLaunch_m2202730896,
 	SkillzDelegateBase_OnSkillzLaunchCompleted_m2686194369,
 	SkillzDelegateBase_OnTournamentAborted_m2776378590,
-	SkillzDelegateInit__ctor_m2088317190,
-	SkillzDelegateInit_Awake_m3976245713,
-	SkillzDelegateInit__cctor_m3830773047,
-	SkillzDelegateStandard__ctor_m3451811481,
-	SkillzDelegateStandard_OnTournamentCompleted_m3899283696,
 	SkillzDelegateTurnBased__ctor_m2338426524,
 	SkillzDelegateTurnBased_OnTurnEnd_m2874439621,
 	SkillzDelegateTurnBased_OnTurnBasedReviewWillBegin_m3929599344,
@@ -22408,8 +22705,6 @@ extern const Il2CppMethodPointer g_MethodPointers[11211] =
 	SkillzMessageReceiver_skillzLaunchHasCompleted_m4043686882,
 	SkillzMessageReceiver_skillzWillLaunch_m3708175761,
 	SkillzMessageReceiver_skillzWithPlayerAbort_m3422383777,
-	SkillzMessageReceiver_skillzTournamentWillBegin_m880525694,
-	SkillzMessageReceiver_skillzWithTournamentCompletion_m3596276245,
 	SkillzMessageReceiver_skillzTurnBasedTournamentWillBegin_m487850274,
 	SkillzMessageReceiver_skillzEndTurnCompletion_m255955450,
 	SkillzMessageReceiver_skillzReviewCurrentGameState_m804480104,

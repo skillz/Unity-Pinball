@@ -13,7 +13,6 @@
 #include <limits>
 #include <assert.h>
 
-
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Collections_SortedList3004938869.h"
@@ -114,6 +113,10 @@
 
 
 
+
+
+
+
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -133,7 +136,7 @@ extern const int32_t g_FieldOffsetTable204[6] =
 	SortedList_t3004938869::get_offset_of_comparer_4(),
 	SortedList_t3004938869::get_offset_of_defaultCapacity_5(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize205 = { sizeof (Slot_t2267560602)+ sizeof (Il2CppObject), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize205 = { sizeof (Slot_t2267560602)+ sizeof (Il2CppObject), sizeof(Slot_t2267560602_marshaled_pinvoke), 0, 0 };
 extern const int32_t g_FieldOffsetTable205[2] = 
 {
 	Slot_t2267560602::get_offset_of_key_0() + static_cast<int32_t>(sizeof(Il2CppObject)),

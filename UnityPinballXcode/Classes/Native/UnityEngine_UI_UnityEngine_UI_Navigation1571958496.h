@@ -10,11 +10,14 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_ValueType3507792607.h"
+#include "UnityEngine_UI_UnityEngine_UI_Navigation_Mode1081683921.h"
+
 // UnityEngine.UI.Selectable
 struct Selectable_t1490392188;
 
-#include "mscorlib_System_ValueType3507792607.h"
-#include "UnityEngine_UI_UnityEngine_UI_Navigation_Mode1081683921.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

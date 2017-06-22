@@ -10,12 +10,15 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+
 // UnityEngine.UI.Dropdown/DropdownItem
 struct DropdownItem_t4139978805;
 // UnityEngine.UI.Dropdown
 struct Dropdown_t1985816271;
 
-#include "mscorlib_System_Object2689449295.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

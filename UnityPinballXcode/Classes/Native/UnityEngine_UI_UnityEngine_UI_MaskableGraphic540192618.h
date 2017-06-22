@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_UI_Graphic2426225576.h"
+
 // UnityEngine.Material
 struct Material_t193706927;
 // UnityEngine.UI.RectMask2D
@@ -19,7 +21,8 @@ struct CullStateChangedEvent_t3778758259;
 // UnityEngine.Vector3[]
 struct Vector3U5BU5D_t1172311765;
 
-#include "UnityEngine_UI_UnityEngine_UI_Graphic2426225576.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

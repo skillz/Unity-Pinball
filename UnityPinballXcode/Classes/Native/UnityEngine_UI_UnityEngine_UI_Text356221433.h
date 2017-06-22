@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_UI_MaskableGraphic540192618.h"
+
 // UnityEngine.UI.FontData
 struct FontData_t2614388407;
 // System.String
@@ -21,7 +23,8 @@ struct Material_t193706927;
 // UnityEngine.UIVertex[]
 struct UIVertexU5BU5D_t3048644023;
 
-#include "UnityEngine_UI_UnityEngine_UI_MaskableGraphic540192618.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

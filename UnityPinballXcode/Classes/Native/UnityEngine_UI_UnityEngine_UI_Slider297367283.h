@@ -10,6 +10,11 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
+#include "UnityEngine_UI_UnityEngine_UI_Slider_Direction1525323322.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "UnityEngine_UnityEngine_DrivenRectTransformTracker154385424.h"
+
 // UnityEngine.RectTransform
 struct RectTransform_t3349966182;
 // UnityEngine.UI.Slider/SliderEvent
@@ -19,10 +24,8 @@ struct Image_t2042527209;
 // UnityEngine.Transform
 struct Transform_t3275118058;
 
-#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
-#include "UnityEngine_UI_UnityEngine_UI_Slider_Direction1525323322.h"
-#include "UnityEngine_UnityEngine_Vector22243707579.h"
-#include "UnityEngine_UnityEngine_DrivenRectTransformTracker154385424.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

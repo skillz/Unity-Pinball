@@ -13,7 +13,6 @@
 #include <limits>
 #include <assert.h>
 
-
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Reflection_Emit_ModuleBuilderTokenG578872653.h"
@@ -113,6 +112,10 @@
 #include "mscorlib_System_Runtime_InteropServices_ClassInterf910653559.h"
 #include "mscorlib_System_Runtime_InteropServices_ClassInterf295178211.h"
 #include "mscorlib_System_Runtime_InteropServices_ComDefaultI347642415.h"
+
+
+
+
 
 
 
@@ -1007,7 +1010,7 @@ extern const int32_t g_FieldOffsetTable377[3] =
 	ResourceInfo_t3933049236::get_offset_of_ResourceName_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	ResourceInfo_t3933049236::get_offset_of_TypeIndex_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize378 = { sizeof (ResourceCacheItem_t333236149)+ sizeof (Il2CppObject), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize378 = { sizeof (ResourceCacheItem_t333236149)+ sizeof (Il2CppObject), sizeof(ResourceCacheItem_t333236149_marshaled_pinvoke), 0, 0 };
 extern const int32_t g_FieldOffsetTable378[2] = 
 {
 	ResourceCacheItem_t333236149::get_offset_of_ResourceName_0() + static_cast<int32_t>(sizeof(Il2CppObject)),

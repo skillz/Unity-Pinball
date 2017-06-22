@@ -10,9 +10,12 @@
 
 #include <stdint.h>
 
-
 #include "mscorlib_System_Enum2459695545.h"
 #include "UnityEngine_UI_UnityEngine_UI_InputField_InputType1274231802.h"
+
+
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

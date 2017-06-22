@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+
 // UnityEngine.EventSystems.PointerEventData
 struct PointerEventData_t1599784723;
 // UnityEngine.UI.Scrollbar
@@ -17,7 +19,8 @@ struct Scrollbar_t3248359358;
 // System.Object
 struct Il2CppObject;
 
-#include "mscorlib_System_Object2689449295.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

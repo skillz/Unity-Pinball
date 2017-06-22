@@ -10,10 +10,13 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+
 // UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>>
 struct ObjectPool_1_t3366680543;
 
-#include "mscorlib_System_Object2689449295.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

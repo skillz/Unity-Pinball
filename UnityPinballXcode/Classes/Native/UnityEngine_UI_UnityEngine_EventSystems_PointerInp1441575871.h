@@ -10,12 +10,15 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_BaseInputM1295781545.h"
+
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
 struct Dictionary_2_t607610358;
 // UnityEngine.EventSystems.PointerInputModule/MouseState
 struct MouseState_t3572864619;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_BaseInputM1295781545.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

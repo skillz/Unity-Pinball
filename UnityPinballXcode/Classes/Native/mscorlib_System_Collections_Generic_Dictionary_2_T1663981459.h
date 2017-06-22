@@ -10,6 +10,9 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_MulticastDelegate3201952435.h"
+#include "mscorlib_System_Collections_DictionaryEntry3048875398.h"
+
 // UnityEngine.Canvas
 struct Canvas_t209405766;
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>
@@ -21,8 +24,8 @@ struct AsyncCallback_t163412349;
 // System.Object
 struct Il2CppObject;
 
-#include "mscorlib_System_MulticastDelegate3201952435.h"
-#include "mscorlib_System_Collections_DictionaryEntry3048875398.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

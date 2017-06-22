@@ -10,12 +10,15 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+
 // UnityEngine.UI.InputField
 struct InputField_t1631627530;
 // System.Object
 struct Il2CppObject;
 
-#include "mscorlib_System_Object2689449295.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -27,8 +30,8 @@ struct Il2CppObject;
 struct  U3CCaretBlinkU3Ec__Iterator0_t906898126  : public Il2CppObject
 {
 public:
-	// System.Single UnityEngine.UI.InputField/<CaretBlink>c__Iterator0::<blinkPeriod>__0
-	float ___U3CblinkPeriodU3E__0_0;
+	// System.Single UnityEngine.UI.InputField/<CaretBlink>c__Iterator0::<blinkPeriod>__1
+	float ___U3CblinkPeriodU3E__1_0;
 	// System.Boolean UnityEngine.UI.InputField/<CaretBlink>c__Iterator0::<blinkState>__1
 	bool ___U3CblinkStateU3E__1_1;
 	// UnityEngine.UI.InputField UnityEngine.UI.InputField/<CaretBlink>c__Iterator0::$this
@@ -41,12 +44,12 @@ public:
 	int32_t ___U24PC_5;
 
 public:
-	inline static int32_t get_offset_of_U3CblinkPeriodU3E__0_0() { return static_cast<int32_t>(offsetof(U3CCaretBlinkU3Ec__Iterator0_t906898126, ___U3CblinkPeriodU3E__0_0)); }
-	inline float get_U3CblinkPeriodU3E__0_0() const { return ___U3CblinkPeriodU3E__0_0; }
-	inline float* get_address_of_U3CblinkPeriodU3E__0_0() { return &___U3CblinkPeriodU3E__0_0; }
-	inline void set_U3CblinkPeriodU3E__0_0(float value)
+	inline static int32_t get_offset_of_U3CblinkPeriodU3E__1_0() { return static_cast<int32_t>(offsetof(U3CCaretBlinkU3Ec__Iterator0_t906898126, ___U3CblinkPeriodU3E__1_0)); }
+	inline float get_U3CblinkPeriodU3E__1_0() const { return ___U3CblinkPeriodU3E__1_0; }
+	inline float* get_address_of_U3CblinkPeriodU3E__1_0() { return &___U3CblinkPeriodU3E__1_0; }
+	inline void set_U3CblinkPeriodU3E__1_0(float value)
 	{
-		___U3CblinkPeriodU3E__0_0 = value;
+		___U3CblinkPeriodU3E__1_0 = value;
 	}
 
 	inline static int32_t get_offset_of_U3CblinkStateU3E__1_1() { return static_cast<int32_t>(offsetof(U3CCaretBlinkU3Ec__Iterator0_t906898126, ___U3CblinkStateU3E__1_1)); }

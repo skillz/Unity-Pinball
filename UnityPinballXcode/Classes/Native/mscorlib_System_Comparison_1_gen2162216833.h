@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_MulticastDelegate3201952435.h"
+
 // UnityEngine.UI.IClipper
 struct IClipper_t900477982;
 // System.IAsyncResult
@@ -19,7 +21,8 @@ struct AsyncCallback_t163412349;
 // System.Object
 struct Il2CppObject;
 
-#include "mscorlib_System_MulticastDelegate3201952435.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

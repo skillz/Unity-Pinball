@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
 struct List_1_t664902677;
 // UnityEngine.EventSystems.BaseInputModule
@@ -23,7 +25,8 @@ struct BaseEventData_t2681005625;
 // System.Comparison`1<UnityEngine.EventSystems.RaycastResult>
 struct Comparison_1_t1282925227;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

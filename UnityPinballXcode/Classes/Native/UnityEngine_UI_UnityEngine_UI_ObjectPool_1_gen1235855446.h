@@ -10,12 +10,15 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+
 // System.Collections.Generic.Stack`1<System.Object>
 struct Stack_1_t3777177449;
 // UnityEngine.Events.UnityAction`1<System.Object>
 struct UnityAction_1_t4056035046;
 
-#include "mscorlib_System_Object2689449295.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

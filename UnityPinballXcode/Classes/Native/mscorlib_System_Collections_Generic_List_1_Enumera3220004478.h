@@ -10,11 +10,14 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_ValueType3507792607.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResul21186376.h"
+
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
 struct List_1_t3685274804;
 
-#include "mscorlib_System_ValueType3507792607.h"
-#include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResul21186376.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

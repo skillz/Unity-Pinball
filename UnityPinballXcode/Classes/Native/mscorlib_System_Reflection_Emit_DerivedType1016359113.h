@@ -10,10 +10,13 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Type1303803226.h"
+
 // System.Type
 struct Type_t;
 
-#include "mscorlib_System_Type1303803226.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

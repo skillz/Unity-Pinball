@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
+
 // UnityEngine.UI.Text
 struct Text_t356221433;
 // UnityEngine.UI.Image
@@ -19,7 +21,8 @@ struct RectTransform_t3349966182;
 // UnityEngine.UI.Toggle
 struct Toggle_t3976754468;
 
-#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

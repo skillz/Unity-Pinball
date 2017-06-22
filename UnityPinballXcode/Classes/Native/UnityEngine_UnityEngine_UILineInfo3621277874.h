@@ -10,8 +10,11 @@
 
 #include <stdint.h>
 
-
 #include "mscorlib_System_ValueType3507792607.h"
+
+
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -29,6 +32,8 @@ public:
 	int32_t ___height_1;
 	// System.Single UnityEngine.UILineInfo::topY
 	float ___topY_2;
+	// System.Single UnityEngine.UILineInfo::leading
+	float ___leading_3;
 
 public:
 	inline static int32_t get_offset_of_startCharIdx_0() { return static_cast<int32_t>(offsetof(UILineInfo_t3621277874, ___startCharIdx_0)); }
@@ -53,6 +58,14 @@ public:
 	inline void set_topY_2(float value)
 	{
 		___topY_2 = value;
+	}
+
+	inline static int32_t get_offset_of_leading_3() { return static_cast<int32_t>(offsetof(UILineInfo_t3621277874, ___leading_3)); }
+	inline float get_leading_3() const { return ___leading_3; }
+	inline float* get_address_of_leading_3() { return &___leading_3; }
+	inline void set_leading_3(float value)
+	{
+		___leading_3 = value;
 	}
 };
 

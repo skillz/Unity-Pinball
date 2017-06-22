@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
+
 // System.Single[]
 struct SingleU5BU5D_t577127397;
 // UnityEngine.Rigidbody2D
@@ -19,7 +21,8 @@ struct SpriteRenderer_t1209076198;
 // UnityEngine.AudioSource
 struct AudioSource_t1135106623;
 
-#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

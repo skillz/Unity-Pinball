@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+
 // UnityEngine.UI.GraphicRegistry
 struct GraphicRegistry_t377833367;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
@@ -17,7 +19,8 @@ struct Dictionary_2_t339370048;
 // System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
 struct List_1_t1795346708;
 
-#include "mscorlib_System_Object2689449295.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

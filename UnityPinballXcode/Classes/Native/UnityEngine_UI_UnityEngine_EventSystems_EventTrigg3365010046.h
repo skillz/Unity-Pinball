@@ -10,11 +10,14 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_EventTrigg2524067914.h"
+
 // UnityEngine.EventSystems.EventTrigger/TriggerEvent
 struct TriggerEvent_t3959312622;
 
-#include "mscorlib_System_Object2689449295.h"
-#include "UnityEngine_UI_UnityEngine_EventSystems_EventTrigg2524067914.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

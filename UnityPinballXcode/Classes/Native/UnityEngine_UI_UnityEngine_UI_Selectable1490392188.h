@@ -10,6 +10,13 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+#include "UnityEngine_UI_UnityEngine_UI_Navigation1571958496.h"
+#include "UnityEngine_UI_UnityEngine_UI_Selectable_Transition605142169.h"
+#include "UnityEngine_UI_UnityEngine_UI_ColorBlock2652774230.h"
+#include "UnityEngine_UI_UnityEngine_UI_SpriteState1353336012.h"
+#include "UnityEngine_UI_UnityEngine_UI_Selectable_Selection3187567897.h"
+
 // System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
 struct List_1_t859513320;
 // UnityEngine.UI.AnimationTriggers
@@ -19,12 +26,8 @@ struct Graphic_t2426225576;
 // System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
 struct List_1_t2665681875;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
-#include "UnityEngine_UI_UnityEngine_UI_Navigation1571958496.h"
-#include "UnityEngine_UI_UnityEngine_UI_Selectable_Transition605142169.h"
-#include "UnityEngine_UI_UnityEngine_UI_ColorBlock2652774230.h"
-#include "UnityEngine_UI_UnityEngine_UI_SpriteState1353336012.h"
-#include "UnityEngine_UI_UnityEngine_UI_Selectable_Selection3187567897.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

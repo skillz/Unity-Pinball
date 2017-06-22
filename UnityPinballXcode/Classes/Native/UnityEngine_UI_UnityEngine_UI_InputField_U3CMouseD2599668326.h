@@ -10,6 +10,10 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+
 // UnityEngine.EventSystems.PointerEventData
 struct PointerEventData_t1599784723;
 // UnityEngine.UI.InputField
@@ -17,9 +21,8 @@ struct InputField_t1631627530;
 // System.Object
 struct Il2CppObject;
 
-#include "mscorlib_System_Object2689449295.h"
-#include "UnityEngine_UnityEngine_Vector22243707579.h"
-#include "UnityEngine_UnityEngine_Rect3681755626.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -33,12 +36,12 @@ struct  U3CMouseDragOutsideRectU3Ec__Iterator1_t2599668326  : public Il2CppObjec
 public:
 	// UnityEngine.EventSystems.PointerEventData UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator1::eventData
 	PointerEventData_t1599784723 * ___eventData_0;
-	// UnityEngine.Vector2 UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator1::<localMousePos>__0
-	Vector2_t2243707579  ___U3ClocalMousePosU3E__0_1;
+	// UnityEngine.Vector2 UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator1::<localMousePos>__1
+	Vector2_t2243707579  ___U3ClocalMousePosU3E__1_1;
 	// UnityEngine.Rect UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator1::<rect>__1
 	Rect_t3681755626  ___U3CrectU3E__1_2;
-	// System.Single UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator1::<delay>__2
-	float ___U3CdelayU3E__2_3;
+	// System.Single UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator1::<delay>__1
+	float ___U3CdelayU3E__1_3;
 	// UnityEngine.UI.InputField UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator1::$this
 	InputField_t1631627530 * ___U24this_4;
 	// System.Object UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator1::$current
@@ -58,12 +61,12 @@ public:
 		Il2CppCodeGenWriteBarrier(&___eventData_0, value);
 	}
 
-	inline static int32_t get_offset_of_U3ClocalMousePosU3E__0_1() { return static_cast<int32_t>(offsetof(U3CMouseDragOutsideRectU3Ec__Iterator1_t2599668326, ___U3ClocalMousePosU3E__0_1)); }
-	inline Vector2_t2243707579  get_U3ClocalMousePosU3E__0_1() const { return ___U3ClocalMousePosU3E__0_1; }
-	inline Vector2_t2243707579 * get_address_of_U3ClocalMousePosU3E__0_1() { return &___U3ClocalMousePosU3E__0_1; }
-	inline void set_U3ClocalMousePosU3E__0_1(Vector2_t2243707579  value)
+	inline static int32_t get_offset_of_U3ClocalMousePosU3E__1_1() { return static_cast<int32_t>(offsetof(U3CMouseDragOutsideRectU3Ec__Iterator1_t2599668326, ___U3ClocalMousePosU3E__1_1)); }
+	inline Vector2_t2243707579  get_U3ClocalMousePosU3E__1_1() const { return ___U3ClocalMousePosU3E__1_1; }
+	inline Vector2_t2243707579 * get_address_of_U3ClocalMousePosU3E__1_1() { return &___U3ClocalMousePosU3E__1_1; }
+	inline void set_U3ClocalMousePosU3E__1_1(Vector2_t2243707579  value)
 	{
-		___U3ClocalMousePosU3E__0_1 = value;
+		___U3ClocalMousePosU3E__1_1 = value;
 	}
 
 	inline static int32_t get_offset_of_U3CrectU3E__1_2() { return static_cast<int32_t>(offsetof(U3CMouseDragOutsideRectU3Ec__Iterator1_t2599668326, ___U3CrectU3E__1_2)); }
@@ -74,12 +77,12 @@ public:
 		___U3CrectU3E__1_2 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CdelayU3E__2_3() { return static_cast<int32_t>(offsetof(U3CMouseDragOutsideRectU3Ec__Iterator1_t2599668326, ___U3CdelayU3E__2_3)); }
-	inline float get_U3CdelayU3E__2_3() const { return ___U3CdelayU3E__2_3; }
-	inline float* get_address_of_U3CdelayU3E__2_3() { return &___U3CdelayU3E__2_3; }
-	inline void set_U3CdelayU3E__2_3(float value)
+	inline static int32_t get_offset_of_U3CdelayU3E__1_3() { return static_cast<int32_t>(offsetof(U3CMouseDragOutsideRectU3Ec__Iterator1_t2599668326, ___U3CdelayU3E__1_3)); }
+	inline float get_U3CdelayU3E__1_3() const { return ___U3CdelayU3E__1_3; }
+	inline float* get_address_of_U3CdelayU3E__1_3() { return &___U3CdelayU3E__1_3; }
+	inline void set_U3CdelayU3E__1_3(float value)
 	{
-		___U3CdelayU3E__2_3 = value;
+		___U3CdelayU3E__1_3 = value;
 	}
 
 	inline static int32_t get_offset_of_U24this_4() { return static_cast<int32_t>(offsetof(U3CMouseDragOutsideRectU3Ec__Iterator1_t2599668326, ___U24this_4)); }

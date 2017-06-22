@@ -10,6 +10,10 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+#include "UnityEngine_UnityEngine_Events_PersistentListenerMo857969000.h"
+#include "UnityEngine_UnityEngine_Events_UnityEventCallState3420894182.h"
+
 // UnityEngine.Object
 struct Object_t1021602117;
 // System.String
@@ -17,9 +21,8 @@ struct String_t;
 // UnityEngine.Events.ArgumentCache
 struct ArgumentCache_t4810721;
 
-#include "mscorlib_System_Object2689449295.h"
-#include "UnityEngine_UnityEngine_Events_PersistentListenerMo857969000.h"
-#include "UnityEngine_UnityEngine_Events_UnityEventCallState3420894182.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

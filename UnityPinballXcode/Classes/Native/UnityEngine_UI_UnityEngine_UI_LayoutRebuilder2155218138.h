@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+
 // UnityEngine.RectTransform
 struct RectTransform_t3349966182;
 // UnityEngine.UI.ObjectPool`1<UnityEngine.UI.LayoutRebuilder>
@@ -21,7 +23,8 @@ struct Predicate_1_t2262346586;
 // UnityEngine.Events.UnityAction`1<UnityEngine.Component>
 struct UnityAction_1_t890994926;
 
-#include "mscorlib_System_Object2689449295.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

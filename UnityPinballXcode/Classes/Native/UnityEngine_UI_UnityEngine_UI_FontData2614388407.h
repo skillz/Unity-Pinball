@@ -10,14 +10,17 @@
 
 #include <stdint.h>
 
-// UnityEngine.Font
-struct Font_t4239498691;
-
 #include "mscorlib_System_Object2689449295.h"
 #include "UnityEngine_UnityEngine_FontStyle2764949590.h"
 #include "UnityEngine_UnityEngine_TextAnchor112990806.h"
 #include "UnityEngine_UnityEngine_HorizontalWrapMode2027154177.h"
 #include "UnityEngine_UnityEngine_VerticalWrapMode3668245347.h"
+
+// UnityEngine.Font
+struct Font_t4239498691;
+
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

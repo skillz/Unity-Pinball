@@ -10,11 +10,14 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_ValueType3507792607.h"
+#include "AssemblyU2DCSharp_SkillzSDK_TurnBasedRound994668268.h"
+
 // System.Collections.Generic.List`1<SkillzSDK.TurnBasedRound>
 struct List_1_t363789400;
 
-#include "mscorlib_System_ValueType3507792607.h"
-#include "AssemblyU2DCSharp_SkillzSDK_TurnBasedRound994668268.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

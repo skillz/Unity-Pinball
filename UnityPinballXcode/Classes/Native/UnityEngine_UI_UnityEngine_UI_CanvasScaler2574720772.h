@@ -10,14 +10,17 @@
 
 #include <stdint.h>
 
-// UnityEngine.Canvas
-struct Canvas_t209405766;
-
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_ScaleMod987318053.h"
 #include "UnityEngine_UnityEngine_Vector22243707579.h"
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_ScreenM1916789528.h"
 #include "UnityEngine_UI_UnityEngine_UI_CanvasScaler_Unit3220761768.h"
+
+// UnityEngine.Canvas
+struct Canvas_t209405766;
+
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

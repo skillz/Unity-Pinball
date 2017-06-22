@@ -3,8 +3,8 @@
 extern void RegisterAllClassesGranular();
 void RegisterAllClasses()
 {
-	// Register classes for unit tests
-	RegisterAllClassesGranular();
+    // Register classes for unit tests
+    RegisterAllClassesGranular();
 }
 
 void RegisterAllStrippedInternalCalls() {}

@@ -10,16 +10,19 @@
 
 #include <stdint.h>
 
-// UnityEngine.GameObject
-struct GameObject_t1756533147;
-// System.Collections.Generic.List`1<UnityEngine.GameObject>
-struct List_1_t1125654279;
-
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseEventD2681005625.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResul21186376.h"
 #include "UnityEngine_UnityEngine_Vector22243707579.h"
 #include "UnityEngine_UnityEngine_Vector32243707580.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve2981963041.h"
+
+// UnityEngine.GameObject
+struct GameObject_t1756533147;
+// System.Collections.Generic.List`1<UnityEngine.GameObject>
+struct List_1_t1125654279;
+
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

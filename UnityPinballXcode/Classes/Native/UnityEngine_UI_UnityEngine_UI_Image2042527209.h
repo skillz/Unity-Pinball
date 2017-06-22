@@ -10,6 +10,10 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_UI_MaskableGraphic540192618.h"
+#include "UnityEngine_UI_UnityEngine_UI_Image_Type3352948571.h"
+#include "UnityEngine_UI_UnityEngine_UI_Image_FillMethod1640962579.h"
+
 // UnityEngine.Material
 struct Material_t193706927;
 // UnityEngine.Sprite
@@ -19,9 +23,8 @@ struct Vector2U5BU5D_t686124026;
 // UnityEngine.Vector3[]
 struct Vector3U5BU5D_t1172311765;
 
-#include "UnityEngine_UI_UnityEngine_UI_MaskableGraphic540192618.h"
-#include "UnityEngine_UI_UnityEngine_UI_Image_Type3352948571.h"
-#include "UnityEngine_UI_UnityEngine_UI_Image_FillMethod1640962579.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

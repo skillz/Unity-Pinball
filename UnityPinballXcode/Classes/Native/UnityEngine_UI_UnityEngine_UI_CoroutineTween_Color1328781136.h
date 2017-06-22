@@ -10,9 +10,12 @@
 
 #include <stdint.h>
 
-
 #include "mscorlib_System_Enum2459695545.h"
 #include "UnityEngine_UI_UnityEngine_UI_CoroutineTween_Color1328781136.h"
+
+
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

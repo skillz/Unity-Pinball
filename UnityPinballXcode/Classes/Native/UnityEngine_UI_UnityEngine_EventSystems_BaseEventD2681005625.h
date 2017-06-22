@@ -10,10 +10,13 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_AbstractEv1333959294.h"
+
 // UnityEngine.EventSystems.EventSystem
 struct EventSystem_t3466835263;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_AbstractEv1333959294.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

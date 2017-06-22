@@ -10,6 +10,9 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+
 // UnityEngine.UI.RectangularVertexClipper
 struct RectangularVertexClipper_t3349113845;
 // UnityEngine.RectTransform
@@ -19,8 +22,8 @@ struct HashSet_1_t274736911;
 // System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>
 struct List_1_t525307096;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
-#include "UnityEngine_UnityEngine_Rect3681755626.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

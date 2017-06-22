@@ -10,13 +10,16 @@
 
 #include <stdint.h>
 
-// UnityEngine.Material
-struct Material_t193706927;
-
 #include "mscorlib_System_Object2689449295.h"
 #include "UnityEngine_UnityEngine_Rendering_StencilOp2936374925.h"
 #include "UnityEngine_UnityEngine_Rendering_CompareFunction457874581.h"
 #include "UnityEngine_UnityEngine_Rendering_ColorWriteMask926634530.h"
+
+// UnityEngine.Material
+struct Material_t193706927;
+
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

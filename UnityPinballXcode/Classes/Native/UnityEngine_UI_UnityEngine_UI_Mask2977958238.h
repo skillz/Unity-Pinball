@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+
 // UnityEngine.RectTransform
 struct RectTransform_t3349966182;
 // UnityEngine.UI.Graphic
@@ -17,7 +19,8 @@ struct Graphic_t2426225576;
 // UnityEngine.Material
 struct Material_t193706927;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

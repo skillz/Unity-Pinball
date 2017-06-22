@@ -10,12 +10,15 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+
 // UnityEngine.UI.Button
 struct Button_t2872111280;
 // System.Object
 struct Il2CppObject;
 
-#include "mscorlib_System_Object2689449295.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -29,8 +32,8 @@ struct  U3COnFinishSubmitU3Ec__Iterator0_t99135383  : public Il2CppObject
 public:
 	// System.Single UnityEngine.UI.Button/<OnFinishSubmit>c__Iterator0::<fadeTime>__0
 	float ___U3CfadeTimeU3E__0_0;
-	// System.Single UnityEngine.UI.Button/<OnFinishSubmit>c__Iterator0::<elapsedTime>__1
-	float ___U3CelapsedTimeU3E__1_1;
+	// System.Single UnityEngine.UI.Button/<OnFinishSubmit>c__Iterator0::<elapsedTime>__0
+	float ___U3CelapsedTimeU3E__0_1;
 	// UnityEngine.UI.Button UnityEngine.UI.Button/<OnFinishSubmit>c__Iterator0::$this
 	Button_t2872111280 * ___U24this_2;
 	// System.Object UnityEngine.UI.Button/<OnFinishSubmit>c__Iterator0::$current
@@ -49,12 +52,12 @@ public:
 		___U3CfadeTimeU3E__0_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CelapsedTimeU3E__1_1() { return static_cast<int32_t>(offsetof(U3COnFinishSubmitU3Ec__Iterator0_t99135383, ___U3CelapsedTimeU3E__1_1)); }
-	inline float get_U3CelapsedTimeU3E__1_1() const { return ___U3CelapsedTimeU3E__1_1; }
-	inline float* get_address_of_U3CelapsedTimeU3E__1_1() { return &___U3CelapsedTimeU3E__1_1; }
-	inline void set_U3CelapsedTimeU3E__1_1(float value)
+	inline static int32_t get_offset_of_U3CelapsedTimeU3E__0_1() { return static_cast<int32_t>(offsetof(U3COnFinishSubmitU3Ec__Iterator0_t99135383, ___U3CelapsedTimeU3E__0_1)); }
+	inline float get_U3CelapsedTimeU3E__0_1() const { return ___U3CelapsedTimeU3E__0_1; }
+	inline float* get_address_of_U3CelapsedTimeU3E__0_1() { return &___U3CelapsedTimeU3E__0_1; }
+	inline void set_U3CelapsedTimeU3E__0_1(float value)
 	{
-		___U3CelapsedTimeU3E__1_1 = value;
+		___U3CelapsedTimeU3E__0_1 = value;
 	}
 
 	inline static int32_t get_offset_of_U24this_2() { return static_cast<int32_t>(offsetof(U3COnFinishSubmitU3Ec__Iterator0_t99135383, ___U24this_2)); }

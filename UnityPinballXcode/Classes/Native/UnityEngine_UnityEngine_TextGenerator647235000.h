@@ -10,6 +10,11 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "UnityEngine_UnityEngine_TextGenerationSettings2543476768.h"
+#include "UnityEngine_UnityEngine_TextGenerationError780770201.h"
+
 // System.String
 struct String_t;
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
@@ -19,10 +24,8 @@ struct List_1_t2425757932;
 // System.Collections.Generic.List`1<UnityEngine.UILineInfo>
 struct List_1_t2990399006;
 
-#include "mscorlib_System_Object2689449295.h"
-#include "mscorlib_System_IntPtr2504060609.h"
-#include "UnityEngine_UnityEngine_TextGenerationSettings2543476768.h"
-#include "UnityEngine_UnityEngine_TextGenerationError780770201.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

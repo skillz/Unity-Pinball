@@ -10,11 +10,14 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_ValueType3507792607.h"
+#include "UnityEngine_UnityEngine_UIVertex1204258818.h"
+
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
 struct List_1_t573379950;
 
-#include "mscorlib_System_ValueType3507792607.h"
-#include "UnityEngine_UnityEngine_UIVertex1204258818.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

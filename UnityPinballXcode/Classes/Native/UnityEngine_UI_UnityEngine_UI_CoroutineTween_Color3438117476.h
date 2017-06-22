@@ -10,12 +10,15 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback
-struct ColorTweenCallback_t3293839588;
-
 #include "mscorlib_System_ValueType3507792607.h"
 #include "UnityEngine_UnityEngine_Color2020392075.h"
 #include "UnityEngine_UI_UnityEngine_UI_CoroutineTween_Color1328781136.h"
+
+// UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback
+struct ColorTweenCallback_t3293839588;
+
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

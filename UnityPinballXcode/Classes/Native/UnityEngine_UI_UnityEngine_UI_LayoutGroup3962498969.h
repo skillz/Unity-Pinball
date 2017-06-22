@@ -10,6 +10,11 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+#include "UnityEngine_UnityEngine_TextAnchor112990806.h"
+#include "UnityEngine_UnityEngine_DrivenRectTransformTracker154385424.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+
 // UnityEngine.RectOffset
 struct RectOffset_t3387826427;
 // UnityEngine.RectTransform
@@ -17,10 +22,8 @@ struct RectTransform_t3349966182;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
 struct List_1_t2719087314;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
-#include "UnityEngine_UnityEngine_TextAnchor112990806.h"
-#include "UnityEngine_UnityEngine_DrivenRectTransformTracker154385424.h"
-#include "UnityEngine_UnityEngine_Vector22243707579.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

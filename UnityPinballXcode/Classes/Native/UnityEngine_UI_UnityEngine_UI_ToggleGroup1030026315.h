@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+
 // System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
 struct List_1_t3345875600;
 // System.Predicate`1<UnityEngine.UI.Toggle>
@@ -17,7 +19,8 @@ struct Predicate_1_t2419724583;
 // System.Func`2<UnityEngine.UI.Toggle,System.Boolean>
 struct Func_2_t2318645467;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

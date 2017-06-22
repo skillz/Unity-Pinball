@@ -10,12 +10,15 @@
 
 #include <stdint.h>
 
-// UnityEngine.RectTransform
-struct RectTransform_t3349966182;
-
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
 #include "UnityEngine_UI_UnityEngine_UI_AspectRatioFitter_As1166448724.h"
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker154385424.h"
+
+// UnityEngine.RectTransform
+struct RectTransform_t3349966182;
+
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

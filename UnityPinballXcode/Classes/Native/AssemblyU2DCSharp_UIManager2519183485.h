@@ -10,6 +10,10 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
+#include "UnityEngine_UnityEngine_SceneManagement_Scene1684909666.h"
+#include "UnityEngine_UnityEngine_Vector42243707581.h"
+
 // UnityEngine.UI.Text
 struct Text_t356221433;
 // UnityEngine.GameObject
@@ -17,9 +21,8 @@ struct GameObject_t1756533147;
 // UnityEngine.UI.Button[]
 struct ButtonU5BU5D_t3071100561;
 
-#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
-#include "UnityEngine_UnityEngine_SceneManagement_Scene1684909666.h"
-#include "UnityEngine_UnityEngine_Vector42243707581.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

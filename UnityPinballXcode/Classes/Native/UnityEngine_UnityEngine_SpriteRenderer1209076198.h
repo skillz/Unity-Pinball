@@ -10,8 +10,11 @@
 
 #include <stdint.h>
 
-
 #include "UnityEngine_UnityEngine_Renderer257310565.h"
+
+
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

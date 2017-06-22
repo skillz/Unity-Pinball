@@ -10,6 +10,9 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
+#include "UnityEngine_UI_UnityEngine_UI_Toggle_ToggleTransit1114673831.h"
+
 // UnityEngine.UI.Graphic
 struct Graphic_t2426225576;
 // UnityEngine.UI.ToggleGroup
@@ -17,8 +20,8 @@ struct ToggleGroup_t1030026315;
 // UnityEngine.UI.Toggle/ToggleEvent
 struct ToggleEvent_t1896830814;
 
-#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
-#include "UnityEngine_UI_UnityEngine_UI_Toggle_ToggleTransit1114673831.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

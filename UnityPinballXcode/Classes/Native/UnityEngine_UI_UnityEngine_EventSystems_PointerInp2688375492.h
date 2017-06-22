@@ -10,11 +10,14 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve2981963041.h"
+
 // UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData
 struct MouseButtonEventData_t3709210170;
 
-#include "mscorlib_System_Object2689449295.h"
-#include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve2981963041.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

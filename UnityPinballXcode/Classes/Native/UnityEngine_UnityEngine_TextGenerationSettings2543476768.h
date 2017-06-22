@@ -10,9 +10,6 @@
 
 #include <stdint.h>
 
-// UnityEngine.Font
-struct Font_t4239498691;
-
 #include "mscorlib_System_ValueType3507792607.h"
 #include "UnityEngine_UnityEngine_Color2020392075.h"
 #include "UnityEngine_UnityEngine_FontStyle2764949590.h"
@@ -20,6 +17,12 @@ struct Font_t4239498691;
 #include "UnityEngine_UnityEngine_VerticalWrapMode3668245347.h"
 #include "UnityEngine_UnityEngine_HorizontalWrapMode2027154177.h"
 #include "UnityEngine_UnityEngine_Vector22243707579.h"
+
+// UnityEngine.Font
+struct Font_t4239498691;
+
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

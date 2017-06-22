@@ -10,12 +10,15 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
+
 // UnityEngine.GameObject
 struct GameObject_t1756533147;
 // UnityEngine.Animator
 struct Animator_t69676727;
 
-#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

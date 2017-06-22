@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+
 // System.Int32[]
 struct Int32U5BU5D_t3030399641;
 // System.Collections.Generic.HashSet`1/Link<System.Object>[]
@@ -21,7 +23,8 @@ struct IEqualityComparer_1_t1902082073;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t228987430;
 
-#include "mscorlib_System_Object2689449295.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

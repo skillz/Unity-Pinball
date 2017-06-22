@@ -10,10 +10,13 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UnityEngine_Events_BaseInvokableCall2229564840.h"
+
 // UnityEngine.Events.UnityAction`1<UnityEngine.Color>
 struct UnityAction_1_t3386977826;
 
-#include "UnityEngine_UnityEngine_Events_BaseInvokableCall2229564840.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

@@ -10,6 +10,10 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycas2336171397.h"
+#include "UnityEngine_UI_UnityEngine_UI_GraphicRaycaster_Blo2548930813.h"
+#include "UnityEngine_UnityEngine_LayerMask3188175821.h"
+
 // UnityEngine.Canvas
 struct Canvas_t209405766;
 // System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
@@ -17,9 +21,8 @@ struct List_1_t1795346708;
 // System.Comparison`1<UnityEngine.UI.Graphic>
 struct Comparison_1_t3687964427;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycas2336171397.h"
-#include "UnityEngine_UI_UnityEngine_UI_GraphicRaycaster_Blo2548930813.h"
-#include "UnityEngine_UnityEngine_LayerMask3188175821.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

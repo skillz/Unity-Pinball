@@ -10,10 +10,13 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UnityEngine_Behaviour955675639.h"
+
 // UnityEngine.Canvas/WillRenderCanvases
 struct WillRenderCanvases_t3522132132;
 
-#include "UnityEngine_UnityEngine_Behaviour955675639.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

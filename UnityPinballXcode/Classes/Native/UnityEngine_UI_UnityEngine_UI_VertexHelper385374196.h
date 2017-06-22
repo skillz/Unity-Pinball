@@ -10,6 +10,10 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+#include "UnityEngine_UnityEngine_Vector42243707581.h"
+#include "UnityEngine_UnityEngine_Vector32243707580.h"
+
 // System.Collections.Generic.List`1<UnityEngine.Vector3>
 struct List_1_t1612828712;
 // System.Collections.Generic.List`1<UnityEngine.Color32>
@@ -21,9 +25,8 @@ struct List_1_t1612828713;
 // System.Collections.Generic.List`1<System.Int32>
 struct List_1_t1440998580;
 
-#include "mscorlib_System_Object2689449295.h"
-#include "UnityEngine_UnityEngine_Vector42243707581.h"
-#include "UnityEngine_UnityEngine_Vector32243707580.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -43,12 +46,16 @@ public:
 	List_1_t1612828711 * ___m_Uv0S_2;
 	// System.Collections.Generic.List`1<UnityEngine.Vector2> UnityEngine.UI.VertexHelper::m_Uv1S
 	List_1_t1612828711 * ___m_Uv1S_3;
+	// System.Collections.Generic.List`1<UnityEngine.Vector2> UnityEngine.UI.VertexHelper::m_Uv2S
+	List_1_t1612828711 * ___m_Uv2S_4;
+	// System.Collections.Generic.List`1<UnityEngine.Vector2> UnityEngine.UI.VertexHelper::m_Uv3S
+	List_1_t1612828711 * ___m_Uv3S_5;
 	// System.Collections.Generic.List`1<UnityEngine.Vector3> UnityEngine.UI.VertexHelper::m_Normals
-	List_1_t1612828712 * ___m_Normals_4;
+	List_1_t1612828712 * ___m_Normals_6;
 	// System.Collections.Generic.List`1<UnityEngine.Vector4> UnityEngine.UI.VertexHelper::m_Tangents
-	List_1_t1612828713 * ___m_Tangents_5;
+	List_1_t1612828713 * ___m_Tangents_7;
 	// System.Collections.Generic.List`1<System.Int32> UnityEngine.UI.VertexHelper::m_Indices
-	List_1_t1440998580 * ___m_Indices_6;
+	List_1_t1440998580 * ___m_Indices_8;
 
 public:
 	inline static int32_t get_offset_of_m_Positions_0() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196, ___m_Positions_0)); }
@@ -87,31 +94,49 @@ public:
 		Il2CppCodeGenWriteBarrier(&___m_Uv1S_3, value);
 	}
 
-	inline static int32_t get_offset_of_m_Normals_4() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196, ___m_Normals_4)); }
-	inline List_1_t1612828712 * get_m_Normals_4() const { return ___m_Normals_4; }
-	inline List_1_t1612828712 ** get_address_of_m_Normals_4() { return &___m_Normals_4; }
-	inline void set_m_Normals_4(List_1_t1612828712 * value)
+	inline static int32_t get_offset_of_m_Uv2S_4() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196, ___m_Uv2S_4)); }
+	inline List_1_t1612828711 * get_m_Uv2S_4() const { return ___m_Uv2S_4; }
+	inline List_1_t1612828711 ** get_address_of_m_Uv2S_4() { return &___m_Uv2S_4; }
+	inline void set_m_Uv2S_4(List_1_t1612828711 * value)
 	{
-		___m_Normals_4 = value;
-		Il2CppCodeGenWriteBarrier(&___m_Normals_4, value);
+		___m_Uv2S_4 = value;
+		Il2CppCodeGenWriteBarrier(&___m_Uv2S_4, value);
 	}
 
-	inline static int32_t get_offset_of_m_Tangents_5() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196, ___m_Tangents_5)); }
-	inline List_1_t1612828713 * get_m_Tangents_5() const { return ___m_Tangents_5; }
-	inline List_1_t1612828713 ** get_address_of_m_Tangents_5() { return &___m_Tangents_5; }
-	inline void set_m_Tangents_5(List_1_t1612828713 * value)
+	inline static int32_t get_offset_of_m_Uv3S_5() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196, ___m_Uv3S_5)); }
+	inline List_1_t1612828711 * get_m_Uv3S_5() const { return ___m_Uv3S_5; }
+	inline List_1_t1612828711 ** get_address_of_m_Uv3S_5() { return &___m_Uv3S_5; }
+	inline void set_m_Uv3S_5(List_1_t1612828711 * value)
 	{
-		___m_Tangents_5 = value;
-		Il2CppCodeGenWriteBarrier(&___m_Tangents_5, value);
+		___m_Uv3S_5 = value;
+		Il2CppCodeGenWriteBarrier(&___m_Uv3S_5, value);
 	}
 
-	inline static int32_t get_offset_of_m_Indices_6() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196, ___m_Indices_6)); }
-	inline List_1_t1440998580 * get_m_Indices_6() const { return ___m_Indices_6; }
-	inline List_1_t1440998580 ** get_address_of_m_Indices_6() { return &___m_Indices_6; }
-	inline void set_m_Indices_6(List_1_t1440998580 * value)
+	inline static int32_t get_offset_of_m_Normals_6() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196, ___m_Normals_6)); }
+	inline List_1_t1612828712 * get_m_Normals_6() const { return ___m_Normals_6; }
+	inline List_1_t1612828712 ** get_address_of_m_Normals_6() { return &___m_Normals_6; }
+	inline void set_m_Normals_6(List_1_t1612828712 * value)
 	{
-		___m_Indices_6 = value;
-		Il2CppCodeGenWriteBarrier(&___m_Indices_6, value);
+		___m_Normals_6 = value;
+		Il2CppCodeGenWriteBarrier(&___m_Normals_6, value);
+	}
+
+	inline static int32_t get_offset_of_m_Tangents_7() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196, ___m_Tangents_7)); }
+	inline List_1_t1612828713 * get_m_Tangents_7() const { return ___m_Tangents_7; }
+	inline List_1_t1612828713 ** get_address_of_m_Tangents_7() { return &___m_Tangents_7; }
+	inline void set_m_Tangents_7(List_1_t1612828713 * value)
+	{
+		___m_Tangents_7 = value;
+		Il2CppCodeGenWriteBarrier(&___m_Tangents_7, value);
+	}
+
+	inline static int32_t get_offset_of_m_Indices_8() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196, ___m_Indices_8)); }
+	inline List_1_t1440998580 * get_m_Indices_8() const { return ___m_Indices_8; }
+	inline List_1_t1440998580 ** get_address_of_m_Indices_8() { return &___m_Indices_8; }
+	inline void set_m_Indices_8(List_1_t1440998580 * value)
+	{
+		___m_Indices_8 = value;
+		Il2CppCodeGenWriteBarrier(&___m_Indices_8, value);
 	}
 };
 
@@ -119,25 +144,25 @@ struct VertexHelper_t385374196_StaticFields
 {
 public:
 	// UnityEngine.Vector4 UnityEngine.UI.VertexHelper::s_DefaultTangent
-	Vector4_t2243707581  ___s_DefaultTangent_7;
+	Vector4_t2243707581  ___s_DefaultTangent_9;
 	// UnityEngine.Vector3 UnityEngine.UI.VertexHelper::s_DefaultNormal
-	Vector3_t2243707580  ___s_DefaultNormal_8;
+	Vector3_t2243707580  ___s_DefaultNormal_10;
 
 public:
-	inline static int32_t get_offset_of_s_DefaultTangent_7() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196_StaticFields, ___s_DefaultTangent_7)); }
-	inline Vector4_t2243707581  get_s_DefaultTangent_7() const { return ___s_DefaultTangent_7; }
-	inline Vector4_t2243707581 * get_address_of_s_DefaultTangent_7() { return &___s_DefaultTangent_7; }
-	inline void set_s_DefaultTangent_7(Vector4_t2243707581  value)
+	inline static int32_t get_offset_of_s_DefaultTangent_9() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196_StaticFields, ___s_DefaultTangent_9)); }
+	inline Vector4_t2243707581  get_s_DefaultTangent_9() const { return ___s_DefaultTangent_9; }
+	inline Vector4_t2243707581 * get_address_of_s_DefaultTangent_9() { return &___s_DefaultTangent_9; }
+	inline void set_s_DefaultTangent_9(Vector4_t2243707581  value)
 	{
-		___s_DefaultTangent_7 = value;
+		___s_DefaultTangent_9 = value;
 	}
 
-	inline static int32_t get_offset_of_s_DefaultNormal_8() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196_StaticFields, ___s_DefaultNormal_8)); }
-	inline Vector3_t2243707580  get_s_DefaultNormal_8() const { return ___s_DefaultNormal_8; }
-	inline Vector3_t2243707580 * get_address_of_s_DefaultNormal_8() { return &___s_DefaultNormal_8; }
-	inline void set_s_DefaultNormal_8(Vector3_t2243707580  value)
+	inline static int32_t get_offset_of_s_DefaultNormal_10() { return static_cast<int32_t>(offsetof(VertexHelper_t385374196_StaticFields, ___s_DefaultNormal_10)); }
+	inline Vector3_t2243707580  get_s_DefaultNormal_10() const { return ___s_DefaultNormal_10; }
+	inline Vector3_t2243707580 * get_address_of_s_DefaultNormal_10() { return &___s_DefaultNormal_10; }
+	inline void set_s_DefaultNormal_10(Vector3_t2243707580  value)
 	{
-		___s_DefaultNormal_8 = value;
+		___s_DefaultNormal_10 = value;
 	}
 };
 

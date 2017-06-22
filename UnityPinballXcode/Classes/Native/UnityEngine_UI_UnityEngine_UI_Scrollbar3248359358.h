@@ -10,6 +10,11 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
+#include "UnityEngine_UI_UnityEngine_UI_Scrollbar_Direction3696775921.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+#include "UnityEngine_UnityEngine_DrivenRectTransformTracker154385424.h"
+
 // UnityEngine.RectTransform
 struct RectTransform_t3349966182;
 // UnityEngine.UI.Scrollbar/ScrollEvent
@@ -17,10 +22,8 @@ struct ScrollEvent_t1794825321;
 // UnityEngine.Coroutine
 struct Coroutine_t2299508840;
 
-#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
-#include "UnityEngine_UI_UnityEngine_UI_Scrollbar_Direction3696775921.h"
-#include "UnityEngine_UnityEngine_Vector22243707579.h"
-#include "UnityEngine_UnityEngine_DrivenRectTransformTracker154385424.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

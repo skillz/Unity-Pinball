@@ -10,6 +10,9 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
+#include "UnityEngine_UnityEngine_Color2020392075.h"
+
 // UnityEngine.Material
 struct Material_t193706927;
 // UnityEngine.Texture2D
@@ -29,8 +32,8 @@ struct VertexHelper_t385374196;
 // UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween>
 struct TweenRunner_1_t3177091249;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviou3960014691.h"
-#include "UnityEngine_UnityEngine_Color2020392075.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

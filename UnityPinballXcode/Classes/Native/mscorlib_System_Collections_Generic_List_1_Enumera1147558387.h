@@ -10,11 +10,14 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_ValueType3507792607.h"
+#include "UnityEngine_UnityEngine_Vector42243707581.h"
+
 // System.Collections.Generic.List`1<UnityEngine.Vector4>
 struct List_1_t1612828713;
 
-#include "mscorlib_System_ValueType3507792607.h"
-#include "UnityEngine_UnityEngine_Vector42243707581.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

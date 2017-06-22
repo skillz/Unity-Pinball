@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
+
 // UnityEngine.RectTransform
 struct RectTransform_t3349966182;
 // UnityEngine.UI.Text
@@ -29,7 +31,8 @@ struct TweenRunner_1_t2725162992;
 // UnityEngine.UI.Dropdown/OptionData
 struct OptionData_t2420267500;
 
-#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

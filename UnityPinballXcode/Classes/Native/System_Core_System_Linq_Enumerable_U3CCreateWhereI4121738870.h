@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+
 // System.Collections.Generic.IEnumerable`1<System.Object>
 struct IEnumerable_1_t2981576340;
 // System.Collections.Generic.IEnumerator`1<System.Object>
@@ -19,7 +21,8 @@ struct Il2CppObject;
 // System.Func`2<System.Object,System.Boolean>
 struct Func_2_t3961629604;
 
-#include "mscorlib_System_Object2689449295.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

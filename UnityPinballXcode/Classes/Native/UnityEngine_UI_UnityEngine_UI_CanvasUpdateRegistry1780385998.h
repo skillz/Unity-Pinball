@@ -10,6 +10,8 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_Object2689449295.h"
+
 // UnityEngine.UI.CanvasUpdateRegistry
 struct CanvasUpdateRegistry_t1780385998;
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>
@@ -17,7 +19,8 @@ struct IndexedSet_1_t3141636150;
 // System.Comparison`1<UnityEngine.UI.ICanvasElement>
 struct Comparison_1_t2248259630;
 
-#include "mscorlib_System_Object2689449295.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

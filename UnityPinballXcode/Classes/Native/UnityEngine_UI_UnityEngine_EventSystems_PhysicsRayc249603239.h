@@ -10,13 +10,16 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycas2336171397.h"
+#include "UnityEngine_UnityEngine_LayerMask3188175821.h"
+
 // UnityEngine.Camera
 struct Camera_t189460977;
 // System.Comparison`1<UnityEngine.RaycastHit>
 struct Comparison_1_t1348919171;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_BaseRaycas2336171397.h"
-#include "UnityEngine_UnityEngine_LayerMask3188175821.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

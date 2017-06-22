@@ -10,10 +10,13 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
+
 // UnityEngine.UI.Button/ButtonClickedEvent
 struct ButtonClickedEvent_t2455055323;
 
-#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

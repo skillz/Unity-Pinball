@@ -10,6 +10,14 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
+#include "UnityEngine_UI_UnityEngine_UI_InputField_ContentTy1028629049.h"
+#include "UnityEngine_UI_UnityEngine_UI_InputField_InputType1274231802.h"
+#include "UnityEngine_UnityEngine_TouchScreenKeyboardType875112366.h"
+#include "UnityEngine_UI_UnityEngine_UI_InputField_LineType2931319356.h"
+#include "UnityEngine_UI_UnityEngine_UI_InputField_Character3437478890.h"
+#include "UnityEngine_UnityEngine_Color2020392075.h"
+
 // UnityEngine.TouchScreenKeyboard
 struct TouchScreenKeyboard_t601950206;
 // System.Char[]
@@ -41,13 +49,8 @@ struct Coroutine_t2299508840;
 // UnityEngine.Event
 struct Event_t3028476042;
 
-#include "UnityEngine_UI_UnityEngine_UI_Selectable1490392188.h"
-#include "UnityEngine_UI_UnityEngine_UI_InputField_ContentTy1028629049.h"
-#include "UnityEngine_UI_UnityEngine_UI_InputField_InputType1274231802.h"
-#include "UnityEngine_UnityEngine_TouchScreenKeyboardType875112366.h"
-#include "UnityEngine_UI_UnityEngine_UI_InputField_LineType2931319356.h"
-#include "UnityEngine_UI_UnityEngine_UI_InputField_Character3437478890.h"
-#include "UnityEngine_UnityEngine_Color2020392075.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

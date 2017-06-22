@@ -10,11 +10,14 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_UI_MaskableGraphic540192618.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+
 // UnityEngine.Texture
 struct Texture_t2243626319;
 
-#include "UnityEngine_UI_UnityEngine_UI_MaskableGraphic540192618.h"
-#include "UnityEngine_UnityEngine_Rect3681755626.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

@@ -10,13 +10,16 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UI_UnityEngine_EventSystems_PointerInp1441575871.h"
+#include "UnityEngine_UnityEngine_Vector22243707579.h"
+
 // UnityEngine.GameObject
 struct GameObject_t1756533147;
 // System.String
 struct String_t;
 
-#include "UnityEngine_UI_UnityEngine_EventSystems_PointerInp1441575871.h"
-#include "UnityEngine_UnityEngine_Vector22243707579.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

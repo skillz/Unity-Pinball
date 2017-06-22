@@ -10,10 +10,13 @@
 
 #include <stdint.h>
 
+#include "UnityEngine_UnityEngine_PropertyAttribute2606999759.h"
+
 // System.String
 struct String_t;
 
-#include "UnityEngine_UnityEngine_PropertyAttribute2606999759.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push

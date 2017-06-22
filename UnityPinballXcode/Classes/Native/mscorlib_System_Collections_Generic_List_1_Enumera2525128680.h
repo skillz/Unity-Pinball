@@ -10,11 +10,14 @@
 
 #include <stdint.h>
 
+#include "mscorlib_System_ValueType3507792607.h"
+#include "UnityEngine_UnityEngine_UILineInfo3621277874.h"
+
 // System.Collections.Generic.List`1<UnityEngine.UILineInfo>
 struct List_1_t2990399006;
 
-#include "mscorlib_System_ValueType3507792607.h"
-#include "UnityEngine_UnityEngine_UILineInfo3621277874.h"
+
+
 
 #ifdef __clang__
 #pragma clang diagnostic push
