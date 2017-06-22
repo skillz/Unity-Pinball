@@ -364,10 +364,9 @@ namespace SkillzSDK
 		/// You may use this method to track player actions, level types, or other information pertinent to your Skillz integration.
 		/// All keys and values in the metadataJson strign argument should be strings, pass true for forMatchInProgress if this metadata relates to an in progress match.
 		/// </summary>
-		public static void AddMetadataForMatchInProgress(Dictionary<string,string> metadataJson, bool forMatchInProgress)
+		public static void AddMetadataForMatchInProgress(string metadataJson, bool forMatchInProgress)
 		{
-				var metadataString = string.Join(";", metadataJson.Select(x => x.Key + "=" + x.Value).ToArray());
-				_addMetadataForMatchInProgress(metadataString, forMatchInProgress);
+			_addMetadataForMatchInProgress(metadataJson, forMatchInProgress);
 		}
 
 		/// <summary>
@@ -404,11 +403,12 @@ namespace SkillzSDK
 		/// <summary>
 		/// Returns a hash table of the Match Rules.
 		/// </summary>
-		public static Dictionary<string, object> GetMatchRules()
+		public static Hashtable GetMatchRules()
 		{
 		    string matchRules = Marshal.PtrToStringAnsi(_getMatchRules());
 		    Dictionary<string, object> matchInfoDict = DeserializeJSONToDictionary(matchRules);
-		    return matchInfoDict;
+			var matchInfoHash = new Hashtable(matchInfoDict);
+			return matchInfoHash;
 		}
 
 		public static class Random {

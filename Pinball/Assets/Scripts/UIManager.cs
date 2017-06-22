@@ -71,7 +71,11 @@ public class UIManager : MonoBehaviour {
         previousTime = Time.time;
         ballColor = collector.GetComponent<Collect>().ballColor;
 
-		SkillzCrossPlatform.UpdatePlayersCurrentScore(uiScore);
+		if (SkillzCrossPlatform.IsMatchInProgress ()) 
+		{
+			SkillzCrossPlatform.UpdatePlayersCurrentScore(uiScore);
+		}
+
     }
 
     public void comboUpdate()

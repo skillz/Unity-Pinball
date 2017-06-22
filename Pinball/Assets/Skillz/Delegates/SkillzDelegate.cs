@@ -1,12 +1,28 @@
 using UnityEngine;
 using System;
 using SkillzSDK;
+using System.Collections.Generic;
 
 public class SkillzDelegate : MonoBehaviour
 {
 	// This method is called when a user starts a match from Skillz
 	public void OnMatchWillBegin() {
 		// implement me
+		Debug.Log("UNITY - isMatchInProgress: " + SkillzCrossPlatform.IsMatchInProgress().ToString());
+		Debug.Log("UNITY - getMatchRules: ");
+		Debug.Log("UNITY - getMatchRules: " + SkillzCrossPlatform.GetMatchRules()["Unitytest"]);
+		Debug.Log("UNITY - getMatchRules: " + SkillzCrossPlatform.GetMatchRules()["Unitytest2"]);
+		Debug.Log("UNITY - getMatchRules: " + SkillzCrossPlatform.GetMatchRules()["Unitytest3"]);
+		Debug.Log("UNITY - SdkShortVersion: " + SkillzCrossPlatform.SDKVersionShort());
+		Debug.Log("UNITY - CurrentUserDisplayName: " + SkillzCrossPlatform.CurrentUserDisplayName());
+		Debug.Log("UNITY - Player.GetId: " + SkillzCrossPlatform.Player.GetId());
+		Debug.Log("UNITY - Player.GetFlagUrl: " + SkillzCrossPlatform.Player.GetFlagUrl());
+		string jsonData = @"{  
+		'FirstName':'Jignesh',  
+		'LastName':'Trivedi'  
+		}";
+		SkillzCrossPlatform.AddMetadataForMatchInProgress (jsonData, SkillzCrossPlatform.IsMatchInProgress ());
+		Debug.Log("UNITY - AddMetaDataForMatchInProgress");
 		UnityEngine.Application.LoadLevel("Level1");
 	}
 
