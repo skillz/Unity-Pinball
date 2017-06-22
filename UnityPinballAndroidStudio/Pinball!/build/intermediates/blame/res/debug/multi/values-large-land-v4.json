@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/values-large-land-v4/values-large-land-v4.xml",
+        "outputFile": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-land-v4/values-large-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/3.2.1/res/values-large-land-v4/values-large-land-v4.xml",
+                    "file": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/values-large-land-v4/values-large-land-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 162
                 },
                 "from": {
-                    "file": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/3.2.1/res/values-large-land-v4/values-large-land-v4.xml",
+                    "file": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/values-large-land-v4/values-large-land-v4.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

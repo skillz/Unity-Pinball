@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/libs/unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="01280a7ebe198969bd717d3c7e2275c7c72d439c">
+        <dex dex="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/2/unity-classes_457c6444decd58f85d05dd821deaf535ab45e066/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/jars/libs/mopub-sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6f87819fb9ed40fb262fda5cd37eadbbb8ce3a8b">
+        <dex dex="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/mopub-sdk_e4d3bcf9344b73e6eb91ea91f454cde217751e4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1729514368525715510874a369dbe2da2c7b4e92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6f09ec409588df39fa460582f1d7363557437c40">
+        <dex dex="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/com.skillz.sdk-skillz-sdk-android-4.0.7-SNAPSHOT_46e73fe13911deebd5f051de7d8cb28bc4fc3d1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/jars/libs/mopub-sdk-base.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="333b6bccf6a44507ead36bed899bc3adc4ae883c">
+        <dex dex="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/mopub-sdk-base_6256175bee37cc95d6b36618efac52c1413ea9e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8366f61feb6bf3e61dec4b6f7a61096c9e997e3a">
+        <dex dex="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2435c4c1c4624764e83e99befb7dfd1f35f4a0d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/jars/libs/KochavaSDK.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="77514655c638b7a9fa94e402a22cea0d2bfd5c71">
+        <dex dex="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/KochavaSDK_880cfad9c38d6eea0ad407b611f735b2003dc0dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/jars/libs/mopub-sdk-interstitial.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="91fdb583bbb1e95ce8c2c600e437ce28eb5ea6b2">
+        <dex dex="/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/mopub-sdk-interstitial_3664ff5c4f4c574911f6a25f60dfbbfaee840996/classes.dex" />
+    </item>
+
+</items>

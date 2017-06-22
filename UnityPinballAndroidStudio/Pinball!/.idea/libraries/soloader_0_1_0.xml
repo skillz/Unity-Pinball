@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="soloader-0.1.0">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/res" />
-      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/c59766c961c6302a7d660e3894ed463c9ee5a4d9/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/c59766c961c6302a7d660e3894ed463c9ee5a4d9/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

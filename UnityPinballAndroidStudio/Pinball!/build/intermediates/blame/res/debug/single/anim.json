@@ -1,126 +1,126 @@
 [
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/slide_out_left.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/3.2.1/res/anim/slide_out_left.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/ff128c2dcabcdfcd0909b1f3cb65ec43e09825c4/output/res/anim/catalyst_push_up_in.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/slide_in_up.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/anim/slide_in_up.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/slide_up.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/anim/slide_up.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/5382b73867af812ca51d9868fbf693ff2351abd9/output/res/anim/design_fab_in.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/fade_in.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/anim/fade_in.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/5382b73867af812ca51d9868fbf693ff2351abd9/output/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/res/anim/abc_fade_in.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/slide_out_right.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/anim/slide_out_right.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/catalyst_push_up_out.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/anim/catalyst_push_up_out.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/slide_up.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/ff128c2dcabcdfcd0909b1f3cb65ec43e09825c4/output/res/anim/slide_up.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/res/anim/abc_slide_in_bottom.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/res/anim/abc_popup_enter.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/bounce.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/3.2.1/res/anim/bounce.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/slide_in_up.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/3.2.1/res/anim/slide_in_up.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/catalyst_push_up_in.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/anim/catalyst_push_up_in.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/5382b73867af812ca51d9868fbf693ff2351abd9/output/res/anim/design_snackbar_out.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/design/25.3.0/res/anim/design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/slide_out_down.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/anim/slide_out_down.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/design/25.3.0/res/anim/design_snackbar_in.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/anim/slide_in_right.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/slide_down.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/anim/slide_down.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/design/25.3.0/res/anim/design_fab_out.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/ff128c2dcabcdfcd0909b1f3cb65ec43e09825c4/output/res/anim/fade_in.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/slide_out_qtr_left.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/3.2.1/res/anim/slide_out_qtr_left.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/catalyst_push_up_out.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/ff128c2dcabcdfcd0909b1f3cb65ec43e09825c4/output/res/anim/catalyst_push_up_out.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/res/anim/abc_slide_out_top.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/design/25.3.0/res/anim/design_fab_in.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/res/anim/abc_slide_out_bottom.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/bounce.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/anim/bounce.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/res/anim/abc_slide_in_top.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/res/anim/abc_popup_exit.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/5382b73867af812ca51d9868fbf693ff2351abd9/output/res/anim/design_fab_out.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/3.2.1/res/anim/slide_in_right.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/5382b73867af812ca51d9868fbf693ff2351abd9/output/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/slide_out_down.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/3.2.1/res/anim/slide_out_down.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/slide_in_qtr_left.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/anim/slide_in_qtr_left.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/res/anim/abc_fade_out.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/slide_out_left.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/anim/slide_out_left.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/design/25.3.0/res/anim/design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/slide_in_qtr_left.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/3.2.1/res/anim/slide_in_qtr_left.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/5382b73867af812ca51d9868fbf693ff2351abd9/output/res/anim/design_snackbar_in.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/none.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/3.2.1/res/anim/none.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/slide_out_right.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/3.2.1/res/anim/slide_out_right.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/slide_down.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/ff128c2dcabcdfcd0909b1f3cb65ec43e09825c4/output/res/anim/slide_down.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/design/25.3.0/res/anim/design_snackbar_out.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/none.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/anim/none.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/fade_out.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.facebook.react/react-native/0.41.2/res/anim/fade_out.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/fade_out.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/ff128c2dcabcdfcd0909b1f3cb65ec43e09825c4/output/res/anim/fade_out.xml"
     },
     {
-        "merged": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/Gabriel/Desktop/Unity-crossPlatform/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/anim/slide_out_qtr_left.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/anim/slide_out_qtr_left.xml"
     }
 ]

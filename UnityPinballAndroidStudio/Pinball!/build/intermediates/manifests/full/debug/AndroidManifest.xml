@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.skillz.pinball"
+    package="com.ZPotatoWu.Pinball"
     android:installLocation="preferExternal"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -22,9 +22,6 @@
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
-    <uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:maxSdkVersion="18" />
 
     <uses-feature
         android:name="android.hardware.sensor.accelerometer"
@@ -38,14 +35,28 @@
     <uses-feature
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.vulkan"
+        android:required="false" />
 
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
     <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CAPTURE_SECURE_VIDEO_OUTPUT" />
-    <uses-permission android:name="android.permission.MANAGE_OVERLAY_PERMISSION" /> <!-- for card.io card scanning -->
+    <uses-permission android:name="android.permission.MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.android.vending.BILLING" /> <!-- for card.io card scanning -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
@@ -56,7 +67,6 @@
         android:name="android.hardware.camera.autofocus"
         android:required="false" /> <!-- Google Cloud Messaging -->
     <!-- uses-permission android:name="android.permission.WAKE_LOCK"/> -->
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <meta-data
@@ -66,23 +76,24 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <permission
-        android:name="com.skillz.pinball.permission.C2D_MESSAGE"
+        android:name="com.ZPotatoWu.Pinball.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.skillz.pinball.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.ZPotatoWu.Pinball.permission.C2D_MESSAGE" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <application
-        android:name="android.support.multidex.MultiDexApplication"
         android:banner="@drawable/app_banner"
         android:icon="@drawable/app_icon"
         android:isGame="true"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:theme="@style/UnityThemeSelector" >
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         <activity
-            android:name="com.skillz.pinball.UnityPlayerActivity"
-            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
+            android:name="com.ZPotatoWu.Pinball.UnityPlayerActivity"
+            android:alwaysRetainTaskState="true"
+            android:clearTaskOnLaunch="false"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:screenOrientation="fullSensor" >
@@ -99,15 +110,6 @@
         </activity>
 
         <meta-data
-            android:name="skillz_game_id"
-            android:value="2320" />
-        <meta-data
-            android:name="skillz_production"
-            android:value="false" />
-        <meta-data
-            android:name="skillz_orientation"
-            android:value="portrait" />
-        <meta-data
             android:name="skillz_allow_exit"
             android:value="true" />
         <meta-data
@@ -116,6 +118,9 @@
         <meta-data
             android:name="skillz_is_unity"
             android:value="true" />
+        <meta-data
+            android:name="skillz_orientation"
+            android:value="portrait" />
 
         <activity
             android:name="com.skillz.activity.WelcomeActivity"
@@ -123,7 +128,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.skillz.pinball.com.skillz.fileprovider"
+            android:authorities="com.ZPotatoWu.Pinball.com.skillz.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -147,7 +152,7 @@
 
         <meta-data
             android:name="com.skillz.ota.android.version"
-            android:value="4.0.24" /> <!-- PayPal -->
+            android:value="5.0.6-9-g7128c89d" /> <!-- PayPal -->
         <service
             android:name="com.paypal.android.sdk.payments.PayPalService"
             android:exported="false" />
@@ -209,7 +214,21 @@
         -->
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+            android:value="@integer/google_play_services_version" /> <!-- Authenticator activity -->
+        <activity
+            android:name="com.skillz.activity.SkillzAuthenticatorActivity"
+            android:label="@string/skz_authenticator_activity" />
+
+        <service android:name="com.skillz.sso.SkillzAuthenticatorService" >
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service> <!-- Local notification -->
+        <receiver android:name="com.skillz.push.local.LocalNotificationReceiver" />
 
         <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
         <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
@@ -239,12 +258,17 @@
             android:name="com.google.android.gms.measurement.AppMeasurementService"
             android:enabled="true"
             android:exported="false" />
-
-        <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.skillz.pinball.firebaseinitprovider"
-            android:exported="false"
-            android:initOrder="100" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
@@ -253,7 +277,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.skillz.pinball" />
+                <category android:name="com.ZPotatoWu.Pinball" />
             </intent-filter>
         </receiver>
         <!--
@@ -274,17 +298,12 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
-        <!--
- FirebaseMessagingService performs security checks at runtime,
-             no need for explicit permissions despite exported="true"
-        -->
-        <service
-            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-            android:exported="true" >
-            <intent-filter android:priority="-500" >
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.ZPotatoWu.Pinball.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
     </application>
 
 </manifest>

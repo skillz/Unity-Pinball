@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.skillz.pinball.test" >
+    package="com.ZPotatoWu.Pinball.test" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -10,8 +10,8 @@
         android:name="com.android.test.runner.MultiDexTestRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.skillz.pinball"
-        android:targetPackage="com.skillz.pinball" />
+        android:label="Tests for com.ZPotatoWu.Pinball"
+        android:targetPackage="com.ZPotatoWu.Pinball" />
 
     <application>
         <uses-library android:name="android.test.runner" />

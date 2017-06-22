@@ -1,0 +1,4 @@
+#Thu Jun 22 15:16:53 PDT 2017
+base.0=/Users/gabbyfirmacion/Desktop/June22test/Pinball\!/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5
+renamed.0=classes.dex
+file.0=/Users/gabbyfirmacion/Desktop/June22test/Pinball\!/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex
