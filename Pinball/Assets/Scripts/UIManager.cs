@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour {
     public Vector4 ballColor;
 
     void Start () {
-	timeLeft = 60;
+		timeLeft = 60;
         previousTime = 0;
         gameOver = false;
         Time.timeScale = 1;
@@ -71,11 +71,7 @@ public class UIManager : MonoBehaviour {
         previousTime = Time.time;
         ballColor = collector.GetComponent<Collect>().ballColor;
 
-        #if UNITY_ANDROID
-        Skillz.UpdatePlayersCurrentScore(uiScore);
-        #elif UNITY_IOS
-        SkillzSDK.Api.UpdatePlayerScore(uiScore);
-        #endif
+		SkillzCrossPlatform.UpdatePlayersCurrentScore(uiScore);
     }
 
     public void comboUpdate()
@@ -85,11 +81,7 @@ public class UIManager : MonoBehaviour {
 
     public void Play()
     {
-    	#if UNITY_ANDROID
-    	Skillz.Launch();
-    	#elif UNITY_IOS
-    	SkillzSDK.Api.LaunchSkillz(SkillzSDK.Orientation.Portrait);
-    	#endif
+		SkillzCrossPlatform.LaunchSkillz();
     }
 
     public void Pause()
@@ -125,12 +117,16 @@ public class UIManager : MonoBehaviour {
 
     public void Menu ()
     {
-        SceneManager.LoadScene("StartMenu");
+		Debug.Log ("Menu Button is disabled");
     }
 
     public void Exit ()
     {
-        Application.Quit();
+		Time.timeScale = 0;
+
+		Destroy (gameObject);
+
+		SkillzCrossPlatform.AbortMatch();
     }
 
     public void TimeCount()
@@ -163,13 +159,6 @@ public class UIManager : MonoBehaviour {
 
         Destroy (gameObject);
 
-        #if UNITY_ANDROID
-        Skillz.ReportScore(uiScore);
-
-        #elif UNITY_IOS
-
-        SkillzSDK.Api.FinishTournament(uiScore);
-        #endif
-
+		SkillzCrossPlatform.ReportFinalScore(uiScore);
     }
 }
