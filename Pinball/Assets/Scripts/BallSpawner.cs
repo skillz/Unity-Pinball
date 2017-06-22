@@ -19,12 +19,7 @@ public class BallSpawner : MonoBehaviour {
 	void Update () {
         timer -= Time.deltaTime;
         if (timer <= 0) {
-
-            #if UNITY_ANDROID
-            Instantiate(spawnSprite, new Vector2(Skillz.Random.Range(minPos, maxPos), height), Quaternion.identity);
-            #elif UNITY_IOS
-            Instantiate(spawnSprite, new Vector2(SkillzSDK.Api.Random.Range(minPos, maxPos), height), Quaternion.identity);
-            #endif
+			Instantiate(spawnSprite, new Vector2(SkillzCrossPlatform.Random.Range(minPos, maxPos), height), Quaternion.identity);
             timer = delayTimer;
         }
     }

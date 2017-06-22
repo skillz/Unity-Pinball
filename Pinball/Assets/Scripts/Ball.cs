@@ -41,13 +41,8 @@ public class Ball : MonoBehaviour {
         sr = gameObject.GetComponent<SpriteRenderer>();
 
         // Add initial force to randomize the spawning
-        #if UNITY_ANDROID
-        randomV = Skillz.Random.Range(0f, 1f);
-        randomH = Skillz.Random.Range(-10f, 10f);
-        #elif UNITY_IOS
-        randomV = SkillzSDK.Api.Random.Range(0f, 1f);
-        randomH = SkillzSDK.Api.Random.Range(-10f, 10f);
-        #endif
+		randomV = SkillzCrossPlatform.Random.Range(0f, 1f);
+		randomH = SkillzCrossPlatform.Random.Range(-10f, 10f);
 
         rb.AddForce(new Vector2(randomH, randomV), ForceMode2D.Impulse);
 
