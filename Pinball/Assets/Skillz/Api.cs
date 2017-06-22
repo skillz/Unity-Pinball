@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using System.Linq;
 
 namespace SkillzSDK
 {
@@ -79,13 +80,19 @@ namespace SkillzSDK
 		private static extern void _showSDKVersionInfo();
 
 		[DllImport ("__Internal")]
-		private static extern void _launchSkillz(string orientation);
+		private static extern IntPtr _getMatchRules();
+
+		[DllImport ("__Internal")]
+		private static extern void _launchSkillz();
 
 		[DllImport ("__Internal")]
 		private static extern void _displayTournamentResultsWithScore(int score);
 
 		[DllImport ("__Internal")]
 		private static extern void _displayTournamentResultsWithFloatScore(float score);
+
+		[DllImport ("__Internal")]
+		private static extern void _displayTournamentResultsWithStringScore(string score);
 
 		[DllImport ("__Internal")]
 		private static extern void _completeTurnWithGameData(string gameData, string score, float playerCurrentTotalScore, float opponentCurrentTotalScore, string roundOutcome, string matchOutcome);
@@ -100,10 +107,13 @@ namespace SkillzSDK
 		private static extern void _updatePlayersCurrentScore(float score);
 
 		[DllImport ("__Internal")]
-		private static extern float _getRandomFloat();
+		private static extern void _updatePlayersCurrentStringScore(string score);
 
 		[DllImport ("__Internal")]
-		private static extern void _setShouldSkillzLaunchFromURL(bool allowLaunch);
+		private static extern void _updatePlayersCurrentIntScore(int score);
+
+		[DllImport ("__Internal")]
+		public static extern float _getRandomFloat();
 
 		#endregion //Native iOS API
 
@@ -163,7 +173,7 @@ namespace SkillzSDK
 		/// Initializes Skillz. Note that this will be called automatically, assuming you follow
 		/// the instructions on the Developer Portal and use a script that inherits from SkillzDelegateBase.
 		/// </summary>
-		/// 
+		///
 		/// <param name="gameId">The game ID number assigned to your game on the Skillz developer portal.</param>
 		/// <param name="environment">Environment.Sandbox for development/testing, or Environment.Production for submitting the final app.</param>
 		public static void Initialize(string gameId, Environment environment)
@@ -190,23 +200,17 @@ namespace SkillzSDK
 		/// <summary>
 		/// Starts up the Skillz UI. Should be used as soon as the player clicks your game's "Multiplayer" button.
 		/// </summary>
-		/// 
+		///
 		/// <param name="orientation">
 		/// Pass in Orientation.Landscape if your game uses landscape or Orientation.Portrait
 		/// if your game uses portrait.
 		/// </param>
-		public static void LaunchSkillz(Orientation orientation)
+		public static void LaunchSkillz()
 		{
 			if (Application.platform == RuntimePlatform.IPhonePlayer)
 			{
-				if (orientation == Orientation.Landscape)
-				{
-					_launchSkillz ("SkillzLandscape");
-				}
-				else
-				{
-					_launchSkillz ("SkillzPortrait");
-				}
+                _launchSkillz();
+
 			}
 			else
 			{
@@ -219,11 +223,34 @@ namespace SkillzSDK
 		/// Call this method every time the player's score changes during a Skillz match.
 		/// This adds important anti-cheating functionality to your game.
 		/// </summary>
-		/// 
-		/// <param name="currentScoreForPlayer">The player's current score.</param>
+		///
+		/// <param name="currentScoreForPlayer">The player's current float score.</param>
+
 		public static void UpdatePlayerScore(float currentScoreForPlayer)
 		{
 			_updatePlayersCurrentScore(currentScoreForPlayer);
+		}
+
+		/// <summary>
+		/// Call this method every time the player's score changes during a Skillz match.
+		/// This adds important anti-cheating functionality to your game.
+		/// </summary>
+		///
+		/// <param name="currentScoreForPlayer">The player's current string score.</param>
+		public static void UpdatePlayerScore(string currentScoreForPlayer)
+		{
+		_updatePlayersCurrentStringScore(currentScoreForPlayer);
+		}
+
+		/// <summary>
+		/// Call this method every time the player's score changes during a Skillz match.
+		/// This adds important anti-cheating functionality to your game.
+		/// </summary>
+		///
+		/// <param name="currentScoreForPlayer">The player's current int score.</param>
+		public static void UpdatePlayerScore(int currentScoreForPlayer)
+		{
+			_updatePlayersCurrentIntScore(currentScoreForPlayer);
 		}
 
 		/// <summary>
@@ -241,7 +268,7 @@ namespace SkillzSDK
 		/// Call this method when a player finishes a multiplayer game. This will report the result of the game
 		/// to the Skillz server, and return the player to the Skillz portal.
 		/// </summary>
-		/// 
+		///
 		/// <param name="score">An int representing the score a player achieved in the game.</param>
 		public static void FinishTournament(int score)
 		{
@@ -252,11 +279,22 @@ namespace SkillzSDK
 		/// Call this method when a player finishes a multiplayer game. This will report the result of the game
 		/// to the Skillz server, and return the player to the Skillz portal.
 		/// </summary>
-		/// 
+		///
 		/// <param name="score">A float representing the score a player achieved in the game.</param>
 		public static void FinishTournament(float score)
 		{
 			_displayTournamentResultsWithFloatScore(score);
+		}
+
+		/// <summary>
+		/// Call this method when a player finishes a multiplayer game. This will report the result of the game
+		/// to the Skillz server, and return the player to the Skillz portal.
+		/// </summary>
+		///
+		/// <param name="score">A string representing the score a player achieved in the game.</param>
+		public static void FinishTournament(string score)
+		{
+			_displayTournamentResultsWithStringScore(score);
 		}
 
 		#endregion //Normal tournaments
@@ -267,7 +305,7 @@ namespace SkillzSDK
 		/// <summary>
 		/// Completes a turn for a turn-based game that doesn't have scores.
 		/// </summary>
-		/// 
+		///
 		/// <param name="gameData">
 		/// A Base64-encoded String object containing serialized data which can be used
 		///   to reconstruct the game state for the next turn, or to review the current game state. This exact string
@@ -286,7 +324,7 @@ namespace SkillzSDK
 		/// <summary>
 		/// Completes a turn for a turn-based game that has scores.
 		/// </summary>
-		/// 
+		///
 		/// <param name="gameData">
 		/// A Base64-encoded String object containing serialized data which can be used
 		///   to reconstruct the game state for the next turn, or to review the current game state. This exact string
@@ -324,11 +362,12 @@ namespace SkillzSDK
 
 		/// <summary>
 		/// You may use this method to track player actions, level types, or other information pertinent to your Skillz integration.
-		/// All keys and values in the metadataJson strign argument should be strings, pass true for forMatchInProgress if this metadata relates to an in progress match. 
+		/// All keys and values in the metadataJson strign argument should be strings, pass true for forMatchInProgress if this metadata relates to an in progress match.
 		/// </summary>
-		public static void AddMetadataForMatchInProgress(string metadataJson, bool forMatchInProgress)
+		public static void AddMetadataForMatchInProgress(Dictionary<string,string> metadataJson, bool forMatchInProgress)
 		{
-			_addMetadataForMatchInProgress(metadataJson, forMatchInProgress);
+				var metadataString = string.Join(";", metadataJson.Select(x => x.Key + "=" + x.Value).ToArray());
+				_addMetadataForMatchInProgress(metadataString, forMatchInProgress);
 		}
 
 		/// <summary>
@@ -345,7 +384,7 @@ namespace SkillzSDK
 		/// Both players start with the exact same seed value, guaranteeing that this method
 		/// will return the same sequence of numbers for both players, assuming their 'min' and 'max' parameters always match up.
 		/// </summary>
-		/// 
+		///
 		/// <param name="min">The minimum possible value, inclusive.</param>
 		/// <param name="max">The maximum possible value, exclusive.</param>
 		public static int GetRandomNumber(int min, int max)
@@ -353,7 +392,7 @@ namespace SkillzSDK
 			return _getRandomNumberWithMinAndMax(min, max);
 		}
 
-		
+
 		/// <summary>
 		/// Prints the Skillz SDK version to the logs.
 		/// </summary>
@@ -362,23 +401,33 @@ namespace SkillzSDK
 			_showSDKVersionInfo();
 		}
 
+		/// <summary>
+		/// Returns a hash table of the Match Rules.
+		/// </summary>
+		public static Dictionary<string, object> GetMatchRules()
+		{
+		    string matchRules = Marshal.PtrToStringAnsi(_getMatchRules());
+		    Dictionary<string, object> matchInfoDict = DeserializeJSONToDictionary(matchRules);
+		    return matchInfoDict;
+		}
+
 		public static class Random {
-		
+
 			/**
 			 * Value from Skillz random (if a Skillz game), or Unity random (if not a Skillz game)
 			 **/
 			public static float Value() {
-			
+
 				float randomValue = 0;
 				if(IsTournamentInProgress) {
 					randomValue = _getRandomFloat();
 				} else {
 					randomValue = UnityEngine.Random.value;
 				}
-			
+
 				return randomValue;
 			}
-		
+
 			/**
 			 * Find a point inside the unit sphere using Value()
 			 **/
@@ -386,14 +435,14 @@ namespace SkillzSDK
 				float r = Value();
 				float phi = Value() * Mathf.PI;
 				float theta = Value() * Mathf.PI * 2;
-			
+
 				float x = r * Mathf.Cos(theta) * Mathf.Sin(phi);
 				float y = r * Mathf.Sin(theta) * Mathf.Sin(phi);
 				float z = r * Mathf.Cos(phi);
-			
+
 				return new Vector3(x, y ,z);
 			}
-		
+
 			/**
 			 * Find a point inside the unit circle using Value()
 			 **/
@@ -401,35 +450,35 @@ namespace SkillzSDK
 				float radius = 1.0f;
 				float rand = Value() * 2 * Mathf.PI;
 				Vector2 val = new Vector2();
-			
+
 				val.x = radius * Mathf.Cos(rand);
 				val.y = radius * Mathf.Sin(rand);
-			
+
 				return val;
 			}
-		
+
 			/**
 			 * Hybrid rejection / trig method to generate points on a sphere using Value()
 			 **/
 			public static Vector3 OnUnitSphere() {
 				Vector3 val = new Vector3();
 				float s;
-			
+
 				do {
 					val.x = 2 * (float) Value() - 1;
 					val.y = 2 * (float) Value() - 1;
 					s = Mathf.Pow(val.x, 2) + Mathf.Pow(val.y, 2);
 				} while (s > 1);
-			
+
 				float r = 2 * Mathf.Sqrt(1 - s);
-			
+
 				val.x *= r;
 				val.y *= r;
 				val.z = 2 * s - 1;
-			
+
 				return val;
 			}
-		
+
 			/**
 			 * Quaternion random using Value()
 			 **/
@@ -437,17 +486,17 @@ namespace SkillzSDK
 				float u1 = Value();
 				float u2 = Value();
 				float u3 = Value();
-			
+
 				float u1sqrt = Mathf.Sqrt(u1);
 				float u1m1sqrt = Mathf.Sqrt(1 - u1);
 				float x = u1m1sqrt * Mathf.Sin(2 * Mathf.PI * u2);
 				float y = u1m1sqrt * Mathf.Cos(2 * Mathf.PI * u2);
 				float z = u1sqrt * Mathf.Sin(2 * Mathf.PI * u3);
 				float w = u1sqrt * Mathf.Cos(2 * Mathf.PI * u3);
-			
+
 				return new Quaternion(x, y, z, w);
 			}
-		
+
 			/**
 			 * Quaternion random using Value()
 			 **/
@@ -470,22 +519,6 @@ namespace SkillzSDK
 				float rand = Value();
 				return min + (int) (rand * (max-min));
 			}
-		}
-		/// <summary>
-		/// Call this method to allow your game to launch into Skillz from sources external to your application (e.g. from Skillz-run advertisements).
-		/// By default, this functionality is disabled (ie, set to false).
-		/// 
-		/// For example:
-		///
-		///		- If the user is mid-gameplay, do not call or set to false. This ensures that gameplay is not interrupted.
-		///		- If the user is at a splash screen or in an options menu, return true. This is a safe place to launch into Skillz from.
-		///
-		/// When setting true, be sure that any relevant state is cleaned up in the skillzWillLaunch delegate method.
-		/// </summary>
-		/// <param name="allowLaunch">signifies that your application is in a state where it is safe for Skillz to launch</param>
-		public static void SetShouldSkillzLaunchFromURL(bool allowLaunch)
-		{
-			_setShouldSkillzLaunchFromURL(allowLaunch);
 		}
 
 		private static Dictionary<string, object> DeserializeJSONToDictionary(string jsonString)

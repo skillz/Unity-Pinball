@@ -17,17 +17,17 @@ namespace SkillzSDK
 		/// The player should generally be taken back to whatever screen Skillz was launched from (presumably the main menu).
 		/// </summary>
 		public virtual void OnSkillzWillExit() { }
-		
+
 		/// <summary>
 		/// Called when the Skillz UI is about to launch.
 		/// </summary>
 		public virtual void OnSkillzWillLaunch() { }
-		
+
 		/// <summary>
 		/// Called when the Skillz UI has just finished successfully launching.
 		/// </summary>
 		public virtual void OnSkillzLaunchCompleted() { }
-		
+
 		/// <summary>
 		/// Called when the player aborted a match.
 		/// </summary>
