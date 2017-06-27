@@ -1,7 +1,7 @@
-#Thu Jun 22 15:16:54 PDT 2017
-base.0=/Users/gabbyfirmacion/Desktop/June22test/Pinball\!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2435c4c1c4624764e83e99befb7dfd1f35f4a0d8
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/gabbyfirmacion/Desktop/June22test/Pinball\!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1729514368525715510874a369dbe2da2c7b4e92/classes.dex
-base.1=/Users/gabbyfirmacion/Desktop/June22test/Pinball\!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1729514368525715510874a369dbe2da2c7b4e92
-file.0=/Users/gabbyfirmacion/Desktop/June22test/Pinball\!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2435c4c1c4624764e83e99befb7dfd1f35f4a0d8/classes.dex
+#Tue Jun 27 14:51:29 PDT 2017
+base.0=/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball\!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_33f4337ac1bce4736bb7d3fb937f9d4758a24855
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball\!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a9a568f44263042a95f8a86194e91f1146c166da/classes.dex
+base.1=/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball\!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a9a568f44263042a95f8a86194e91f1146c166da
+file.0=/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball\!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_33f4337ac1bce4736bb7d3fb937f9d4758a24855/classes.dex

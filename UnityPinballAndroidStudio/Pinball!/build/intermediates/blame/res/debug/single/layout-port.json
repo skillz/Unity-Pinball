@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/layout-port/fragment_watch_replay.xml",
-        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-port/fragment_watch_replay.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout-port/fragment_watch_replay.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-port/fragment_watch_replay.xml"
     },
     {
-        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/layout-port/balance_item_view_children.xml",
-        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-port/balance_item_view_children.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout-port/fragment_user_transactions.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-port/fragment_user_transactions.xml"
     },
     {
-        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/layout-port/plow_share_replay.xml",
-        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-port/plow_share_replay.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout-port/balance_item_view_children.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-port/balance_item_view_children.xml"
     },
     {
-        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/layout-port/fragment_user_transactions.xml",
-        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-port/fragment_user_transactions.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout-port/plow_share_replay.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-port/plow_share_replay.xml"
     }
 ]

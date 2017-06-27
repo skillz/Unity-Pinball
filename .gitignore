@@ -28,3 +28,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Pinball/Temp/StagingArea/Trampoline/Unity-iPhone.xcodeproj/project.pbxproj
+Pinball/Temp/StagingArea/Trampoline/Unity-iPhone.xcodeproj/xcshareddata/xcschemes/Unity-iPhone.xcscheme

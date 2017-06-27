@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/Users/gabbyfirmacion/.android/build-cache/ff128c2dcabcdfcd0909b1f3cb65ec43e09825c4/output/res/xml/preferences.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/gabbyfirmacion/.android/build-cache/f3dc3e9349791ca4aa4acf450118439bcb056df6/output/res/xml/preferences.xml"
     },
     {
-        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/xml/authenticator.xml",
-        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/xml/authenticator.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/xml/authenticator.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/xml/authenticator.xml"
     },
     {
-        "merged": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/res/merged/debug/xml/skillz_file_paths.xml",
-        "source": "/Users/gabbyfirmacion/Desktop/June22test/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/xml/skillz_file_paths.xml"
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/xml/skillz_file_paths.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/xml/skillz_file_paths.xml"
     }
 ]

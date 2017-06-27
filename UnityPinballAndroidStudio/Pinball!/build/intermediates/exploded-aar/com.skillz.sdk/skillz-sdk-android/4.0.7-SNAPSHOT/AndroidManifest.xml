@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.skillz"
     android:versionCode="2"
-    android:versionName="4.0.7.151" >
+    android:versionName="4.0.7.209" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -72,7 +72,7 @@
 
         <meta-data
             android:name="com.skillz.ota.android.version"
-            android:value="5.0.6-9-g7128c89d" />
+            android:value="5.0.10" />
 
         <!-- PayPal -->
         <service

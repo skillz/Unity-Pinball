@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ZPotatoWu.Pinball"
     android:installLocation="preferExternal"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="40000001"
+    android:versionName="4.0.0.1" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -152,7 +152,7 @@
 
         <meta-data
             android:name="com.skillz.ota.android.version"
-            android:value="5.0.6-9-g7128c89d" /> <!-- PayPal -->
+            android:value="5.0.10" /> <!-- PayPal -->
         <service
             android:name="com.paypal.android.sdk.payments.PayPalService"
             android:exported="false" />
