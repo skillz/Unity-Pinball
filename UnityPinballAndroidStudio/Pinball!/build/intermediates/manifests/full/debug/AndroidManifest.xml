@@ -121,6 +121,9 @@
         <meta-data
             android:name="skillz_orientation"
             android:value="portrait" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="267045208f4b1d9fdcbf019068b81096fe16475a" />
 
         <activity
             android:name="com.skillz.activity.WelcomeActivity"

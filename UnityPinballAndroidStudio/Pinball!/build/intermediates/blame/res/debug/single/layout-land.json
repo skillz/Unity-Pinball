@@ -56,12 +56,12 @@
         "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-land/balance_item_view_children.xml"
     },
     {
-        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout-land/skz_dialog_tutorial_2.xml",
-        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-land/skz_dialog_tutorial_2.xml"
-    },
-    {
         "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout-land/skz_fragment_trophies_for_other_user.xml",
         "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-land/skz_fragment_trophies_for_other_user.xml"
+    },
+    {
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout-land/skz_dialog_tutorial_2.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-land/skz_dialog_tutorial_2.xml"
     },
     {
         "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout-land/fragment_leaderboard_winners_no_prizes.xml",

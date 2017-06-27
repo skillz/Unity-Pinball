@@ -12,6 +12,9 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
+
 public class UnityPlayerActivity extends Activity
 {
     protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
@@ -19,6 +22,8 @@ public class UnityPlayerActivity extends Activity
     // Setup activity layout
     @Override protected void onCreate (Bundle savedInstanceState)
     {
+        Fabric.with(this, new Crashlytics());
+
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
 

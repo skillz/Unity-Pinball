@@ -7991,13 +7991,13 @@
                     "endOffset": 65047
                 },
                 "from": {
-                    "file": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/values/values.xml",
+                    "file": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml",
                     "position": {
-                        "startLine": 172,
-                        "startColumn": 4,
-                        "startOffset": 7810,
-                        "endColumn": 164,
-                        "endOffset": 7970
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 303,
+                        "endColumn": 162,
+                        "endOffset": 465
                     }
                 }
             },

@@ -12,12 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/jars/libs/mopub-sdk-base.jar"
+        jar="/Users/gabbyfirmacion/.android/build-cache/b2711445d93b76674e65e12f7d2228e6409f6cfc/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="333b6bccf6a44507ead36bed899bc3adc4ae883c">
-        <dex dex="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/mopub-sdk-base_5462a6499f2fda732b53ece2f71b70a2fd8f4f4d/classes.dex" />
+        sha1="646439081688c43e04ec4aa7ba6915ddfdcc337f">
+        <dex dex="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9ec293381e8c3029c8fbb8c1f8e4d6099e9249b6/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -27,6 +27,15 @@
         revision="25.0.3"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a9a568f44263042a95f8a86194e91f1146c166da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/jars/libs/mopub-sdk-base.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="333b6bccf6a44507ead36bed899bc3adc4ae883c">
+        <dex dex="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/mopub-sdk-base_5462a6499f2fda732b53ece2f71b70a2fd8f4f4d/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,12 +66,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/gabbyfirmacion/.android/build-cache/05cee3666da7639eb759d4c48c6f9c04ef5a14ca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="461929440e66685425a298693507f6fb27b0a872">
+        <dex dex="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/classes_712faf5c17d535d0e804c676f20fd00b6d431cb6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="680a028030fecc7068faf8e59448c92a894523dc">
+        sha1="42e83b8765402c0e1fe2c6c373c8c3ec0da8bb67">
         <dex dex="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_33f4337ac1bce4736bb7d3fb937f9d4758a24855/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/.android/build-cache/4fd07038704e836c6472ffef03490875c1d346b0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="204f607419af8247cc1b2a61f50663c65f841c12">
+        <dex dex="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/classes_309930b8f25473623814d70dffc9c5e0a51400b4/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -72,6 +99,24 @@
         revision="25.0.3"
         sha1="77514655c638b7a9fa94e402a22cea0d2bfd5c71">
         <dex dex="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/KochavaSDK_82324c936308cc739ff1172c848af676ef1fbe7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/.android/build-cache/8556fe03bfb091159ae31fe54bc26f8143f94571/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="005d20a198159b87f65812fc5c51b2d84c5eba0a">
+        <dex dex="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3b4fbcb14c45f05f7a4e70f69e89e0c50e884959/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/gabbyfirmacion/.android/build-cache/d73863214ed69aa4b292dc49f96f58e28a9fb815/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7045152f3bd1870740b9bcb1cddff495e189774e">
+        <dex dex="/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1a51d63130c6a00c2fe491f09fc15bd4b6244808/classes.dex" />
     </item>
 
 </items>

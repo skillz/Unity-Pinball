@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout/skz_fragment_withdrawal_info.xml",
-        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout/skz_fragment_withdrawal_info.xml"
-    },
-    {
         "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout/redbox_item_title.xml",
         "source": "/Users/gabbyfirmacion/.android/build-cache/f3dc3e9349791ca4aa4acf450118439bcb056df6/output/res/layout/redbox_item_title.xml"
+    },
+    {
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout/skz_fragment_withdrawal_info.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout/skz_fragment_withdrawal_info.xml"
     },
     {
         "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball!/build/intermediates/res/merged/debug/layout/fragment_switch_accounts.xml",
