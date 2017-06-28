@@ -53,7 +53,7 @@ zip -r "Pinball.ipa" "Payload"
 unzip -q Skillz.framework.dSYM.zip -d "UnityPinballXcode/build/Release-iphoneos"
 unzip -q Skillz_DEBUG.framework.dSYM.zip -d "UnityPinballXcode/build/Debug-iphoneos"
 
-"${WORKSPACE}/UnityPinballXcode/Crashlytics.framework/submit" 267045208f4b1d9fdcbf019068b81096fe16475a \
-bc1e89c576f18f877c98d2ca8a922096ef5415a8b5023e922eb6b2c474a455e1 \
--ipaPath "${WORKSPACE}/Pinball.ipa" \
--groupAliases SDK,qa-2,tournament-server,product
+# "${WORKSPACE}/UnityPinballXcode/Crashlytics.framework/submit" 267045208f4b1d9fdcbf019068b81096fe16475a \
+# bc1e89c576f18f877c98d2ca8a922096ef5415a8b5023e922eb6b2c474a455e1 \
+# -ipaPath "${WORKSPACE}/Pinball.ipa" \
+# -groupAliases SDK,qa-2,tournament-server,product
