@@ -38,7 +38,7 @@ echo "UNITY - set version numbers"
 
 # Build Full for Crashlytics
 echo "UNITY - Build for crashlytics"
-set -o pipefail && xcodebuild -sdk iphoneos -scheme -configuration Release clean build \
+set -o pipefail && xcodebuild -sdk iphoneos clean build \
 ONLY_ACTIVE_ARCH=NO BUILD_DIR=./build CODE_SIGN_IDENTITY="iPhone Distribution: Skillz Inc." | xcpretty
 echo "UNITY - finish Build for crashlytics"
 
