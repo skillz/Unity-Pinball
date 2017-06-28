@@ -59,6 +59,9 @@
 		609B4182BDB33BEFFA2561DE /* Il2CppCompilerCalculateTypeValues_10Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9F048F0AA2742F7C9E82A1D /* Il2CppCompilerCalculateTypeValues_10Table.cpp */; };
 		66A84808AA793AACA39BDAFD /* Bulk_Assembly-CSharp_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEA84E56A56A9A2D380422EE /* Bulk_Assembly-CSharp_0.cpp */; };
 		785742A48BAF81576BDD3D16 /* Bulk_System_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEB04A5EA94EF0F61A7F47C5 /* Bulk_System_1.cpp */; };
+		7933827D1F04593E00FCE951 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7933827A1F04593E00FCE951 /* Security.framework */; };
+		7933827E1F04593E00FCE951 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7933827B1F04593E00FCE951 /* Fabric.framework */; };
+		7933827F1F04593E00FCE951 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7933827C1F04593E00FCE951 /* Crashlytics.framework */; };
 		79F94E6586E4873A754BA3D8 /* Il2CppCompilerCalculateTypeValues_16Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63AE434E83022A2B776E3705 /* Il2CppCompilerCalculateTypeValues_16Table.cpp */; };
 		7E834B4B81591CA56BB57771 /* Bulk_mscorlib_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BD1444F8F8F700A1F7CBF16 /* Bulk_mscorlib_1.cpp */; };
 		7ECA41F7B9936C15520F815C /* Il2CppCompilerCalculateTypeValues_4Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D60D4CF7B591147B47819368 /* Il2CppCompilerCalculateTypeValues_4Table.cpp */; };
@@ -218,6 +221,9 @@
 		6A684CE3B559C37C38180A36 /* Bulk_UnityEngine_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine_1.cpp; path = Classes/Native/Bulk_UnityEngine_1.cpp; sourceTree = SOURCE_ROOT; };
 		762341B48D394757E8DA608C /* Bulk_Generics_6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_Generics_6.cpp; path = Classes/Native/Bulk_Generics_6.cpp; sourceTree = SOURCE_ROOT; };
 		788D4523BB8028CC9DAE4445 /* Bulk_Generics_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_Generics_0.cpp; path = Classes/Native/Bulk_Generics_0.cpp; sourceTree = SOURCE_ROOT; };
+		7933827A1F04593E00FCE951 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7933827B1F04593E00FCE951 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		7933827C1F04593E00FCE951 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		79B44E89AD3546B3DCBAA86F /* Il2CppInvokerTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppInvokerTable.cpp; path = Classes/Native/Il2CppInvokerTable.cpp; sourceTree = SOURCE_ROOT; };
 		7CCE4816904274F0659C9C34 /* Il2CppMetadataRegistration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppMetadataRegistration.cpp; path = Classes/Native/Il2CppMetadataRegistration.cpp; sourceTree = SOURCE_ROOT; };
 		7F36C10E13C5C673007FBDD9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -356,6 +362,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7933827E1F04593E00FCE951 /* Fabric.framework in Frameworks */,
 				960391221D6CE46E003BF157 /* MediaToolbox.framework in Frameworks */,
 				00000000008063A1000160D3 /* libiPhone-lib.a in Frameworks */,
 				AA5D99871AFAD3C800B27605 /* CoreText.framework in Frameworks */,
@@ -365,11 +372,13 @@
 				56B7959B1442E0F20026B3DD /* CoreGraphics.framework in Frameworks */,
 				5692F3DD0FA9D8E500EBA2F1 /* CoreLocation.framework in Frameworks */,
 				7F36C11113C5C673007FBDD9 /* CoreMedia.framework in Frameworks */,
+				7933827F1F04593E00FCE951 /* Crashlytics.framework in Frameworks */,
 				56B7960F1442E1770026B3DD /* CoreMotion.framework in Frameworks */,
 				7F36C11213C5C673007FBDD9 /* CoreVideo.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				5682F4B20F3B34FF007A219C /* MediaPlayer.framework in Frameworks */,
 				83B2574C0E63022200468741 /* OpenAL.framework in Frameworks */,
+				7933827D1F04593E00FCE951 /* Security.framework in Frameworks */,
 				83B256E20E62FEA000468741 /* OpenGLES.framework in Frameworks */,
 				83B2570B0E62FF8A00468741 /* QuartzCore.framework in Frameworks */,
 				56BCBA390FCF049A0030C3B2 /* SystemConfiguration.framework in Frameworks */,
@@ -421,6 +430,9 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				7933827A1F04593E00FCE951 /* Security.framework */,
+				7933827B1F04593E00FCE951 /* Fabric.framework */,
+				7933827C1F04593E00FCE951 /* Crashlytics.framework */,
 				AA31BF961B55660D0013FB1B /* Data */,
 				56C56C9717D6015100616839 /* Images.xcassets */,
 				D82DCFB50E8000A5005D6AD8 /* Classes */,
@@ -718,6 +730,7 @@
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				033966F41B18B03000ECD701 /* ShellScript */,
 				A8A24D7395225500366236D5 /* ShellScript */,
+				793382791F0458FE00FCE951 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -825,6 +838,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PROJECT_DIR/MapFileParser.sh\"";
+		};
+		793382791F0458FE00FCE951 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 267045208f4b1d9fdcbf019068b81096fe16475a bc1e89c576f18f877c98d2ca8a922096ef5415a8b5023e922eb6b2c474a455e1";
 		};
 		A8A24D7395225500366236D5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -987,6 +1013,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PROJECT_DIR)/**\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
@@ -1066,6 +1093,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PROJECT_DIR)/**\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1311,6 +1339,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PROJECT_DIR)/**\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1484,6 +1513,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(PROJECT_DIR)/**\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
