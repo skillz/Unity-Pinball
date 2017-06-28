@@ -1,0 +1,7 @@
+#Wed Jun 28 13:21:00 PDT 2017
+base.0=/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5d6f7631ecf96b98057c63f4cf37b07dd1b647c2
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_112eef313985ec51bf4afb4fb5104c47e5082788/classes.dex
+base.1=/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_112eef313985ec51bf4afb4fb5104c47e5082788
+file.0=/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5d6f7631ecf96b98057c63f4cf37b07dd1b647c2/classes.dex
