@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/res/merged/main/debug/layout-large-land-v4/fragment_friends_invitation.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-large-land-v4/fragment_friends_invitation.xml"
+    },
+    {
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/res/merged/main/debug/layout-large-land-v4/fragment_plow.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-large-land-v4/fragment_plow.xml"
+    },
+    {
+        "merged": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/res/merged/main/debug/layout-large-land-v4/skz_trophies_tutorial.xml",
+        "source": "/Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/res/layout-large-land-v4/skz_trophies_tutorial.xml"
+    }
+]

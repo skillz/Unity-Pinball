@@ -1,0 +1,713 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:2:70-101
+	android:versionName
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:2:1-33:12
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:2:102-142
+supports-screens
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:3:3-163
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:3:135-160
+application
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:4:3-21:17
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:4:3-21:17
+MERGED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:44:5-162:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:12:5-26:19
+MERGED from [com.mopub.volley:mopub-volley:1.1.0] /Users/gabbyfirmacion/.android/build-cache/1ddad54b07731a8088837544d28e78b26d968a50/output/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.0] /Users/gabbyfirmacion/.android/build-cache/5382b73867af812ca51d9868fbf693ff2351abd9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.0] /Users/gabbyfirmacion/.android/build-cache/d0f32a987e937d5440ec012f8de7ef012684d9e4/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /Users/gabbyfirmacion/.android/build-cache/80221ca1cc9863ffb9dbfb3e5af653d59df47a82/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/dc35a9f98fb8f11e2041f65e0b86992e864c5e72/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/gabbyfirmacion/.android/build-cache/ea11f8b1d1683fb1636a19cc44674bda80947a7c/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:10.2.1] /Users/gabbyfirmacion/.android/build-cache/081c2ab8f433aa5ebd1873739cd707631936f2fc/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/gabbyfirmacion/.android/build-cache/d1d47a7cf1a4bc13ce7e17c9d2b4f0fba848c231/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] /Users/gabbyfirmacion/.android/build-cache/0e10b12ccbb7d385d8a8b3e16e760e14fc14301f/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] /Users/gabbyfirmacion/.android/build-cache/77f8558bac019c843b9f0a5bbec93db3e58837ee/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/gabbyfirmacion/.android/build-cache/c7205fa9e8290c218987632c6f3d490148e3c096/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gabbyfirmacion/.android/build-cache/50e1953bf8dd7cafd3e7b8c1ccb0b92792fe2154/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.facebook.react:react-native:0.41.2] /Users/gabbyfirmacion/.android/build-cache/f3dc3e9349791ca4aa4acf450118439bcb056df6/output/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/gabbyfirmacion/.android/build-cache/13357a8f7e55220f39c70e68499bd53e3fa55c37/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/gabbyfirmacion/.android/build-cache/261ada59cee125c0784a3e8aaf3af812ecb279db/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /Users/gabbyfirmacion/.android/build-cache/31b1d9dd15539fa5c8988733b64e0afa53095d6f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/gabbyfirmacion/.android/build-cache/465fe5a107509b903f4745054c5168e078a68d18/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/gabbyfirmacion/.android/build-cache/81b937037768a9e610762f7eb6946b8f7ae9cbb1/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/gabbyfirmacion/.android/build-cache/f2cd0e930a81938c8a94aecd0998d00445b5f72e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/gabbyfirmacion/.android/build-cache/abf37cb84492f0872734bcba9a8138a7bfb136db/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /Users/gabbyfirmacion/.android/build-cache/c850dad71f432ffb97d71f98ec142063a1c75c2b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/gabbyfirmacion/.android/build-cache/8eff0dcffb3156b47f95fd7178fd8bd9ffc90a80/output/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/gabbyfirmacion/.android/build-cache/a192e1aa4d1b6998087f0434e3a7fda6043b66f6/output/AndroidManifest.xml:2:3-17
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /Users/gabbyfirmacion/.android/build-cache/b2711445d93b76674e65e12f7d2228e6409f6cfc/output/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /Users/gabbyfirmacion/.android/build-cache/4fd07038704e836c6472ffef03490875c1d346b0/output/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /Users/gabbyfirmacion/.android/build-cache/05cee3666da7639eb759d4c48c6f9c04ef5a14ca/output/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /Users/gabbyfirmacion/.android/build-cache/d73863214ed69aa4b292dc49f96f58e28a9fb815/output/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /Users/gabbyfirmacion/.android/build-cache/8556fe03bfb091159ae31fe54bc26f8143f94571/output/AndroidManifest.xml:31:5-20
+	android:label
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:4:109-141
+	android:icon
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:4:75-108
+	android:largeHeap
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:44:18-42
+	android:banner
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:4:164-201
+	android:theme
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:4:16-74
+	android:isGame
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:4:142-163
+activity#com.ZPotatoWu.Pinball.UnityPlayerActivity
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:5:5-12:16
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:5:5-12:16
+	android:clearTaskOnLaunch
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:5:48-81
+	android:screenOrientation
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:5:119-157
+	android:label
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:5:15-47
+	android:launchMode
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:5:158-189
+	android:configChanges
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:5:190-363
+	android:alwaysRetainTaskState
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:5:82-118
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:5:364-420
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:6:7-10:23
+action#android.intent.action.MAIN
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:7:9-61
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:7:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:8:9-69
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:8:19-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:9:9-78
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:9:19-75
+meta-data#unityplayer.UnityActivity
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:11:7-82
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:11:7-82
+	android:value
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:11:59-79
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:11:18-58
+meta-data#skillz_allow_exit
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:13:5-72
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:13:5-72
+	android:value
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:13:49-69
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:13:16-48
+meta-data#skillz_game_activity
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:14:5-71
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:14:5-71
+	android:value
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:14:52-68
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:14:16-51
+meta-data#skillz_is_unity
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:15:5-70
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:15:5-70
+	android:value
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:15:47-67
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:15:16-46
+meta-data#skillz_orientation
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:16:5-77
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:16:5-77
+	android:value
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:16:50-74
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:16:16-49
+meta-data#io.fabric.ApiKey
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:17:5-20:11
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:17:5-20:11
+	android:value
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:19:9-65
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:18:9-40
+uses-sdk
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:22:3-72
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:22:3-72
+MERGED from [com.android.support:multidex:1.0.1] /Users/gabbyfirmacion/.android/build-cache/770c3409fd0bf9dbae484dd08f458c7c8e83741b/output/AndroidManifest.xml:18:5-42
+MERGED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:8:5-10:41
+MERGED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:11:5-58
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mopub.volley:mopub-volley:1.1.0] /Users/gabbyfirmacion/.android/build-cache/1ddad54b07731a8088837544d28e78b26d968a50/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.0] /Users/gabbyfirmacion/.android/build-cache/5382b73867af812ca51d9868fbf693ff2351abd9/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.0] /Users/gabbyfirmacion/.android/build-cache/d0f32a987e937d5440ec012f8de7ef012684d9e4/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /Users/gabbyfirmacion/.android/build-cache/80221ca1cc9863ffb9dbfb3e5af653d59df47a82/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/dc35a9f98fb8f11e2041f65e0b86992e864c5e72/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/gabbyfirmacion/.android/build-cache/ea11f8b1d1683fb1636a19cc44674bda80947a7c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.1] /Users/gabbyfirmacion/.android/build-cache/081c2ab8f433aa5ebd1873739cd707631936f2fc/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/gabbyfirmacion/.android/build-cache/d1d47a7cf1a4bc13ce7e17c9d2b4f0fba848c231/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] /Users/gabbyfirmacion/.android/build-cache/0e10b12ccbb7d385d8a8b3e16e760e14fc14301f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] /Users/gabbyfirmacion/.android/build-cache/77f8558bac019c843b9f0a5bbec93db3e58837ee/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/gabbyfirmacion/.android/build-cache/c7205fa9e8290c218987632c6f3d490148e3c096/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gabbyfirmacion/.android/build-cache/50e1953bf8dd7cafd3e7b8c1ccb0b92792fe2154/output/AndroidManifest.xml:17:5-43
+MERGED from [com.BV:react-native-linear-gradient:2.0.0] /Users/gabbyfirmacion/.android/build-cache/54f92cc938acbe1f3b2ae145d07411b1fc065234/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.41.2] /Users/gabbyfirmacion/.android/build-cache/f3dc3e9349791ca4aa4acf450118439bcb056df6/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/gabbyfirmacion/.android/build-cache/13357a8f7e55220f39c70e68499bd53e3fa55c37/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/gabbyfirmacion/.android/build-cache/261ada59cee125c0784a3e8aaf3af812ecb279db/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/gabbyfirmacion/.android/build-cache/59fe78c83070551444d0c84e2ae06d8a297367bc/output/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/gabbyfirmacion/.android/build-cache/e346a18e118a0a397e1214dd7f6faccff33e17a7/output/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:0.11.0] /Users/gabbyfirmacion/.android/build-cache/28848c4465e3231348aa8330b0a2cb90bf12b8b0/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:0.11.0] /Users/gabbyfirmacion/.android/build-cache/20ac43b96927abd1dffa6645bd246a8493693827/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:0.11.0] /Users/gabbyfirmacion/.android/build-cache/5b322f8e037c37fdec9bdefe6ad0a793362f28ed/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:0.11.0] /Users/gabbyfirmacion/.android/build-cache/4c2f617580c883e4ad5e54dbf10bdd4ed6e7c35f/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:0.11.0] /Users/gabbyfirmacion/.android/build-cache/ebbc01b2f3aca5f62f3d5603a478cb110236a854/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:25.3.0] /Users/gabbyfirmacion/.android/build-cache/31b1d9dd15539fa5c8988733b64e0afa53095d6f/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/gabbyfirmacion/.android/build-cache/465fe5a107509b903f4745054c5168e078a68d18/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/gabbyfirmacion/.android/build-cache/81b937037768a9e610762f7eb6946b8f7ae9cbb1/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/gabbyfirmacion/.android/build-cache/f2cd0e930a81938c8a94aecd0998d00445b5f72e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/gabbyfirmacion/.android/build-cache/abf37cb84492f0872734bcba9a8138a7bfb136db/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] /Users/gabbyfirmacion/.android/build-cache/c850dad71f432ffb97d71f98ec142063a1c75c2b/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.facebook.fresco:fbcore:0.11.0] /Users/gabbyfirmacion/.android/build-cache/c2ef4758d59da7a70c248911ce212a1a675b9eab/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/gabbyfirmacion/.android/build-cache/8eff0dcffb3156b47f95fd7178fd8bd9ffc90a80/output/AndroidManifest.xml:2:3-70
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /Users/gabbyfirmacion/.android/build-cache/b2711445d93b76674e65e12f7d2228e6409f6cfc/output/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /Users/gabbyfirmacion/.android/build-cache/4fd07038704e836c6472ffef03490875c1d346b0/output/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /Users/gabbyfirmacion/.android/build-cache/05cee3666da7639eb759d4c48c6f9c04ef5a14ca/output/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /Users/gabbyfirmacion/.android/build-cache/d73863214ed69aa4b292dc49f96f58e28a9fb815/output/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /Users/gabbyfirmacion/.android/build-cache/8556fe03bfb091159ae31fe54bc26f8143f94571/output/AndroidManifest.xml:27:5-43
+	tools:overrideLibrary
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:11:15-55
+	android:targetSdkVersion
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:22:40-69
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:22:13-39
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+		MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:22:13-39
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:23:3-52
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:23:3-52
+	android:glEsVersion
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:23:17-49
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:24:3-65
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:24:3-65
+MERGED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:13:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /Users/gabbyfirmacion/.android/build-cache/80221ca1cc9863ffb9dbfb3e5af653d59df47a82/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/dc35a9f98fb8f11e2041f65e0b86992e864c5e72/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/gabbyfirmacion/.android/build-cache/d1d47a7cf1a4bc13ce7e17c9d2b4f0fba848c231/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:20:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /Users/gabbyfirmacion/.android/build-cache/b2711445d93b76674e65e12f7d2228e6409f6cfc/output/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /Users/gabbyfirmacion/.android/build-cache/4fd07038704e836c6472ffef03490875c1d346b0/output/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /Users/gabbyfirmacion/.android/build-cache/05cee3666da7639eb759d4c48c6f9c04ef5a14ca/output/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /Users/gabbyfirmacion/.android/build-cache/d73863214ed69aa4b292dc49f96f58e28a9fb815/output/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /Users/gabbyfirmacion/.android/build-cache/8556fe03bfb091159ae31fe54bc26f8143f94571/output/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:24:20-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:25:3-106
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:25:3-106
+MERGED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:15:5-81
+	android:maxSdkVersion
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:25:77-103
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:25:20-76
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:26:3-97
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:26:3-97
+	android:required
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:26:70-94
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:26:17-69
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:27:3-88
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:27:3-88
+	android:required
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:27:61-85
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:27:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:28:3-99
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:28:3-99
+	android:required
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:28:72-96
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:28:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:29:3-108
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:29:3-108
+	android:required
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:29:81-105
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:29:17-80
+uses-feature#android.hardware.location.gps
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:30:3-89
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:30:3-89
+	android:required
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:30:62-86
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:30:17-61
+uses-feature#android.hardware.vulkan
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:31:3-83
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:31:3-83
+	android:required
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:31:56-80
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:31:17-55
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:32:3-105
+MERGED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:32:3-105
+MERGED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:14:5-80
+	android:maxSdkVersion
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:32:76-102
+	android:name
+		ADDED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml:32:20-75
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:16:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:17:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/gabbyfirmacion/.android/build-cache/d1d47a7cf1a4bc13ce7e17c9d2b4f0fba848c231/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:18:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:20:22-73
+uses-permission#android.permission.CAPTURE_SECURE_VIDEO_OUTPUT
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:21:5-86
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:21:22-83
+uses-permission#android.permission.MANAGE_OVERLAY_PERMISSION
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:22:5-84
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:22:22-81
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:23:5-74
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:23:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:24:22-68
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:25:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:26:22-77
+uses-permission#com.android.vending.BILLING
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:27:22-64
+uses-permission#android.permission.CAMERA
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:30:5-65
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:30:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:31:5-66
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:31:22-63
+uses-feature#android.hardware.camera
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:34:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:37:9-57
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:42:5-82
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /Users/gabbyfirmacion/.android/build-cache/80221ca1cc9863ffb9dbfb3e5af653d59df47a82/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/dc35a9f98fb8f11e2041f65e0b86992e864c5e72/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:42:22-79
+activity#com.skillz.activity.WelcomeActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:45:9-47:66
+	android:theme
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:47:13-63
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:46:13-63
+provider#android.support.v4.content.FileProvider
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:49:9-57:20
+	android:authorities
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:51:13-75
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+	android:grantUriPermissions
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:53:13-47
+	android:exported
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:50:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:54:13-56:61
+	android:resource
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:56:17-58
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:55:17-67
+activity#com.skillz.activity.HomeActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:59:9-65:59
+	android:label
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:62:13-60
+	android:stateNotNeeded
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:63:13-42
+	android:windowSoftInputMode
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:65:13-56
+	android:configChanges
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:61:13-170
+	android:theme
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:64:13-51
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:60:13-60
+activity#com.skillz.activity.RootedDeviceDetected
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:66:9-68:54
+	android:theme
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:68:13-51
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:67:13-68
+activity#com.skillz.activity.NoNetworkActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:69:9-71:77
+	android:configChanges
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:71:13-74
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:70:13-65
+meta-data#com.skillz.ota.android.version
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:73:9-75:38
+	android:value
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:75:13-35
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:74:13-58
+service#com.paypal.android.sdk.payments.PayPalService
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:78:9-80:40
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:80:13-37
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:79:13-73
+activity#com.paypal.android.sdk.payments.PaymentActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:82:9-84
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:13:9-84
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:82:19-81
+activity#com.paypal.android.sdk.payments.LoginActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:83:9-82
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:16:9-82
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:83:19-79
+activity#com.paypal.android.sdk.payments.PaymentMethodActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:84:9-90
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:14:9-90
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:84:19-87
+activity#com.paypal.android.sdk.payments.PaymentConfirmActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:85:9-91
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:15:9-91
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:85:19-88
+activity#io.card.payment.CardIOActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:86:9-88:66
+	android:configChanges
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:88:13-63
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:87:13-58
+activity#io.card.payment.DataEntryActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:89:9-70
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:89:19-67
+activity#com.skillz.mopub.mobileads.MoPubActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:92:9-95:50
+	android:screenOrientation
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:95:13-47
+	android:configChanges
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:94:13-74
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:93:13-68
+activity#com.skillz.mopub.mobileads.MraidActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:96:9-99:50
+	android:screenOrientation
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:99:13-47
+	android:configChanges
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:98:13-74
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:97:13-68
+activity#com.skillz.mopub.common.MoPubBrowser
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:100:9-103:50
+	android:screenOrientation
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:103:13-47
+	android:configChanges
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:102:13-74
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:101:13-64
+activity#com.skillz.mopub.mobileads.MraidVideoPlayerActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:104:9-107:50
+	android:screenOrientation
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:107:13-47
+	android:configChanges
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:106:13-74
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:105:13-79
+receiver#com.kochava.android.tracker.ReferralCapture
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:110:9-116:20
+	android:exported
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:112:13-36
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:111:13-71
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:113:13-115:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:114:17-79
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:114:25-76
+service#com.skillz.push.PushListenerService
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:118:9-122:19
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:118:18-68
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:119:13-121:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:120:17-78
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:120:25-75
+service#com.skillz.push.PushRoutingService
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:123:9-125:40
+	android:exported
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:125:13-37
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:124:13-62
+service#com.skillz.push.PushRegistrationService
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:126:9-128:40
+	android:exported
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:128:13-37
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:127:13-67
+service#com.skillz.push.PushIDListenerService
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:129:9-133:19
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:129:18-70
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:130:13-132:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:131:17-80
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:131:25-77
+activity#com.skillz.activity.FullScreenVideoActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:135:9-136:20
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:135:19-77
+meta-data#com.google.android.gms.version
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:141:9-143:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/gabbyfirmacion/.android/build-cache/50e1953bf8dd7cafd3e7b8c1ccb0b92792fe2154/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:143:13-66
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:142:13-58
+activity#com.skillz.activity.SkillzAuthenticatorActivity
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:146:9-148:66
+	android:label
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:148:13-63
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:147:13-75
+service#com.skillz.sso.SkillzAuthenticatorService
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:150:9-158:19
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:150:18-74
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:151:13-153:29
+action#android.accounts.AccountAuthenticator
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:152:17-80
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:152:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:155:13-157:57
+	android:resource
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:157:17-54
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:156:17-69
+receiver#com.skillz.push.local.LocalNotificationReceiver
+ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:161:9-84
+	android:name
+		ADDED from [com.skillz.sdk:skillz-sdk-android:4.0.7-SNAPSHOT] /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/build/intermediates/exploded-aar/com.skillz.sdk/skillz-sdk-android/4.0.7-SNAPSHOT/AndroidManifest.xml:161:19-81
+activity#com.paypal.android.sdk.payments.PayPalFuturePaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:17:9-96
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:17:19-93
+activity#com.paypal.android.sdk.payments.FuturePaymentConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:18:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:18:19-94
+activity#com.paypal.android.sdk.payments.FuturePaymentInfoActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:19:9-94
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:19:19-91
+activity#com.paypal.android.sdk.payments.PayPalProfileSharingActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:20:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:20:19-94
+activity#com.paypal.android.sdk.payments.ProfileSharingConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:21:9-98
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.14.4] /Users/gabbyfirmacion/.android/build-cache/4209d6d19b1ccf47de3af7460cc286a7481ac463/output/AndroidManifest.xml:21:19-95
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.0] /Users/gabbyfirmacion/.android/build-cache/5382b73867af812ca51d9868fbf693ff2351abd9/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.0] /Users/gabbyfirmacion/.android/build-cache/d0f32a987e937d5440ec012f8de7ef012684d9e4/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/gabbyfirmacion/.android/build-cache/8056d3922d016c23a5a9e7a60088306c52b906f0/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/gabbyfirmacion/.android/build-cache/13357a8f7e55220f39c70e68499bd53e3fa55c37/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/gabbyfirmacion/.android/build-cache/261ada59cee125c0784a3e8aaf3af812ecb279db/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/gabbyfirmacion/.android/build-cache/59fe78c83070551444d0c84e2ae06d8a297367bc/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] /Users/gabbyfirmacion/.android/build-cache/31b1d9dd15539fa5c8988733b64e0afa53095d6f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/gabbyfirmacion/.android/build-cache/465fe5a107509b903f4745054c5168e078a68d18/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/gabbyfirmacion/.android/build-cache/81b937037768a9e610762f7eb6946b8f7ae9cbb1/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/gabbyfirmacion/.android/build-cache/f2cd0e930a81938c8a94aecd0998d00445b5f72e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/gabbyfirmacion/.android/build-cache/abf37cb84492f0872734bcba9a8138a7bfb136db/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /Users/gabbyfirmacion/.android/build-cache/c850dad71f432ffb97d71f98ec142063a1c75c2b/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.0] /Users/gabbyfirmacion/.android/build-cache/5382b73867af812ca51d9868fbf693ff2351abd9/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.0] /Users/gabbyfirmacion/.android/build-cache/5382b73867af812ca51d9868fbf693ff2351abd9/output/AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/gabbyfirmacion/.android/build-cache/ea11f8b1d1683fb1636a19cc44674bda80947a7c/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/gabbyfirmacion/.android/build-cache/ea11f8b1d1683fb1636a19cc44674bda80947a7c/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/gabbyfirmacion/.android/build-cache/ea11f8b1d1683fb1636a19cc44674bda80947a7c/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/gabbyfirmacion/.android/build-cache/ea11f8b1d1683fb1636a19cc44674bda80947a7c/output/AndroidManifest.xml:19:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/gabbyfirmacion/.android/build-cache/d1d47a7cf1a4bc13ce7e17c9d2b4f0fba848c231/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/gabbyfirmacion/.android/build-cache/d1d47a7cf1a4bc13ce7e17c9d2b4f0fba848c231/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:27:17-104
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/gabbyfirmacion/.android/build-cache/d1d47a7cf1a4bc13ce7e17c9d2b4f0fba848c231/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/gabbyfirmacion/.android/build-cache/7fd83130d641d86428e1508d68a830d336caa3a5/output/AndroidManifest.xml:32:16-87
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] /Users/gabbyfirmacion/.android/build-cache/0e10b12ccbb7d385d8a8b3e16e760e14fc14301f/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] /Users/gabbyfirmacion/.android/build-cache/0e10b12ccbb7d385d8a8b3e16e760e14fc14301f/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] /Users/gabbyfirmacion/.android/build-cache/0e10b12ccbb7d385d8a8b3e16e760e14fc14301f/output/AndroidManifest.xml:23:18-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:24:17-71
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:26:22-76
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:33:27-58
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/gabbyfirmacion/.android/build-cache/5fd7c68e338bf192e3bebf2fce4b7949325a7ed0/output/AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/gabbyfirmacion/.android/build-cache/77f8558bac019c843b9f0a5bbec93db3e58837ee/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/gabbyfirmacion/.android/build-cache/77f8558bac019c843b9f0a5bbec93db3e58837ee/output/AndroidManifest.xml:6:19-78
+		INJECTED from /Users/gabbyfirmacion/Desktop/Unity-Pinball/UnityPinballAndroidStudio/Pinball/src/main/AndroidManifest.xml
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/gabbyfirmacion/.android/build-cache/77f8558bac019c843b9f0a5bbec93db3e58837ee/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/gabbyfirmacion/.android/build-cache/77f8558bac019c843b9f0a5bbec93db3e58837ee/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/gabbyfirmacion/.android/build-cache/77f8558bac019c843b9f0a5bbec93db3e58837ee/output/AndroidManifest.xml:6:79-143
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.facebook.react:react-native:0.41.2] /Users/gabbyfirmacion/.android/build-cache/f3dc3e9349791ca4aa4acf450118439bcb056df6/output/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from [com.facebook.react:react-native:0.41.2] /Users/gabbyfirmacion/.android/build-cache/f3dc3e9349791ca4aa4acf450118439bcb056df6/output/AndroidManifest.xml:11:22-75

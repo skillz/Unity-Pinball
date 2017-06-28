@@ -41,6 +41,15 @@ dependencies {
 }
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'PinballKeyStore'
+            keyPassword 'password'
+            storeFile file('/etc/android.jks')
+            storePassword 'password'
+            // make sure to update the .jks file pointing to your machine
+        }
+    }
 	compileSdkVersion 25
 	buildToolsVersion '25.0.3'
 
@@ -60,6 +69,12 @@ android {
 		abortOnError false
 	}
 
+	productFlavors {
+		main {
+
+		}
+	}
+
 	buildTypes {
 		debug {
 			jniDebuggable true
@@ -67,7 +82,17 @@ android {
 		release {
 			minifyEnabled false
 			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-unity.txt'
+            signingConfig signingConfigs.config
 
+		}
+	}
+
+	sourceSets {
+		main {
+			manifest.srcFile "src/main/AndroidManifest.xml"
+			assets.srcDir "src/main/assets"
+			res.srcDir "src/main/res"
+			jniLibs.srcDir "src/main/jniLibs"
 		}
 	}
 
