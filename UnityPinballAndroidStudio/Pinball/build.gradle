@@ -45,7 +45,7 @@ android {
         config {
             keyAlias 'PinballKeyStore'
             keyPassword 'password'
-            storeFile file('release.keystore')
+            storeFile file('PinballKeyStore.jks')
             storePassword 'password'
             // make sure to update the .jks file pointing to your machine
         }
