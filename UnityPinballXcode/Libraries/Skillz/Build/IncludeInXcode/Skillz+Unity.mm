@@ -102,13 +102,6 @@ static void ResumeApp()
         [self.target applicationWillResignActive:application];
     }
 }
-    
-- (SkillzOrientation)preferredSkillzInterfaceOrientation
-{
-// return SkillzPortrait for portrait based applications
-// return SkillzLandscape for landscape based applications
-    return SkillzPortrait;
-}
 
 @end
 
@@ -125,7 +118,6 @@ NSString *unitySkillzDelegateName = @"SkillzDelegate";
     // return SkillzLandscape for landscape based applications
     return SkillzPortrait;
 }
-
 - (void)tournamentWillBegin:(NSDictionary *)gameParameters
               withMatchInfo:(SKZMatchInfo *)matchInfo
 {
@@ -466,11 +458,12 @@ extern "C" void _displayTournamentResultsWithFloatScore(float score)
 extern "C" void _displayTournamentResultsWithStringScore(const char *score)
 {
     PauseApp();
-
+    
     NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
     f.numberStyle = NSNumberFormatterDecimalStyle;
-    NSNumber *myNumber = [f numberFromString:@(score)];
-    [[Skillz skillzInstance] displayTournamentResultsWithScore:myNumber
+    NSNumber *myScore = [f numberFromString:@(score)];
+
+    [[Skillz skillzInstance] displayTournamentResultsWithScore:myScore
                                                 withCompletion:^{
                                                     // Send message to Unity object to call C# method
                                                     // SkillzDelegate.skillzWithTournamentCompletion, implemented by publisher
@@ -490,8 +483,8 @@ extern "C" void _updatePlayersCurrentStringScore(const char *score)
 {
     NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
     f.numberStyle = NSNumberFormatterDecimalStyle;
-    NSNumber *myNumber = [f numberFromString:@(score)];
-    [[Skillz skillzInstance] updatePlayersCurrentScore:myNumber];
+    NSNumber *myScore = [f numberFromString:@(score)];
+    [[Skillz skillzInstance] updatePlayersCurrentScore:myScore];
 }
 
 extern "C" void _updatePlayersCurrentIntScore(int score)

@@ -4,7 +4,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>Pinball!</string>
+    <string>Pinball</string>
     <key>CFBundleExecutable</key>
     <string>${EXECUTABLE_NAME}</string>
     <key>CFBundleIconFiles</key>
@@ -18,7 +18,7 @@
       <string>AppIcon76x76~ipad.png</string>
     </array>
     <key>CFBundleIdentifier</key>
-    <string>com.ZPotatoWu.${PRODUCT_NAME}</string>
+    <string>com.skillz.${PRODUCT_NAME}</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>

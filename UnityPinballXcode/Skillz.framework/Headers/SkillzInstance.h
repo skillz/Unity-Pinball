@@ -43,7 +43,7 @@ typedef NS_ENUM (NSInteger, SkillzEnvironment) {
     /** Used when connecting to the live production server. */
     SkillzProduction,
     /** Used when connecting to the test sandbox server. */
-    SkillzSandbox
+    SkillzSandbox,
 };
 
 /**

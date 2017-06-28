@@ -85,7 +85,6 @@ bool    _supportsMSAA           = false;
 #if !UNITY_TVOS
 @synthesize interfaceOrientation    = _curOrientation;
 #endif
-    
 
 - (id)init
 {
