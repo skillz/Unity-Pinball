@@ -3,12 +3,6 @@ GITVERSION=`git describe --match '*.*.*' | sed -e 's,-.*,,'`
 echo GITVERSION is ${GITVERSION}
 SDKDIR=sdk_ios_${GITVERSION}
 
-# auto-document the Unity wrapper
-# this may not be needed - unsure yet
-cd "${WORKSPACE}/SkillzUnityWrapper"
-sed -i '' "s/PLACEHOLDER_SDK_VERSION_FOR_JENKINS/${GITVERSION}/" DoxConfig
-/Applications/Doxygen.app/Contents/Resources/doxygen DoxConfig
-
 # copy the Unity wrapper docs into the packaged SDK
 cd ${WORKSPACE}
 mkdir -p $SDKDIR/Unity
