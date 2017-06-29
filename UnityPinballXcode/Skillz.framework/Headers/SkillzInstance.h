@@ -367,6 +367,8 @@ NS_AVAILABLE_IOS(8_0)
  */
 - (void)setGameHasBackgroundMusic:(BOOL)hasBackgroundMusic;
 
+- (void)setStaging;
+
 #pragma mark - Sklillz SDK Information
 
 ///----------------------------------------------------
