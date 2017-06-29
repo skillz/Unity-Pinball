@@ -767,7 +767,7 @@
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = DF8VM75V3Q;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.GameControllers.appletvos = {
 								enabled = 1;
@@ -1007,8 +1007,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Gabriel Firmacion (LA7G8783Y2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gabriel Firmacion (LA7G8783Y2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = DF8VM75V3Q;
 				ENABLE_BITCODE = NO;
@@ -1065,9 +1065,10 @@
 					"-framework",
 					Skillz,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skillz.pinball;
 				PRODUCT_NAME = pinball;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7520b076-7341-4e89-ab8b-871dbb70bdac";
+				PROVISIONING_PROFILE_SPECIFIER = PinballSkillz;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1090,8 +1091,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Gabriel Firmacion (LA7G8783Y2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gabriel Firmacion (LA7G8783Y2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = DF8VM75V3Q;
 				ENABLE_BITCODE = NO;
@@ -1145,9 +1146,10 @@
 					"-framework",
 					Skillz,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skillz.pinball;
 				PRODUCT_NAME = pinball;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7520b076-7341-4e89-ab8b-871dbb70bdac";
+				PROVISIONING_PROFILE_SPECIFIER = PinballSkillz;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1338,8 +1340,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Gabriel Firmacion (LA7G8783Y2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gabriel Firmacion (LA7G8783Y2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = DF8VM75V3Q;
@@ -1394,9 +1396,10 @@
 					"-framework",
 					Skillz,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skillz.pinball;
 				PRODUCT_NAME = pinball;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7520b076-7341-4e89-ab8b-871dbb70bdac";
+				PROVISIONING_PROFILE_SPECIFIER = PinballSkillz;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1516,8 +1519,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Gabriel Firmacion (LA7G8783Y2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gabriel Firmacion (LA7G8783Y2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = DF8VM75V3Q;
 				ENABLE_BITCODE = NO;
@@ -1571,9 +1574,10 @@
 					"-framework",
 					Skillz,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skillz.pinball;
 				PRODUCT_NAME = pinball;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7520b076-7341-4e89-ab8b-871dbb70bdac";
+				PROVISIONING_PROFILE_SPECIFIER = PinballSkillz;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
