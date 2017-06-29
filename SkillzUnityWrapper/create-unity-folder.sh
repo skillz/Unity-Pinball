@@ -9,8 +9,9 @@ ASSETS_PATH="Assets"
 #XCODE_SRC_IN_PATH="${WORKDIR}/XcodeFiles" #probably not needed
 #XCODE_SRC_OUT_PATH="${PROJECT_PATH}/Assets/Skillz/Build/IncludeInXcode" #probably not needed
 
-mkdir "${PROJECT_PATH}/Assets/Plugins"
-mkdir "${PROJECT_PATH}/Assets/Plugins/iOS"
+#probably not needed
+# mkdir "${PROJECT_PATH}/Assets/Plugins"
+# mkdir "${PROJECT_PATH}/Assets/Plugins/iOS"
 
 rm -rf "$OUPUT_PATH"
 mkdir -p "$OUPUT_PATH"
