@@ -8,7 +8,6 @@ cd "${WORKSPACE}/SkillzUnityWrapper/UnityPackage/SkillzUnityPackageProject/Asset
 sed -i '' "s/PLACEHOLDER_SDK_VERSION_FOR_JENKINS/${GITVERSION}/" DoxConfig
 /Applications/Doxygen.app/Contents/Resources/doxygen DoxConfig
 rm DoxConfig
-rm Skillz/MainPage.md
 
 # copy the Unity wrapper docs into the packaged SDK
 cd ${WORKSPACE}
