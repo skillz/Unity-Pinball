@@ -1,10 +1,9 @@
 # package SDK release
 GITVERSION=`git describe --match '*.*.*' | sed -e 's,-.*,,'`
 echo GITVERSION is ${GITVERSION}
-SDKDIR=sdk_ios_22
+SDKDIR=sdk_unity_crossplatform
 
 # copy the Unity wrapper docs into the packaged SDK
-echo ${WORKSPACE} WORKSPACE 
 cd ${WORKSPACE}
 mkdir -p $SDKDIR/Unity
 

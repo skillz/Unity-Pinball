@@ -22,6 +22,7 @@ public static class SkillzCrossPlatform {
 		#elif UNITY_IOS
 		    return SkillzSDK.Api.IsTournamentInProgress;
 		#endif
+				return false;
 	}
 
 	public static Hashtable GetMatchRules() {
@@ -30,6 +31,7 @@ public static class SkillzCrossPlatform {
 		#elif UNITY_IOS
 		    return SkillzSDK.Api.GetMatchRules();
 		#endif
+				return null;
 	}
 
 	public static void AbortMatch() {
@@ -94,6 +96,7 @@ public static class SkillzCrossPlatform {
 		#elif UNITY_IOS
 		    return SkillzSDK.Api.SDKVersionShort;
 		#endif
+				return null;
 	}
 
 	public static string CurrentUserDisplayName() {
@@ -102,6 +105,7 @@ public static class SkillzCrossPlatform {
 		#elif UNITY_IOS
 		    return SkillzSDK.Api.Player.DisplayName;
 		#endif
+				return null;
 	}
 
 	public static class Player {
@@ -112,6 +116,7 @@ public static class SkillzCrossPlatform {
 			#elif UNITY_IOS
 			    return SkillzSDK.Api.Player.ID.ToString();
 			#endif
+					return null;
 		}
 
 		public static string GetAvatarUrl() {
@@ -120,6 +125,7 @@ public static class SkillzCrossPlatform {
 			#elif UNITY_IOS
 			    return SkillzSDK.Api.Player.AvatarURL;
 			#endif
+					return null;
 		}
 
 		public static string GetFlagUrl() {
@@ -128,6 +134,7 @@ public static class SkillzCrossPlatform {
 			#elif UNITY_IOS
 			    return SkillzSDK.Api.Player.FlagURL;
 			#endif
+					return null;
 		}
 
 	}

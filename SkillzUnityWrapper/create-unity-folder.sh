@@ -2,20 +2,12 @@
 WORKDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 OUPUT_PATH="${WORKDIR}/output"
 UNITY_BIN="/Applications/Unity/Unity.app/Contents/MacOS/Unity"
-EXPORT_PATH="${OUPUT_PATH}/skillz_ios.unitypackage"
+EXPORT_PATH="${OUPUT_PATH}/skillz_unity_crossplatform.unitypackage"
 PROJECT_PATH="${WORKDIR}/UnityPackage/SkillzUnityPackageProject"
 ASSETS_PATH="Assets"
 XCODE_SRC_IN_PATH="${WORKDIR}/XcodeFiles"
 XCODE_SRC_OUT_PATH="${PROJECT_PATH}/Assets/Skillz/Build/IncludeInXcode"
-echo ${WORKDIR} WORKDIR
-# echo ${OUPUT_PATH} OUPUT_PATH
-# echo ${UNITY_BIN} UNITY_BIN
-# echo ${EXPORT_PATH} EXPORT_PATH
-# echo ${PROJECT_PATH} PROJECT_PATH
-# echo ${ASSETS_PATH} ASSETS_PATH
-# echo ${OUPUT_PATH} OUPUT_PATH
-# echo ${XCODE_SRC_IN_PATH} XCODE_SRC_IN_PATH
-# echo ${XCODE_SRC_OUT_PATH} XCODE_SRC_OUT_PATH
+
 mkdir "${PROJECT_PATH}/Assets/Plugins"
 mkdir "${PROJECT_PATH}/Assets/Plugins/iOS"
 
