@@ -1,3 +1,4 @@
+
 rm -rf ${WORKSPACE}/SkillzUnityWrapper/unity-package-creation.log
 
 /bin/sh ./bin/assemble-unity.sh
