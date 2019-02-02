@@ -4,8 +4,7 @@ public class ManMenuManager : MonoBehaviour
 {
     public void LaunchSkillz()
     {
-        // TODO: Launch Skillz
-        Debug.Log("TODO: Launch Skillz");
+        SkillzCrossPlatform.LaunchSkillz(new GameController());
     }
 
     public void Exit()
