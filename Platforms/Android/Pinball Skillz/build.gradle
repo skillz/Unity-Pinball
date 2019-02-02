@@ -1,0 +1,89 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+        jcenter()
+
+        maven {
+            url 'https://maven.google.com'
+            name 'Google'
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath 'com.google.gms:google-services:3.1.0'
+    }
+}
+
+allprojects {
+    repositories {
+        flatDir {
+            mavenCentral()
+            jcenter()
+            google()
+            dirs 'libs'
+        }
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
+    configurations.all {
+        resolutionStrategy.force 'com.android.support:multidex:1.0.3'
+    }
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 27
+        multiDexEnabled true
+
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    buildTypes {
+        debug {
+            jniDebuggable true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-unity.txt'
+
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    repositories {
+        maven {
+            url 'http://nexus.skillz.com/content/groups/public/'
+        }
+
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.skillz.sdk:skillz-sdk-android:21.0.14'
+}
