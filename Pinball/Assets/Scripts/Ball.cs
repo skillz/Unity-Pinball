@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class Ball : MonoBehaviour {
 
@@ -41,11 +40,10 @@ public class Ball : MonoBehaviour {
         sr = gameObject.GetComponent<SpriteRenderer>();
 
         // Add initial force to randomize the spawning
-        randomV = Random.Range(0f, 1f);
-        randomH = Random.Range(-10f, 10f);
+        randomV = SkillzCrossPlatform.Random.Range(0f, 1f);
+        randomH = SkillzCrossPlatform.Random.Range(-10f, 10f);
 
         rb.AddForce(new Vector2(randomH, randomV), ForceMode2D.Impulse);
-
     }
 	
 	

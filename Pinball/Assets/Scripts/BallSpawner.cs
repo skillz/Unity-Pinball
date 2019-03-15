@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class BallSpawner : MonoBehaviour {
 
@@ -19,7 +18,7 @@ public class BallSpawner : MonoBehaviour {
 	void Update () {
         timer -= Time.deltaTime;
         if (timer <= 0) {
-            Instantiate(spawnSprite, new Vector2(Random.Range(minPos, maxPos), height), Quaternion.identity);
+            Instantiate(spawnSprite, new Vector2(SkillzCrossPlatform.Random.Range(minPos, maxPos), height), Quaternion.identity);
             timer = delayTimer;
         }
     }
