@@ -11,6 +11,8 @@
     </activity>
     <meta-data android:name="skillz_allow_exit" android:value="true" />
     <meta-data android:name="skillz_game_activity" android:value="com.skillz.activity.UnityGameActivity" />
+    <meta-data android:name="skillz_production" android:value="false" />
+    <meta-data android:name="skillz_game_id" android:value="5471" />
     <meta-data android:name="skillz_is_unity" android:value="true" />
   </application>
   <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
