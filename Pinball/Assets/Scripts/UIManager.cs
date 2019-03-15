@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-
-public class UIManager : MonoBehaviour {
+public sealed class UIManager : MonoBehaviour {
 
     Scene currentScene;
 
@@ -15,7 +13,6 @@ public class UIManager : MonoBehaviour {
     public Text gameOverComboText;
 
     public GameObject catchText;
-    public Button[] buttons;
     public int uiScore;
     public int combos;
 
@@ -76,50 +73,9 @@ public class UIManager : MonoBehaviour {
         combos++;
     }
 
-    public void Play()
+    public void Forfeit()
     {
-        SceneManager.LoadScene("Level1");
-    }
-
-    public void Pause()
-    {
-        if (Time.timeScale == 1)
-        {
-            Time.timeScale = 0;
-
-            // kill this when fixing UI
-            foreach (Button button in buttons)
-            {
-                button.gameObject.SetActive(true);
-            }
-
-        }
-        else if (Time.timeScale == 0)
-        {
-            Time.timeScale = 1;
-
-            // kill this when fixing UI
-            foreach (Button button in buttons)
-            {
-                button.gameObject.SetActive(false);
-            }
-
-        }
-    }
-
-    public void Replay ()
-    {
-        SceneManager.LoadScene(currentScene.name);
-    }
-    
-    public void Menu ()
-    {
-        SceneManager.LoadScene("StartMenu");
-    }
-
-    public void Exit ()
-    {
-        Application.Quit();
+        // TODO: Abort match
     }
 
     public void TimeCount()
@@ -137,11 +93,6 @@ public class UIManager : MonoBehaviour {
         gameOverComboText.text = "YOUR COMBO" + "\r\n" + combos;
         gameOverScoreText.gameObject.SetActive(true);
         gameOverComboText.gameObject.SetActive(true);
-
-        foreach (Button button in buttons)
-        {
-            button.gameObject.SetActive(true);
-        }
 
         if (PlayerPrefs.GetInt("HighScore") < uiScore)
         {
