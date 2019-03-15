@@ -38,6 +38,11 @@ public sealed class UIManager : MonoBehaviour {
     }
 	
 	void Update () {
+        if (gameOver)
+        {
+            return;
+        }
+
         scoreText.text = "Score: " + uiScore;
         timeLeftText.text = "Time: " + timeLeft;
 
@@ -60,22 +65,37 @@ public sealed class UIManager : MonoBehaviour {
 
     public void scoreUpdate()
     {
+        if (gameOver)
+        {
+            return;
+        }
+
         uiScore += collector.GetComponent<Collect>().catcherScore;
         catchText.GetComponent<Text>().text = "+ " + collector.GetComponent<Collect>().catcherScore;
         catchText.SetActive(true);
         catchTextActive = true;
         previousTime = Time.time;
         ballColor = collector.GetComponent<Collect>().ballColor;
+
+        if (SkillzCrossPlatform.IsMatchInProgress())
+        {
+            SkillzCrossPlatform.UpdatePlayersCurrentScore(uiScore);
+        }
     }
 
     public void comboUpdate()
     {
+        if (gameOver)
+        {
+            return;
+        }
+
         combos++;
     }
 
     public void Forfeit()
     {
-        // TODO: Abort match
+        SkillzCrossPlatform.AbortMatch();
     }
 
     public void TimeCount()
@@ -99,7 +119,9 @@ public sealed class UIManager : MonoBehaviour {
             PlayerPrefs.SetInt("HighScore", uiScore);
         }
 
-        Time.timeScale = 0;
-
+        if (SkillzCrossPlatform.IsMatchInProgress())
+        {
+            SkillzCrossPlatform.ReportFinalScore(uiScore);
+        }
     }
 }
